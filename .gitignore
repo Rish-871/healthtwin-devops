@@ -1,0 +1,26 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+*.log
+
+# Local env
+.env
+.env.*
+*.local
+
+# IDE
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ML model artifacts — tracked in git so Docker CI can COPY them
+# If they grow too large, use Git LFS instead:
+#   git lfs track "*.h5" "*.pkl"
+# *.h5
+# *.pkl

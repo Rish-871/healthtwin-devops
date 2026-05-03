@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Height_cm,Weight_kg,Employment_Sector,Job_Type,Work_Hours_per_Week,Work_Stress_Level,Healthcare_Access,Health_Insurance,Steps_per_day,Sleep_hours,Diet_score,Heart_rate,Glucose_level,Blood_pressure_sys,Blood_pressure_dia,Cholesterol,BMI,Gen_Risk_Diabetes,Gen_Risk_Heart,Exercise_days,HbA1c (%),BP,Medication,HbA1c_3mo (target)
+1,56,Female,174,81,Government,Civil Servant,39,High,Excellent,Yes,9994,6.7,9,85,77,109,83,220,26.75,Medium,High,4,4.31,Hypertension Stage 1,Yes,4.18
+2,46,Male,178,88,Government,Police Officer,36,High,Excellent,Yes,13637,4.5,4,57,122,104,63,177,27.77,Medium,Medium,6,5.88,Normal,No,6.33
+3,32,Female,164,98,Private,IT Professional,47,Low,Excellent,Yes,13935,8.2,1,94,129,135,84,227,36.44,High,High,6,6.12,Hypertension Stage 1,Yes,6.35
+4,60,Male,150,81,Government,Healthcare Worker,45,High,Good,Yes,3495,5.6,4,78,74,133,80,244,36.0,Medium,High,0,4.21,Hypertension Stage 1,Yes,4.3
+5,25,Female,174,53,Government,Inspector,39,High,Excellent,Yes,5304,4.9,1,86,137,130,88,201,17.51,Medium,Medium,2,6.4,Hypertension Stage 1,No,6.06
+6,38,Male,156,79,Government,Clerk,39,Medium,Excellent,Yes,5763,4.2,5,76,75,109,84,232,32.46,Medium,High,2,4.24,Hypertension Stage 1,Yes,3.9
+7,56,Female,158,86,Government,Engineer,36,Low,Good,Yes,7232,7.0,4,77,116,118,63,165,34.45,Medium,Medium,2,5.67,Normal,No,5.23
+8,36,Male,173,72,Government,Engineer,44,Medium,Good,Yes,3853,7.4,8,56,124,131,69,218,24.06,Medium,Medium,0,5.95,Hypertension Stage 1,No,6.31
+9,40,Male,150,88,Government,Inspector,36,High,Good,Yes,8585,4.1,8,81,109,100,64,248,39.11,Medium,Medium,4,5.43,Normal,No,5.53
+10,28,Female,157,94,Government,Administrator,44,High,Good,Yes,14851,6.6,7,96,121,104,68,161,38.14,Medium,Medium,6,5.84,Normal,No,6.05
+11,28,Male,173,64,Government,Teacher,45,Low,Excellent,Yes,3291,5.1,3,56,85,103,83,174,21.38,Low,Medium,0,4.59,Hypertension Stage 1,No,4.11
+12,41,Female,160,92,Private,Manager,48,Low,Good,No,5581,7.2,1,80,82,115,62,201,35.94,Medium,Medium,2,4.48,Normal,No,4.95
+13,53,Female,166,78,Private,Consultant,56,Low,Good,Yes,13649,4.9,1,71,99,123,76,234,28.31,Medium,Medium,6,5.08,Elevated,No,5.41
+14,57,Female,157,85,Private,Manager,50,High,Fair,Yes,9554,7.5,3,94,88,115,62,249,34.48,Medium,Medium,4,4.69,Normal,No,4.41
+15,41,Female,184,62,Government,Inspector,39,Medium,Excellent,Yes,9280,5.9,6,87,86,101,75,202,18.31,Low,Medium,4,4.62,Normal,No,4.31
+16,20,Female,184,81,Private,IT Professional,46,Low,Good,No,3636,8.7,7,63,132,127,63,172,23.92,Medium,Medium,0,6.23,Elevated,No,5.91
+17,39,Female,182,56,Private,Manager,55,Low,Excellent,No,5696,4.7,6,97,88,131,77,165,16.91,Low,Medium,2,4.69,Hypertension Stage 1,No,4.5
+18,19,Female,154,71,Private,Marketing Specialist,53,Low,Excellent,Yes,13191,5.7,6,93,127,126,76,206,29.94,Medium,Medium,6,6.05,Elevated,No,6.08
+19,41,Female,188,77,Private,Analyst,57,High,Good,Yes,13344,4.6,6,83,124,119,66,188,21.79,Medium,Low,6,5.95,Normal,No,5.88
+20,61,Female,177,51,Government,Inspector,47,Low,Excellent,Yes,2698,8.6,3,96,131,123,83,202,16.28,Medium,Medium,0,6.19,Hypertension Stage 1,No,5.98
+21,47,Female,156,91,Government,Police Officer,37,High,Good,Yes,12352,8.4,6,80,92,111,82,191,37.39,Medium,Medium,6,4.83,Hypertension Stage 1,No,4.94
+22,55,Female,158,94,Government,Clerk,44,Medium,Good,Yes,14289,5.3,8,89,78,134,89,207,37.65,Medium,High,6,4.34,Hypertension Stage 1,Yes,3.98
+23,19,Male,157,55,Private,IT Professional,48,High,Fair,No,6737,7.3,2,79,81,132,64,188,22.31,Low,Medium,2,4.45,Hypertension Stage 1,No,4.24
+24,38,Male,161,77,Private,Manager,58,Medium,Excellent,No,2854,8.1,5,78,70,132,71,163,29.71,Medium,Medium,0,4.07,Hypertension Stage 1,No,3.93
+25,50,Female,183,77,Government,Administrator,47,High,Excellent,Yes,10164,6.8,1,67,127,136,76,244,22.99,Medium,Medium,6,6.05,Hypertension Stage 1,No,6.01
+26,29,Female,182,93,Government,Administrator,43,High,Excellent,Yes,7855,6.6,1,61,70,111,82,154,28.08,Medium,Medium,4,4.07,Hypertension Stage 1,No,4.35
+27,39,Female,172,93,Government,Engineer,43,Low,Excellent,Yes,9392,5.2,5,90,103,102,72,184,31.44,Medium,Medium,4,5.22,Normal,No,4.92
+28,61,Female,173,69,Private,Marketing Specialist,48,Low,Good,No,8528,4.5,3,99,117,100,82,236,23.05,Medium,Medium,4,5.7,Hypertension Stage 1,No,5.72
+29,42,Female,186,79,Government,Civil Servant,44,Low,Excellent,Yes,13666,8.5,4,74,70,132,84,242,22.84,Low,Medium,6,4.07,Hypertension Stage 1,No,4.16
+30,44,Female,184,60,Government,Inspector,47,Low,Excellent,Yes,7249,8.5,3,55,85,139,62,224,17.72,Low,Medium,2,4.59,Hypertension Stage 1,No,4.14
+31,59,Female,189,77,Government,Inspector,37,High,Good,Yes,7172,7.2,1,62,130,109,68,167,21.56,Medium,Low,2,6.16,Normal,No,6.26
+32,45,Female,171,74,Private,Accountant,51,High,Fair,No,3707,5.7,1,70,133,128,89,225,25.31,Medium,High,0,6.26,Hypertension Stage 1,Yes,5.93
+33,33,Male,176,88,Private,Consultant,59,Medium,Excellent,Yes,12969,5.7,5,68,132,112,76,158,28.41,Medium,Medium,6,6.23,Normal,No,5.79
+34,32,Female,184,82,Government,Teacher,35,Medium,Excellent,Yes,7791,7.6,6,66,138,111,76,223,24.22,Medium,Medium,4,6.44,Normal,No,6.88
+35,64,Male,150,50,Government,Civil Servant,46,Low,Excellent,Yes,11925,8.5,3,77,91,130,89,207,22.22,Low,Medium,6,4.8,Hypertension Stage 1,No,5.26
+36,61,Female,184,76,Government,Teacher,48,Low,Good,Yes,7535,8.4,9,69,136,101,79,166,22.45,Medium,Low,4,6.37,Normal,No,6.67
+37,20,Female,186,62,Government,Healthcare Worker,45,Medium,Good,Yes,6931,7.9,5,82,95,134,75,156,17.92,Low,Medium,2,4.94,Hypertension Stage 1,No,4.74
+38,54,Male,163,90,Government,Police Officer,44,High,Good,Yes,5510,7.2,8,88,85,122,84,195,33.87,Medium,Medium,2,4.59,Hypertension Stage 1,No,4.19
+39,24,Female,152,52,Government,Inspector,38,Medium,Excellent,Yes,2202,4.4,1,56,120,116,81,162,22.51,Medium,Medium,0,5.81,Hypertension Stage 1,No,5.99
+40,38,Male,150,88,Government,Clerk,41,Medium,Good,Yes,13447,4.8,5,86,126,125,72,189,39.11,High,Medium,6,6.02,Elevated,Yes,5.96
+41,26,Female,154,55,Private,IT Professional,48,High,Excellent,No,6218,8.5,3,77,98,107,86,191,23.19,Low,Medium,2,5.04,Hypertension Stage 1,No,4.66
+42,56,Female,175,57,Private,Manager,51,Low,Excellent,No,14688,7.0,1,76,138,128,78,158,18.61,Medium,Medium,6,6.44,Elevated,No,6.43
+43,35,Male,163,76,Government,Clerk,39,Low,Good,Yes,10958,4.0,4,79,116,125,76,199,28.6,Medium,Medium,6,5.67,Elevated,No,5.2
+44,21,Female,188,58,Government,Teacher,47,Medium,Excellent,Yes,6389,4.5,5,76,131,109,63,176,16.41,Medium,Low,2,6.19,Normal,No,6.6
+45,42,Male,176,86,Government,Civil Servant,47,Low,Excellent,Yes,4327,7.3,7,76,138,125,71,215,27.76,Medium,Medium,0,6.44,Elevated,No,6.19
+46,31,Female,158,82,Government,Clerk,42,Medium,Excellent,Yes,10004,4.0,1,96,85,133,88,154,32.85,Medium,Medium,6,4.59,Hypertension Stage 1,No,4.75
+47,26,Male,164,91,Private,IT Professional,57,Low,Excellent,No,4931,4.8,3,60,117,106,68,178,33.83,Medium,Medium,0,5.7,Normal,No,5.52
+48,43,Male,164,93,Private,Marketing Specialist,58,Medium,Fair,No,9777,6.7,2,69,108,103,78,186,34.58,Medium,Medium,4,5.39,Normal,No,5.41
+49,19,Female,175,73,Government,Healthcare Worker,38,Medium,Excellent,Yes,2197,7.5,9,97,102,110,71,187,23.84,Medium,Low,0,5.18,Normal,No,5.23
+50,37,Female,162,64,Government,Engineer,35,Low,Good,Yes,9125,7.3,10,91,92,128,68,232,24.39,Low,Medium,4,4.83,Elevated,No,4.52
+51,50,Male,153,82,Government,Police Officer,36,Low,Excellent,Yes,8853,7.2,4,73,108,101,79,160,35.03,Medium,High,6,5.38,Normal,No,5.43
+52,33,Female,175,58,Private,Engineer,47,Medium,Excellent,Yes,5152,7.4,2,65,104,106,76,183,18.94,Low,Low,6,5.12,Normal,No,5.03
+53,37,Male,185,69,Private,Manager,49,High,Excellent,No,4166,4.3,9,74,112,129,81,241,20.16,Medium,Medium,0,5.31,Hypertension Stage 1,Yes,5.42
+54,58,Female,167,52,Government,Police Officer,39,Medium,Excellent,Yes,7647,8.2,7,80,70,103,62,238,18.65,High,Medium,6,5.08,Normal,No,5.11
+55,37,Female,152,72,Government,Healthcare Worker,40,Medium,Good,Yes,14173,8.7,10,86,79,129,67,170,31.16,High,Low,5,5.17,Elevated,No,5.36
+56,44,Male,167,60,Private,Manager,46,Medium,Fair,Yes,12711,6.7,6,72,120,127,67,178,21.51,Medium,Medium,5,5.02,Elevated,No,4.84
+57,43,Female,151,57,Private,Engineer,53,Low,Excellent,Yes,2313,4.3,6,78,120,110,73,227,25.0,Medium,Low,3,5.89,Normal,No,5.66
+58,52,Male,173,77,Government,Engineer,45,Medium,Excellent,Yes,7041,8.2,9,72,112,113,70,201,25.73,Low,Medium,4,5.63,Normal,No,5.66
+59,29,Female,175,85,Private,Engineer,58,Medium,Excellent,Yes,6751,5.5,8,77,98,121,66,215,27.76,Medium,Low,2,4.57,Elevated,No,4.81
+60,39,Male,165,93,Government,Healthcare Worker,35,Low,Good,Yes,9011,9.0,2,69,96,128,80,223,34.16,Medium,Medium,6,4.23,Hypertension Stage 1,Yes,4.35
+61,24,Female,164,61,Private,Marketing Specialist,52,Low,Good,No,2994,5.1,9,72,108,110,84,206,22.68,Medium,Medium,3,5.55,Hypertension Stage 1,No,5.68
+62,48,Female,166,98,Government,Administrator,43,Medium,Excellent,Yes,12939,7.9,8,65,115,109,67,184,35.56,Low,Low,4,5.3,Normal,No,5.54
+63,31,Male,176,76,Government,Inspector,38,Medium,Good,Yes,11883,7.2,1,87,106,112,75,150,24.54,Low,Medium,6,5.85,Normal,No,5.73
+64,65,Male,181,64,Government,Inspector,40,Low,Excellent,Yes,11624,8.2,3,74,104,100,72,225,19.54,Medium,Low,5,5.51,Normal,Yes,5.23
+65,42,Female,163,79,Government,Clerk,48,Low,Excellent,Yes,11906,6.8,8,55,117,117,61,194,29.73,High,Low,2,5.2,Normal,No,4.94
+66,19,Male,165,58,Private,Manager,51,Medium,Excellent,Yes,5809,5.7,3,82,108,130,83,241,21.3,High,Low,2,5.1,Hypertension Stage 1,No,5.29
+67,42,Female,162,54,Private,Accountant,54,Low,Good,Yes,7605,5.5,10,80,72,111,77,204,20.58,Medium,Low,0,4.79,Normal,No,4.53
+68,41,Female,159,77,Government,Administrator,43,Medium,Excellent,Yes,12921,7.4,5,73,85,126,62,185,30.46,Medium,Medium,6,5.06,Elevated,Yes,4.91
+69,38,Male,181,63,Government,Administrator,44,Low,Excellent,Yes,9526,7.7,4,57,85,123,73,212,19.23,Medium,Medium,6,4.67,Elevated,Yes,4.51
+70,36,Male,175,94,Government,Engineer,43,Medium,Good,Yes,10632,7.3,6,74,114,114,68,189,30.69,Low,Low,6,5.23,Normal,No,5.0
+71,29,Male,163,97,Private,Engineer,51,High,Good,Yes,4426,4.6,5,70,140,137,79,185,36.51,Medium,High,1,5.74,Hypertension Stage 1,Yes,5.47
+72,18,Female,180,80,Private,Sales Executive,53,High,Excellent,Yes,5913,4.3,7,85,99,138,76,169,24.69,Low,High,0,4.18,Hypertension Stage 1,No,4.22
+73,57,Male,183,74,Private,Marketing Specialist,58,Medium,Good,Yes,4501,5.4,10,86,76,130,84,176,22.1,Low,Medium,0,4.75,Hypertension Stage 1,Yes,4.61
+74,62,Female,168,52,Government,Administrator,42,Medium,Excellent,Yes,6166,8.1,10,84,82,113,63,219,18.42,Medium,Low,4,4.27,Normal,No,4.06
+75,56,Female,178,57,Private,Engineer,53,High,Good,No,6099,5.3,2,89,97,133,85,227,17.99,High,High,3,4.3,Hypertension Stage 1,No,4.05
+76,61,Female,186,52,Private,Sales Executive,59,Medium,Good,Yes,4278,4.5,8,65,100,111,73,192,15.03,Low,Medium,3,4.39,Normal,No,4.15
+77,53,Male,179,55,Government,Engineer,47,Low,Excellent,Yes,11622,8.6,9,69,96,101,66,216,17.17,Medium,High,2,4.43,Normal,No,4.58
+78,36,Female,181,57,Government,Healthcare Worker,39,Medium,Excellent,Yes,14024,6.0,2,70,77,114,63,232,17.4,Medium,Medium,5,5.0,Normal,No,5.0
+79,48,Male,179,85,Government,Healthcare Worker,43,High,Good,Yes,3118,6.2,7,80,127,128,75,186,26.53,Medium,Medium,2,6.28,Elevated,No,6.48
+80,48,Female,171,85,Private,Analyst,55,Medium,Good,Yes,3545,6.5,10,75,84,127,84,202,29.07,Medium,Medium,1,4.05,Hypertension Stage 1,No,4.2
+81,27,Female,152,58,Private,Consultant,59,High,Good,No,2816,5.3,1,93,104,133,79,159,25.1,Medium,Medium,3,5.42,Hypertension Stage 1,No,5.7
+82,52,Female,170,90,Private,Marketing Specialist,46,High,Fair,Yes,7058,4.2,4,93,100,133,78,247,31.14,Medium,Medium,2,4.76,Hypertension Stage 1,No,4.98
+83,36,Female,173,77,Government,Clerk,47,Medium,Excellent,Yes,7950,6.5,10,75,109,121,67,213,25.73,Medium,Low,2,5.82,Elevated,Yes,5.61
+84,47,Female,184,60,Government,Engineer,39,High,Excellent,Yes,7234,6.4,8,79,107,132,90,163,17.72,Medium,High,2,5.21,Hypertension Stage 1,No,5.25
+85,60,Female,167,50,Private,IT Professional,60,High,Excellent,Yes,4344,5.9,10,95,117,127,81,229,17.93,High,Medium,1,5.23,Hypertension Stage 1,No,5.38
+86,20,Female,178,52,Private,Sales Executive,54,Low,Fair,No,4676,5.9,4,59,120,117,71,217,16.41,Low,High,1,5.45,Normal,No,5.31
+87,39,Male,179,54,Government,Healthcare Worker,46,High,Excellent,Yes,7524,6.4,2,95,120,120,83,218,16.85,Medium,Low,2,5.11,Hypertension Stage 1,Yes,5.03
+88,41,Male,164,80,Government,Engineer,38,High,Good,Yes,7305,4.2,5,90,121,123,79,155,29.74,Medium,Low,3,5.85,Elevated,No,5.73
+89,47,Female,184,76,Private,Sales Executive,48,High,Good,No,6008,5.5,1,92,118,126,89,206,22.45,Low,Medium,2,5.86,Hypertension Stage 1,Yes,6.07
+90,43,Female,162,57,Private,Marketing Specialist,51,Low,Excellent,No,7256,5.6,1,80,91,107,64,250,21.72,Medium,Low,0,4.68,Normal,No,4.42
+91,27,Male,167,59,Private,Engineer,48,High,Fair,Yes,7415,6.2,1,81,110,138,85,152,21.16,Medium,Medium,1,5.16,Hypertension Stage 1,No,4.89
+92,50,Male,178,82,Government,Civil Servant,48,Medium,Good,Yes,13543,6.9,1,78,95,113,81,163,25.88,Low,Low,2,4.59,Hypertension Stage 1,Yes,4.84
+93,35,Female,174,88,Private,Marketing Specialist,58,Medium,Good,Yes,2812,6.0,9,86,83,113,74,179,29.07,Medium,Medium,0,4.5,Normal,No,4.7
+94,27,Female,154,55,Private,Manager,56,Medium,Good,Yes,3065,5.4,2,76,92,127,81,246,23.19,Low,Low,2,4.51,Hypertension Stage 1,No,4.76
+95,27,Female,164,56,Government,Engineer,39,Low,Excellent,Yes,14406,6.7,9,79,109,119,81,232,20.82,Medium,Medium,5,5.5,Hypertension Stage 1,Yes,5.57
+96,37,Female,172,50,Government,Police Officer,41,Medium,Fair,Yes,6140,6.4,2,86,103,106,72,203,16.9,Medium,Medium,2,5.41,Normal,No,5.2
+97,21,Male,160,98,Private,Manager,58,Medium,Good,Yes,5978,5.5,5,69,118,116,63,194,38.28,Medium,Medium,3,5.39,Normal,No,5.26
+98,56,Male,150,63,Government,Healthcare Worker,47,Medium,Good,Yes,9186,6.9,1,78,117,113,65,166,28.0,Medium,High,2,5.34,Normal,Yes,5.46
+99,65,Male,177,51,Private,Manager,58,High,Excellent,No,6697,5.0,5,73,120,120,85,171,16.28,High,High,3,5.72,Hypertension Stage 1,Yes,5.79
+100,55,Female,183,55,Government,Administrator,38,Medium,Good,Yes,10456,8.3,9,83,77,116,76,174,16.42,High,High,2,5.09,Normal,No,5.0
+101,27,Female,162,61,Private,Manager,60,Low,Fair,Yes,5800,5.9,10,75,110,119,70,230,23.24,Low,Medium,3,5.28,Normal,No,5.24
+102,22,Female,179,78,Government,Engineer,36,High,Good,Yes,7281,6.2,10,89,127,132,89,224,24.34,Medium,Low,0,6.14,Hypertension Stage 1,Yes,6.32
+103,38,Female,182,59,Private,Marketing Specialist,55,Low,Good,Yes,7851,4.2,1,62,115,114,74,217,17.81,Medium,Low,1,5.47,Normal,No,5.27
+104,58,Female,154,71,Government,Clerk,46,Low,Fair,Yes,14874,8.6,2,73,112,104,71,189,29.94,Medium,Medium,4,5.87,Normal,No,5.99
+105,42,Female,158,92,Private,Manager,58,High,Excellent,Yes,6165,4.9,5,75,108,130,90,174,36.85,Low,High,2,5.2,Hypertension Stage 1,No,4.98
+106,51,Male,171,99,Private,Analyst,50,Low,Excellent,No,7712,8.2,7,66,113,123,67,206,33.86,High,Medium,2,5.55,Elevated,No,5.7
+107,30,Female,186,78,Private,Engineer,58,High,Excellent,Yes,3327,6.0,5,71,136,135,86,220,22.55,Medium,Low,1,6.45,Hypertension Stage 1,Yes,6.58
+108,50,Male,177,55,Private,Accountant,56,High,Good,Yes,2218,5.0,9,81,110,132,77,197,17.56,Low,Medium,3,5.2,Hypertension Stage 1,Yes,5.09
+109,48,Male,180,78,Private,Manager,51,Low,Excellent,No,3224,5.4,2,79,88,107,69,165,24.07,Medium,Medium,3,4.06,Normal,No,4.01
+110,19,Male,159,68,Private,Consultant,58,Medium,Good,Yes,3534,5.7,9,74,74,130,76,219,26.9,Medium,Medium,0,4.61,Hypertension Stage 1,No,4.9
+111,34,Male,172,100,Government,Healthcare Worker,45,Medium,Good,Yes,6698,8.3,3,64,92,117,70,232,33.8,Medium,Medium,4,4.21,Normal,No,4.38
+112,22,Female,152,68,Government,Healthcare Worker,40,High,Good,Yes,4540,5.3,5,71,136,126,84,195,29.43,Medium,Low,3,6.39,Hypertension Stage 1,Yes,6.12
+113,43,Female,174,71,Private,Marketing Specialist,56,High,Good,Yes,6253,4.7,7,72,122,139,80,219,23.45,Medium,Low,0,5.26,Hypertension Stage 1,Yes,5.02
+114,46,Female,178,52,Private,Consultant,58,High,Good,Yes,4249,5.6,2,91,135,132,86,215,16.41,High,Low,0,6.34,Hypertension Stage 1,Yes,6.45
+115,22,Male,173,73,Government,Civil Servant,45,Medium,Excellent,Yes,12371,8.8,8,87,74,118,64,217,24.39,Low,High,4,4.44,Normal,No,4.33
+116,51,Female,185,57,Government,Administrator,38,Medium,Fair,Yes,9678,8.1,4,66,78,127,62,207,16.65,High,High,5,4.21,Elevated,No,4.34
+117,60,Female,154,85,Private,Engineer,50,High,Excellent,No,4961,5.3,4,95,103,127,90,153,35.84,Medium,High,0,5.32,Hypertension Stage 1,Yes,5.36
+118,43,Female,183,76,Private,Manager,55,Low,Fair,Yes,7262,4.2,9,66,78,128,84,220,22.69,High,Medium,3,4.77,Hypertension Stage 1,Yes,4.58
+119,27,Female,160,60,Government,Healthcare Worker,43,Low,Fair,Yes,9653,8.5,4,75,105,108,64,230,23.44,Medium,Low,4,5.27,Normal,No,5.29
+120,60,Female,186,52,Private,IT Professional,53,Low,Good,Yes,7334,4.5,10,75,71,115,80,219,15.03,Medium,High,3,4.35,Hypertension Stage 1,Yes,4.62
+121,21,Male,178,76,Private,Accountant,49,Medium,Excellent,Yes,10121,8.6,6,75,78,124,71,215,23.99,Low,Low,4,4.67,Elevated,No,4.56
+122,42,Female,165,60,Private,Consultant,50,Low,Excellent,Yes,13163,9.0,8,64,101,100,62,200,22.04,Low,Medium,5,5.45,Normal,No,5.73
+123,59,Female,168,84,Government,Teacher,39,Medium,Good,Yes,10992,8.3,1,75,73,118,77,174,29.76,Medium,Medium,4,4.44,Normal,No,4.31
+124,57,Male,158,56,Government,Engineer,40,Medium,Good,Yes,7363,6.6,7,79,72,101,61,167,22.43,Medium,Low,6,4.86,Normal,No,5.04
+125,57,Female,160,75,Private,Engineer,60,Medium,Excellent,Yes,7805,5.4,1,74,91,121,63,203,29.3,High,Medium,3,4.7,Elevated,No,4.88
+126,55,Male,153,87,Private,Analyst,52,Low,Good,No,2258,5.4,4,55,98,110,73,169,37.17,Medium,Medium,0,4.5,Normal,No,4.32
+127,63,Male,183,63,Private,Marketing Specialist,55,Medium,Excellent,Yes,3418,5.1,9,74,113,124,83,237,18.81,Medium,Low,2,5.58,Hypertension Stage 1,Yes,5.7
+128,37,Female,163,94,Private,Consultant,53,Medium,Good,Yes,4357,4.3,7,74,119,125,64,187,35.38,Low,High,3,5.04,Elevated,No,5.31
+129,52,Female,185,94,Government,Teacher,44,Medium,Fair,Yes,8920,6.7,4,83,84,101,63,202,27.47,Medium,Low,6,4.4,Normal,No,4.38
+130,28,Female,180,80,Private,Engineer,46,Medium,Fair,Yes,6465,8.0,9,86,116,127,61,172,24.69,High,Low,3,5.38,Elevated,No,5.58
+131,65,Female,152,50,Government,Teacher,40,High,Excellent,Yes,4331,5.1,3,86,124,128,81,164,21.64,Medium,High,3,5.3,Hypertension Stage 1,Yes,5.44
+132,36,Male,161,89,Private,Analyst,55,High,Good,Yes,2710,5.0,3,74,125,130,82,150,34.34,High,High,0,5.23,Hypertension Stage 1,Yes,5.07
+133,59,Female,165,53,Private,Marketing Specialist,57,Medium,Good,Yes,7620,5.3,2,83,88,111,79,178,19.47,Low,High,2,4.26,Normal,No,4.04
+134,48,Male,165,93,Private,Manager,56,Medium,Excellent,Yes,2639,6.3,1,80,102,106,78,218,34.16,Medium,Low,0,5.13,Normal,Yes,5.03
+135,50,Female,153,79,Government,Clerk,35,Medium,Good,Yes,14155,7.4,1,75,86,126,60,245,33.75,Medium,High,4,4.26,Elevated,Yes,4.0
+136,22,Female,152,68,Private,Sales Executive,58,High,Excellent,No,5067,6.5,8,82,119,122,79,233,29.43,High,Medium,3,5.77,Elevated,No,5.54
+137,19,Female,179,93,Private,Analyst,52,Medium,Excellent,Yes,4027,5.2,5,69,116,124,63,154,29.03,Medium,Medium,1,5.73,Elevated,No,5.68
+138,20,Female,188,93,Private,IT Professional,46,Medium,Good,Yes,11590,7.3,4,87,119,101,64,214,26.31,High,Medium,6,5.89,Normal,No,5.73
+139,33,Female,159,92,Private,Analyst,46,Medium,Excellent,Yes,14121,8.8,7,80,101,101,71,232,36.39,Medium,Medium,3,5.6,Normal,No,5.77
+140,48,Male,164,69,Private,Sales Executive,46,High,Excellent,Yes,6607,5.0,9,86,103,132,82,182,25.65,High,Medium,3,5.18,Hypertension Stage 1,Yes,5.27
+141,35,Female,188,88,Government,Teacher,47,Low,Excellent,Yes,14626,8.2,4,70,83,127,70,188,24.9,High,High,6,5.15,Elevated,No,4.86
+142,48,Male,188,95,Government,Healthcare Worker,47,Medium,Excellent,Yes,9637,7.1,6,72,86,111,76,213,26.88,Medium,Medium,6,4.56,Normal,No,4.74
+143,38,Female,152,86,Private,Sales Executive,58,Low,Good,Yes,4418,4.4,4,67,106,126,67,213,37.22,Medium,High,2,5.5,Elevated,No,5.77
+144,47,Male,172,60,Government,Inspector,43,Low,Excellent,Yes,5962,7.6,1,79,70,113,64,230,20.28,Low,Medium,2,4.28,Normal,No,4.4
+145,60,Female,181,51,Government,Clerk,43,Low,Good,Yes,9501,7.6,1,71,114,121,73,172,15.57,Low,Low,4,5.1,Elevated,No,4.86
+146,35,Female,155,73,Private,Marketing Specialist,52,Medium,Fair,Yes,4457,5.7,1,65,95,112,72,220,30.39,High,Low,0,4.57,Normal,No,4.65
+147,24,Male,164,63,Private,Marketing Specialist,47,Medium,Excellent,Yes,9593,8.7,1,68,90,100,66,225,23.42,Medium,High,6,4.17,Normal,No,4.36
+148,42,Female,174,98,Private,Manager,56,Medium,Fair,Yes,2439,4.2,2,73,108,124,79,226,32.37,Low,Medium,1,5.36,Elevated,No,5.52
+149,42,Female,161,93,Private,Analyst,54,Low,Fair,Yes,4018,5.8,5,59,94,122,85,231,35.88,Medium,Low,0,4.19,Hypertension Stage 1,No,4.12
+150,24,Male,155,61,Private,Analyst,47,Low,Fair,No,10798,7.7,10,80,90,127,72,151,25.39,Low,High,6,4.35,Elevated,No,4.28
+151,28,Female,160,58,Government,Administrator,36,Medium,Excellent,Yes,7739,7.3,5,78,120,102,71,182,22.66,Low,Medium,5,5.85,Normal,No,5.98
+152,18,Female,171,89,Government,Engineer,41,Medium,Excellent,Yes,14738,6.4,10,85,82,115,70,172,30.44,Medium,Medium,4,5.16,Normal,No,5.44
+153,33,Female,174,67,Private,Analyst,51,Medium,Fair,Yes,6851,6.5,9,63,116,114,82,176,22.13,Medium,Medium,1,5.39,Hypertension Stage 1,Yes,5.26
+154,58,Female,165,66,Private,Analyst,47,High,Good,No,5678,6.5,10,82,129,136,88,219,24.24,High,High,3,5.73,Hypertension Stage 1,Yes,6.01
+155,33,Female,160,91,Private,Analyst,55,High,Excellent,No,5526,4.3,5,77,127,136,82,207,35.55,Medium,Medium,0,6.0,Hypertension Stage 1,Yes,5.98
+156,36,Female,155,57,Private,Sales Executive,55,Medium,Excellent,Yes,5730,6.0,6,78,76,114,83,239,23.73,Low,Medium,3,4.54,Hypertension Stage 1,Yes,4.28
+157,28,Male,183,61,Private,Consultant,59,Medium,Excellent,Yes,3899,6.0,3,83,112,113,72,153,18.21,Low,Low,1,5.66,Normal,No,5.89
+158,63,Male,186,56,Private,Sales Executive,51,Medium,Excellent,Yes,5748,4.3,9,83,90,119,72,228,16.19,Medium,Medium,3,4.47,Normal,No,4.24
+159,57,Male,158,70,Government,Administrator,40,Low,Excellent,Yes,7316,7.5,10,59,106,112,73,173,28.04,High,High,5,5.44,Normal,No,5.46
+160,36,Male,161,70,Private,IT Professional,45,High,Good,Yes,5969,4.3,9,86,136,135,88,237,27.01,Medium,Low,3,6.09,Hypertension Stage 1,Yes,6.22
+161,20,Female,164,84,Government,Inspector,47,Medium,Excellent,Yes,13115,7.6,10,66,87,124,77,196,31.23,High,Medium,2,4.65,Elevated,No,4.8
+162,65,Male,169,52,Private,Consultant,47,High,Good,Yes,5596,6.2,4,76,132,131,88,171,18.21,High,High,0,6.19,Hypertension Stage 1,No,6.36
+163,28,Female,168,68,Private,Manager,58,Low,Excellent,Yes,2485,6.5,3,62,79,122,70,181,24.09,Low,Medium,1,4.91,Elevated,No,5.02
+164,58,Male,175,82,Private,Consultant,60,Medium,Good,Yes,4681,5.5,8,83,112,122,71,158,26.78,High,High,0,5.72,Elevated,No,5.66
+165,53,Male,186,81,Private,IT Professional,59,Low,Fair,No,2133,4.3,8,69,70,130,73,175,23.41,High,Medium,1,5.19,Hypertension Stage 1,Yes,5.44
+166,41,Female,155,73,Private,Sales Executive,54,Low,Good,Yes,7947,5.7,7,75,75,122,63,150,30.39,Medium,Medium,1,4.26,Elevated,No,4.01
+167,25,Female,158,80,Government,Clerk,47,Low,Good,Yes,6678,6.3,5,59,94,124,84,167,32.05,Low,Medium,4,4.77,Hypertension Stage 1,Yes,4.88
+168,40,Male,190,97,Government,Clerk,42,Medium,Good,Yes,8559,6.3,3,87,77,118,83,199,26.87,Medium,Low,2,4.42,Hypertension Stage 1,Yes,4.38
+169,56,Female,151,92,Private,Accountant,51,Medium,Good,Yes,5209,4.7,4,78,94,103,67,213,40.35,High,Low,0,4.77,Normal,No,4.51
+170,54,Female,173,84,Private,Marketing Specialist,47,High,Good,Yes,2136,5.5,5,76,97,121,87,214,28.07,High,Medium,0,4.34,Hypertension Stage 1,No,4.47
+171,27,Female,155,69,Government,Healthcare Worker,37,High,Excellent,Yes,6394,4.8,5,92,122,127,76,181,28.72,Medium,Medium,0,5.08,Elevated,No,5.04
+172,65,Male,157,50,Private,IT Professional,56,Low,Good,Yes,6284,5.3,3,66,78,123,84,184,20.28,High,Medium,2,4.88,Hypertension Stage 1,Yes,4.65
+173,54,Male,181,79,Private,IT Professional,50,Medium,Good,Yes,11024,6.5,10,84,116,103,67,244,24.11,High,Medium,2,5.46,Normal,No,5.19
+174,20,Female,164,70,Government,Engineer,36,Low,Good,Yes,14364,7.1,1,60,84,125,76,155,26.03,Medium,Low,6,5.14,Elevated,No,4.88
+175,53,Female,150,73,Government,Administrator,38,Medium,Good,Yes,12600,7.1,4,86,104,124,85,181,32.44,Low,Medium,5,5.14,Hypertension Stage 1,Yes,5.4
+176,18,Female,150,98,Private,Engineer,52,Low,Fair,Yes,5439,5.2,3,77,87,102,61,179,43.56,High,Medium,0,5.08,Normal,Yes,5.09
+177,26,Female,154,87,Private,Analyst,49,High,Excellent,Yes,3939,4.7,7,92,115,130,89,184,36.68,Low,High,2,5.21,Hypertension Stage 1,Yes,5.48
+178,38,Female,157,84,Government,Healthcare Worker,42,Medium,Good,Yes,9341,8.6,3,88,113,109,82,239,34.08,High,Low,2,5.54,Hypertension Stage 1,No,5.37
+179,43,Male,169,66,Private,Sales Executive,57,Low,Excellent,Yes,5704,5.4,2,69,76,125,85,167,23.11,Medium,Low,1,4.15,Hypertension Stage 1,No,3.89
+180,59,Male,187,87,Government,Teacher,36,Low,Excellent,Yes,8239,8.7,3,57,91,103,61,209,24.88,Medium,High,5,4.06,Normal,No,4.31
+181,45,Male,172,63,Private,Engineer,49,Medium,Good,Yes,5567,7.8,4,83,88,115,73,220,21.3,Medium,Medium,6,4.57,Normal,No,4.32
+182,52,Male,174,100,Private,Marketing Specialist,60,Medium,Fair,Yes,4818,6.3,7,71,81,100,70,226,33.03,High,Low,2,4.26,Normal,No,4.5
+183,32,Male,156,65,Private,Engineer,46,Medium,Fair,No,8594,7.7,6,68,81,107,78,190,26.71,High,Low,5,4.97,Normal,No,5.09
+184,54,Male,181,84,Government,Inspector,35,Low,Good,Yes,8811,7.8,9,70,70,110,79,175,25.64,Low,High,2,4.97,Normal,Yes,4.87
+185,27,Male,157,83,Private,Manager,57,Medium,Good,No,6800,4.3,6,67,80,123,73,231,33.67,Low,High,2,5.15,Elevated,No,5.24
+186,32,Male,174,69,Private,Engineer,45,Low,Fair,Yes,14385,7.2,1,60,108,110,85,228,22.79,High,Low,6,5.2,Hypertension Stage 1,No,5.24
+187,28,Male,190,96,Private,Marketing Specialist,51,Low,Good,Yes,4044,5.7,5,80,76,123,60,156,26.59,High,Medium,2,4.46,Elevated,No,4.6
+188,24,Female,186,91,Private,Accountant,47,Low,Good,No,5547,6.9,5,58,74,110,65,198,26.3,High,High,4,4.19,Normal,No,3.94
+189,63,Male,177,91,Government,Clerk,36,Low,Good,Yes,10424,6.6,7,77,105,123,83,219,29.05,Medium,Low,3,5.24,Hypertension Stage 1,No,5.11
+190,27,Male,173,50,Private,Engineer,60,High,Excellent,Yes,3635,4.2,3,90,113,122,90,164,16.71,Low,Medium,1,5.28,Hypertension Stage 1,Yes,5.22
+191,42,Female,161,78,Government,Inspector,38,Medium,Excellent,Yes,9400,7.7,2,65,112,111,85,219,30.09,Medium,Low,3,5.37,Hypertension Stage 1,Yes,5.52
+192,52,Female,186,65,Private,Manager,46,Medium,Excellent,Yes,13226,7.7,10,84,109,104,63,246,18.79,Low,Medium,6,5.4,Normal,Yes,5.67
+193,61,Female,162,90,Government,Administrator,46,Low,Good,Yes,6097,6.3,7,72,90,127,68,216,34.29,High,Medium,6,4.55,Elevated,No,4.77
+194,44,Male,159,86,Private,Manager,48,High,Good,Yes,4343,6.2,7,78,119,140,90,223,34.02,Medium,Low,2,5.55,Hypertension Stage 2,Yes,5.27
+195,39,Male,153,97,Private,Engineer,45,High,Fair,Yes,4767,6.0,5,78,126,123,82,167,41.44,High,Medium,2,5.94,Hypertension Stage 1,Yes,6.09
+196,46,Male,176,97,Private,Consultant,50,High,Good,No,2537,4.8,3,94,128,138,75,172,31.31,High,Medium,3,5.85,Hypertension Stage 1,No,6.05
+197,35,Female,179,82,Government,Teacher,38,Medium,Excellent,Yes,11102,7.5,3,78,107,117,71,194,25.59,Medium,Medium,5,5.15,Normal,No,5.39
+198,28,Male,164,91,Government,Healthcare Worker,41,Low,Good,Yes,13409,6.1,8,59,111,105,79,151,33.83,High,High,2,5.2,Normal,No,5.27
+199,42,Female,179,66,Government,Administrator,48,Medium,Fair,Yes,11506,7.8,9,84,93,117,80,226,20.6,Low,Low,2,4.73,Hypertension Stage 1,Yes,4.61
+200,35,Female,169,62,Government,Healthcare Worker,47,High,Good,Yes,6915,5.0,3,93,96,140,90,187,21.71,Low,Low,2,4.31,Hypertension Stage 2,Yes,4.26
+201,30,Female,164,93,Private,Marketing Specialist,56,High,Fair,No,6155,4.8,9,75,113,123,90,166,34.58,Medium,High,1,5.67,Hypertension Stage 1,No,5.81
+202,32,Female,164,97,Private,Analyst,55,High,Excellent,Yes,5044,4.7,8,73,125,121,77,210,36.06,High,Medium,2,5.8,Elevated,No,5.8
+203,26,Male,171,76,Private,Marketing Specialist,50,Low,Fair,Yes,6324,7.5,6,75,73,100,74,185,25.99,Medium,Low,3,4.25,Normal,No,4.41
+204,45,Female,175,77,Private,Analyst,51,Low,Good,Yes,7985,4.9,6,79,103,106,60,236,25.14,Low,Medium,0,5.0,Normal,No,5.14
+205,37,Male,154,52,Government,Administrator,43,Medium,Excellent,Yes,14770,7.6,3,73,101,111,84,174,21.93,Medium,Low,5,5.15,Hypertension Stage 1,No,5.39
+206,31,Male,187,82,Government,Engineer,47,Medium,Excellent,Yes,5612,7.1,9,82,73,119,61,234,23.45,Low,Low,4,4.13,Normal,No,4.33
+207,34,Female,159,63,Private,IT Professional,48,Medium,Excellent,Yes,13524,6.8,3,76,76,116,83,229,24.92,Low,Low,6,4.14,Hypertension Stage 1,No,3.91
+208,30,Female,176,68,Government,Inspector,46,High,Fair,Yes,5937,4.8,1,91,100,123,90,169,21.95,Low,Medium,0,5.14,Hypertension Stage 1,Yes,5.31
+209,47,Female,166,79,Government,Police Officer,48,High,Excellent,Yes,4380,4.9,7,93,102,123,76,151,28.67,Low,Medium,2,5.77,Elevated,No,5.87
+210,64,Male,173,71,Government,Clerk,42,Medium,Fair,Yes,9453,8.5,7,83,80,103,64,239,23.72,High,Low,5,4.87,Normal,No,5.16
+211,54,Female,161,89,Government,Engineer,48,Medium,Good,Yes,7140,7.4,2,76,98,101,62,183,34.34,High,Medium,5,4.79,Normal,No,4.5
+212,32,Female,183,83,Private,Manager,52,Medium,Excellent,Yes,5947,4.9,3,80,109,101,60,232,24.78,Low,Low,3,5.84,Normal,No,5.84
+213,39,Female,153,82,Government,Clerk,38,Medium,Excellent,Yes,6291,7.4,8,65,101,114,70,165,35.03,Low,Medium,6,5.88,Normal,No,6.03
+214,23,Female,182,85,Government,Inspector,40,High,Excellent,Yes,2444,6.0,6,87,134,139,90,241,25.66,Low,Medium,3,6.23,Hypertension Stage 1,Yes,6.36
+215,58,Female,185,83,Government,Teacher,37,Low,Good,Yes,13067,6.4,2,63,109,106,66,165,24.25,Medium,High,5,5.84,Normal,No,5.78
+216,44,Male,190,93,Private,Marketing Specialist,49,Medium,Excellent,Yes,13172,6.0,9,76,107,115,76,249,25.76,Medium,Medium,2,5.83,Normal,No,5.64
+217,38,Female,176,88,Private,Accountant,55,Medium,Fair,Yes,4409,5.1,3,76,108,122,83,215,28.41,Medium,Medium,1,5.27,Hypertension Stage 1,Yes,5.39
+218,57,Female,172,93,Government,Police Officer,46,Medium,Good,Yes,10281,8.1,9,78,107,118,81,240,31.44,High,Medium,4,5.38,Hypertension Stage 1,No,5.53
+219,51,Male,151,74,Government,Civil Servant,47,Low,Good,Yes,7636,9.0,3,56,114,125,69,176,32.45,High,Low,4,5.68,Elevated,No,5.4
+220,32,Female,165,82,Private,Engineer,46,High,Good,Yes,5125,5.0,9,71,95,128,81,229,30.12,Medium,Medium,2,5.04,Hypertension Stage 1,Yes,5.26
+221,55,Male,162,68,Private,Manager,50,Low,Excellent,Yes,13418,6.4,7,63,105,108,64,170,25.91,Medium,High,2,5.53,Normal,No,5.38
+222,21,Female,181,100,Private,Consultant,55,Low,Good,Yes,6304,4.5,9,57,120,116,65,203,30.52,Medium,High,1,5.49,Normal,No,5.43
+223,57,Female,185,98,Private,IT Professional,56,Low,Fair,Yes,5650,4.6,1,76,90,112,85,164,28.63,Medium,High,1,4.46,Hypertension Stage 1,No,4.48
+224,46,Female,152,68,Private,Accountant,47,Medium,Excellent,No,6572,6.5,9,63,110,102,66,235,29.43,Medium,Medium,6,5.57,Normal,No,5.4
+225,65,Female,154,97,Private,IT Professional,55,Medium,Good,Yes,2310,4.2,3,88,86,117,62,223,40.9,Medium,Medium,0,4.99,Normal,No,5.24
+226,25,Male,189,54,Private,IT Professional,47,High,Good,Yes,4930,6.3,5,95,138,129,77,186,15.12,Low,Medium,0,6.31,Elevated,No,6.27
+227,43,Female,190,59,Government,Engineer,35,High,Good,Yes,6534,6.2,2,71,95,138,87,218,16.34,Low,Medium,1,4.66,Hypertension Stage 1,Yes,4.41
+228,59,Male,160,61,Government,Administrator,37,Low,Excellent,Yes,14294,8.6,8,75,105,102,69,235,23.83,High,Medium,6,5.06,Normal,No,4.82
+229,59,Male,156,68,Private,Accountant,59,Medium,Fair,Yes,4689,5.5,10,67,106,118,71,190,27.94,Medium,High,2,5.86,Normal,No,5.66
+230,41,Male,171,80,Private,Consultant,60,High,Good,Yes,6519,4.3,5,74,129,126,83,243,27.36,Low,Low,0,6.41,Hypertension Stage 1,No,6.16
+231,43,Male,152,85,Government,Inspector,37,Medium,Good,Yes,10993,7.2,5,67,99,116,76,161,36.79,Medium,High,6,4.48,Normal,No,4.48
+232,28,Male,178,60,Government,Police Officer,42,Medium,Fair,Yes,10878,6.1,4,65,86,111,67,155,18.94,Medium,Low,5,4.8,Normal,No,4.81
+233,20,Female,156,95,Private,Engineer,53,High,Fair,Yes,6740,5.4,7,90,119,131,77,216,39.04,Medium,Medium,1,5.23,Hypertension Stage 1,No,5.51
+234,56,Male,182,58,Private,Accountant,53,Low,Good,Yes,3732,4.4,6,74,115,126,63,234,17.51,High,Medium,1,5.21,Elevated,No,5.4
+235,44,Male,165,52,Government,Police Officer,43,Low,Good,Yes,5642,8.7,1,60,86,129,65,216,19.1,Medium,Low,3,5.15,Elevated,No,5.21
+236,36,Male,163,78,Private,Marketing Specialist,50,High,Excellent,Yes,3797,6.1,10,94,106,139,83,171,29.36,Medium,Medium,1,5.65,Hypertension Stage 1,Yes,5.56
+237,30,Female,159,88,Government,Inspector,44,High,Good,Yes,2319,6.2,2,85,137,124,75,249,34.81,Medium,High,0,6.24,Elevated,No,6.2
+238,48,Female,172,87,Private,Manager,53,Medium,Good,Yes,5908,5.9,5,82,104,113,68,174,29.41,Low,Medium,0,5.0,Normal,No,5.15
+239,38,Female,173,56,Government,Administrator,43,Low,Excellent,Yes,11939,7.7,5,76,95,124,66,202,18.71,Low,Medium,6,4.66,Elevated,No,4.69
+240,54,Female,175,97,Government,Teacher,42,Medium,Excellent,Yes,7650,6.3,7,88,91,125,77,228,31.67,Low,High,6,4.84,Elevated,Yes,4.96
+241,27,Female,188,77,Government,Administrator,36,Low,Excellent,Yes,14978,6.1,7,74,111,116,69,241,21.79,Medium,Low,5,5.87,Normal,Yes,5.6
+242,60,Female,162,52,Private,Accountant,46,High,Excellent,Yes,4946,4.6,3,72,112,132,86,235,19.81,Medium,High,0,5.36,Hypertension Stage 1,Yes,5.41
+243,53,Female,172,67,Government,Healthcare Worker,41,Medium,Good,Yes,14419,6.0,7,79,76,117,62,214,22.65,High,High,3,4.35,Normal,No,4.62
+244,54,Female,178,74,Private,Accountant,59,High,Good,Yes,7583,5.2,8,73,111,122,87,231,23.36,High,High,0,5.71,Hypertension Stage 1,No,5.54
+245,62,Female,165,68,Government,Engineer,37,Low,Excellent,Yes,12807,6.9,10,63,81,130,83,237,24.98,High,Medium,3,5.12,Hypertension Stage 1,Yes,4.93
+246,32,Male,165,89,Government,Teacher,36,Low,Excellent,Yes,13071,7.8,1,70,93,119,70,213,32.69,Medium,Medium,6,5.08,Normal,No,5.31
+247,50,Female,175,64,Private,Sales Executive,58,Low,Good,Yes,5918,6.3,9,66,95,127,81,249,20.9,Medium,Medium,0,4.21,Hypertension Stage 1,Yes,4.5
+248,55,Male,170,73,Private,Engineer,53,Low,Excellent,Yes,3942,4.7,6,60,101,113,66,203,25.26,High,Medium,2,5.63,Normal,No,5.55
+249,32,Male,167,65,Private,Analyst,49,Low,Fair,Yes,12749,8.4,7,70,78,128,80,216,23.31,Low,Low,3,4.64,Hypertension Stage 1,Yes,4.53
+250,28,Male,163,66,Private,Manager,55,Medium,Excellent,Yes,4128,4.9,6,63,96,103,71,236,24.84,Medium,Medium,2,5.16,Normal,No,4.98
+251,61,Female,178,55,Government,Administrator,37,Medium,Good,Yes,7745,7.9,7,83,109,118,72,159,17.36,Medium,Medium,4,5.07,Normal,No,4.98
+252,43,Female,178,99,Private,Consultant,59,High,Good,Yes,5391,4.4,3,93,110,128,77,176,31.25,Low,High,0,5.15,Elevated,No,4.91
+253,23,Male,166,89,Government,Clerk,38,Low,Good,Yes,9655,7.3,3,71,80,100,61,234,32.3,High,Medium,3,4.43,Normal,No,4.68
+254,53,Female,158,94,Private,Marketing Specialist,58,High,Good,Yes,6288,5.6,6,85,129,127,77,206,37.65,Low,Low,2,5.95,Elevated,No,5.9
+255,36,Female,184,50,Private,Marketing Specialist,60,High,Fair,Yes,4454,4.0,5,89,109,120,86,174,14.77,Medium,Low,3,5.37,Hypertension Stage 1,Yes,5.41
+256,34,Male,177,90,Government,Administrator,46,Low,Excellent,Yes,13715,8.4,4,57,81,104,69,164,28.73,Low,Medium,5,4.76,Normal,Yes,4.83
+257,21,Male,161,56,Government,Police Officer,46,Medium,Excellent,Yes,5134,6.7,1,78,83,110,73,189,21.6,Low,Medium,3,4.94,Normal,Yes,4.94
+258,27,Male,167,99,Government,Inspector,48,Low,Good,Yes,9097,8.5,2,79,115,107,72,248,35.5,High,Low,2,5.88,Normal,Yes,5.73
+259,60,Male,180,74,Private,Engineer,50,High,Good,Yes,7154,5.8,5,85,135,129,81,196,22.84,Medium,Low,0,6.41,Hypertension Stage 1,Yes,6.63
+260,35,Male,175,100,Government,Civil Servant,46,Medium,Good,Yes,12786,8.1,6,87,75,107,65,213,32.65,High,High,3,4.11,Normal,Yes,4.18
+261,59,Male,184,100,Government,Inspector,43,Low,Excellent,Yes,10690,8.4,4,55,114,112,71,242,29.54,Medium,Medium,5,5.12,Normal,No,5.36
+262,30,Male,184,72,Government,Inspector,48,Low,Good,Yes,14808,8.7,3,57,103,104,74,187,21.27,Low,Medium,6,5.74,Normal,No,5.76
+263,19,Female,189,65,Government,Teacher,43,Medium,Good,Yes,11348,6.6,9,67,109,109,70,202,18.2,Medium,Low,5,5.58,Normal,No,5.35
+264,20,Male,156,81,Government,Civil Servant,48,Medium,Good,Yes,11366,8.0,10,85,107,108,61,196,33.28,Low,High,6,5.2,Normal,No,5.33
+265,23,Female,190,53,Government,Clerk,47,High,Excellent,Yes,7803,4.1,9,71,99,129,77,177,14.68,Medium,Medium,2,5.15,Elevated,No,4.91
+266,33,Male,185,97,Private,Manager,56,High,Good,Yes,7525,5.1,2,75,106,137,87,214,28.34,High,Medium,3,5.3,Hypertension Stage 1,No,5.09
+267,38,Female,176,98,Private,Consultant,51,High,Fair,Yes,5072,5.9,6,84,123,132,75,242,31.64,Low,Low,2,5.03,Hypertension Stage 1,No,4.9
+268,31,Female,151,99,Private,Engineer,49,High,Excellent,Yes,2772,4.1,3,74,111,131,82,179,43.42,Medium,Medium,2,5.23,Hypertension Stage 1,Yes,5.11
+269,48,Male,181,94,Private,Manager,54,Medium,Fair,Yes,2306,5.8,2,87,73,129,84,192,28.69,Medium,Medium,3,4.42,Hypertension Stage 1,No,4.61
+270,56,Male,190,99,Private,IT Professional,46,Medium,Good,Yes,10231,7.6,6,79,114,107,64,156,27.42,High,High,3,5.61,Normal,No,5.91
+271,43,Male,158,71,Government,Civil Servant,39,Medium,Good,Yes,6393,7.2,3,87,78,115,77,175,28.44,Low,Medium,5,4.59,Normal,No,4.68
+272,22,Female,177,70,Private,Manager,58,Low,Good,Yes,5469,4.9,6,66,108,120,60,248,22.34,Medium,High,1,5.27,Elevated,Yes,5.56
+273,32,Male,173,59,Private,Manager,46,Low,Excellent,Yes,8982,8.8,5,55,91,122,85,164,19.71,Low,Medium,3,4.37,Hypertension Stage 1,No,4.35
+274,53,Female,189,96,Private,IT Professional,46,Medium,Good,No,9185,6.5,4,88,114,119,68,156,26.87,Low,Medium,4,5.42,Normal,No,5.69
+275,24,Male,168,91,Government,Clerk,46,Medium,Fair,Yes,6631,8.7,10,80,75,105,66,214,32.24,High,Low,5,5.16,Normal,No,5.2
+276,49,Female,160,51,Government,Engineer,39,Low,Excellent,Yes,8869,9.0,5,80,73,120,68,199,19.92,Low,Medium,6,5.07,Elevated,No,5.26
+277,43,Male,155,96,Government,Healthcare Worker,44,Medium,Excellent,Yes,7502,7.3,10,73,98,117,64,176,39.96,Medium,Medium,4,4.78,Normal,No,4.83
+278,51,Male,177,99,Government,Police Officer,43,Low,Good,Yes,13732,8.8,3,65,79,123,60,247,31.6,High,Medium,2,4.38,Elevated,No,4.66
+279,58,Female,159,99,Government,Police Officer,47,Low,Good,Yes,9372,7.8,4,74,84,107,81,153,39.16,Medium,Medium,6,4.43,Hypertension Stage 1,No,4.54
+280,41,Male,174,81,Private,Sales Executive,46,Low,Fair,Yes,11694,8.3,5,68,84,123,81,175,26.75,High,High,2,4.91,Hypertension Stage 1,Yes,4.65
+281,47,Male,177,75,Private,Analyst,57,High,Good,Yes,7009,6.3,9,73,123,134,76,181,23.94,Medium,Medium,0,5.47,Hypertension Stage 1,Yes,5.41
+282,36,Female,175,69,Private,Engineer,58,Medium,Fair,Yes,4411,5.5,9,67,99,126,80,207,22.53,Low,Medium,0,4.11,Hypertension Stage 1,Yes,4.11
+283,38,Female,151,61,Private,Accountant,47,High,Fair,Yes,4048,4.8,2,72,102,134,86,160,26.75,Medium,Medium,1,5.47,Hypertension Stage 1,Yes,5.4
+284,28,Female,186,92,Private,Sales Executive,50,High,Excellent,Yes,7833,4.1,5,93,123,129,80,165,26.59,Low,Medium,2,5.81,Hypertension Stage 1,Yes,6.09
+285,18,Female,165,63,Private,Marketing Specialist,59,Medium,Good,Yes,2650,5.5,4,80,87,119,80,221,23.14,Low,Low,0,4.98,Hypertension Stage 1,Yes,4.8
+286,54,Female,171,55,Government,Clerk,37,High,Good,Yes,7505,4.7,8,93,132,131,76,161,18.81,High,High,1,6.31,Hypertension Stage 1,No,6.2
+287,22,Female,180,58,Government,Administrator,41,Low,Good,Yes,13595,6.6,10,56,76,118,83,230,17.9,Medium,Medium,3,4.63,Hypertension Stage 1,No,4.38
+288,45,Female,166,83,Private,Consultant,60,High,Fair,Yes,6257,5.8,8,95,106,139,82,240,30.12,Low,Medium,3,5.26,Hypertension Stage 1,Yes,5.08
+289,57,Female,176,52,Government,Healthcare Worker,38,Low,Good,Yes,9614,6.8,5,64,102,117,70,248,16.79,Medium,High,2,5.01,Normal,Yes,5.12
+290,29,Male,171,71,Private,Marketing Specialist,46,High,Good,Yes,7289,4.3,8,87,116,134,88,245,24.28,Medium,Medium,1,5.05,Hypertension Stage 1,No,5.06
+291,39,Female,154,59,Government,Civil Servant,41,Low,Excellent,Yes,13753,8.5,10,67,81,119,63,250,24.88,Medium,Low,6,4.9,Normal,No,5.02
+292,33,Female,178,69,Government,Administrator,40,Low,Excellent,Yes,5612,8.3,8,71,71,125,75,214,21.78,Low,Medium,2,4.18,Elevated,No,4.08
+293,24,Male,163,96,Government,Clerk,43,Medium,Excellent,Yes,6897,6.0,10,65,91,114,61,163,36.13,Medium,Medium,2,4.62,Normal,No,4.72
+294,38,Male,162,68,Government,Engineer,45,Medium,Excellent,Yes,6927,6.8,5,66,70,130,79,221,25.91,Medium,Medium,3,4.62,Hypertension Stage 1,No,4.44
+295,36,Male,160,54,Government,Engineer,35,Medium,Good,Yes,7131,6.1,2,75,73,102,73,200,21.09,Medium,Medium,2,4.21,Normal,No,4.27
+296,37,Female,162,95,Private,Manager,59,High,Fair,Yes,6651,4.3,2,84,114,140,89,210,36.2,High,Medium,3,5.21,Hypertension Stage 1,No,5.04
+297,60,Female,170,79,Private,Manager,56,Medium,Good,Yes,5921,5.2,5,87,92,119,78,166,27.34,High,Low,1,4.61,Normal,No,4.55
+298,47,Female,187,76,Government,Healthcare Worker,42,Medium,Good,Yes,11288,6.2,10,76,120,113,78,250,21.73,Low,Medium,3,5.31,Normal,No,5.43
+299,49,Male,187,88,Private,Manager,50,High,Fair,No,4523,6.4,10,73,138,139,87,191,25.17,Low,Medium,0,6.1,Hypertension Stage 1,No,6.2
+300,18,Male,159,78,Private,Analyst,59,High,Fair,Yes,3602,4.5,5,88,138,129,88,241,30.85,Low,Low,2,6.49,Hypertension Stage 1,Yes,6.4
+301,36,Male,173,85,Private,IT Professional,56,High,Good,Yes,2898,6.2,4,83,139,138,87,230,28.4,Medium,Medium,0,5.95,Hypertension Stage 1,Yes,5.88
+302,42,Female,176,59,Government,Police Officer,36,Low,Good,Yes,5257,6.4,7,59,75,104,80,203,19.05,Medium,High,5,5.03,Hypertension Stage 1,Yes,5.27
+303,45,Female,174,72,Government,Clerk,44,Medium,Excellent,Yes,13161,8.5,9,71,96,129,77,223,23.78,Medium,Medium,3,4.44,Elevated,No,4.73
+304,62,Male,159,96,Private,Engineer,47,Medium,Excellent,Yes,13574,8.7,4,78,110,123,81,235,37.97,High,Medium,2,5.07,Hypertension Stage 1,No,5.15
+305,48,Female,182,80,Private,Consultant,54,Medium,Good,Yes,4369,4.4,10,71,73,120,75,224,24.15,High,Medium,2,4.2,Elevated,Yes,3.93
+306,50,Male,167,66,Government,Administrator,39,Low,Excellent,Yes,5232,8.2,3,73,117,104,81,207,23.67,Medium,Low,6,5.33,Hypertension Stage 1,Yes,5.14
+307,20,Female,155,59,Private,Sales Executive,58,High,Good,Yes,5138,4.6,3,76,131,131,76,232,24.56,Low,Low,3,5.91,Hypertension Stage 1,No,6.1
+308,52,Male,174,93,Private,Marketing Specialist,58,Medium,Fair,Yes,2097,4.7,7,84,90,130,76,237,30.72,Medium,Medium,3,5.15,Hypertension Stage 1,No,4.91
+309,35,Female,167,67,Private,Engineer,57,High,Fair,Yes,5777,5.9,10,94,107,136,85,236,24.02,Medium,Medium,1,5.62,Hypertension Stage 1,Yes,5.43
+310,24,Female,172,64,Private,Engineer,45,Low,Good,No,6506,6.2,4,74,110,103,82,165,21.63,Low,Medium,6,5.08,Hypertension Stage 1,Yes,5.14
+311,25,Male,166,68,Private,Manager,53,High,Excellent,Yes,5497,5.7,5,75,99,128,76,198,24.68,Low,Medium,2,4.47,Elevated,No,4.77
+312,30,Female,161,91,Private,Sales Executive,58,Medium,Good,Yes,3789,5.5,8,85,86,103,61,159,35.11,High,Low,0,4.08,Normal,Yes,4.22
+313,20,Female,167,59,Private,Analyst,60,Medium,Good,Yes,5916,5.1,9,70,70,112,82,249,21.16,High,Low,0,4.58,Hypertension Stage 1,No,4.62
+314,59,Male,173,84,Private,Consultant,59,Low,Excellent,Yes,4375,5.6,9,56,94,121,66,188,28.07,Medium,Medium,1,4.84,Elevated,No,5.08
+315,26,Male,162,51,Private,Accountant,47,Medium,Excellent,Yes,13856,7.9,9,88,98,130,60,154,19.43,Medium,Low,5,4.41,Hypertension Stage 1,No,4.31
+316,61,Male,187,64,Private,IT Professional,60,High,Good,No,7356,4.0,4,92,136,124,75,172,18.3,High,Low,0,6.21,Elevated,Yes,6.45
+317,24,Male,181,88,Private,Accountant,51,Low,Excellent,Yes,5491,4.8,6,58,113,118,77,167,26.86,Low,Low,3,5.29,Normal,No,5.57
+318,44,Male,173,85,Government,Healthcare Worker,35,High,Excellent,Yes,3092,4.2,3,70,126,122,75,150,28.4,Medium,Medium,3,5.84,Elevated,No,5.59
+319,48,Male,163,59,Private,Marketing Specialist,50,Medium,Good,Yes,5616,7.8,10,65,110,126,85,188,22.21,Low,Low,5,5.31,Hypertension Stage 1,Yes,5.01
+320,52,Male,179,99,Private,Accountant,51,Medium,Fair,Yes,2923,6.0,8,68,80,121,61,156,30.9,Medium,Medium,3,4.77,Elevated,Yes,4.64
+321,65,Male,184,61,Government,Civil Servant,36,Medium,Excellent,Yes,6160,8.7,10,81,90,113,66,245,18.02,High,Medium,5,4.81,Normal,No,4.71
+322,30,Female,164,54,Private,Marketing Specialist,58,Low,Excellent,Yes,3187,4.5,3,67,93,104,74,242,20.08,Low,Low,3,4.23,Normal,No,4.15
+323,25,Female,179,76,Government,Engineer,39,Low,Excellent,Yes,14889,6.5,3,73,105,127,67,161,23.72,Medium,Low,6,5.37,Elevated,No,5.38
+324,18,Female,165,65,Government,Healthcare Worker,44,High,Excellent,Yes,3220,6.3,7,71,97,135,76,204,23.88,Medium,Medium,0,4.64,Hypertension Stage 1,Yes,4.63
+325,53,Male,176,63,Government,Administrator,36,Low,Good,Yes,5260,7.4,3,77,99,127,78,245,20.34,Medium,Low,4,4.7,Elevated,No,4.99
+326,41,Female,190,50,Private,Manager,55,Medium,Excellent,No,6349,4.1,5,85,109,117,78,176,13.85,Medium,Medium,3,5.71,Normal,No,5.46
+327,21,Male,174,73,Private,IT Professional,50,Medium,Fair,Yes,14155,8.1,4,67,91,107,77,164,24.11,Medium,Medium,6,4.78,Normal,No,4.92
+328,38,Female,167,82,Private,Engineer,56,Low,Fair,No,4828,5.1,8,77,104,121,77,187,29.4,Medium,Medium,0,5.41,Elevated,No,5.33
+329,47,Male,155,75,Private,Engineer,47,High,Good,Yes,2895,4.4,3,85,104,126,75,187,31.22,High,Medium,0,5.37,Elevated,Yes,5.48
+330,30,Male,151,64,Private,Consultant,55,Medium,Excellent,Yes,7371,5.6,8,81,112,122,76,220,28.07,Low,Medium,2,5.4,Elevated,No,5.28
+331,36,Male,159,72,Government,Police Officer,37,Medium,Good,Yes,13770,6.9,3,68,85,103,61,190,28.48,Medium,Low,3,4.69,Normal,No,4.65
+332,40,Male,173,78,Private,Sales Executive,48,Medium,Fair,No,5408,7.2,3,77,90,104,60,244,26.06,Medium,Low,5,4.66,Normal,No,4.66
+333,54,Male,186,96,Private,Marketing Specialist,48,Medium,Good,Yes,12847,8.7,9,66,89,100,72,229,27.75,Low,Low,3,5.01,Normal,No,4.98
+334,35,Male,151,55,Private,Marketing Specialist,47,High,Good,Yes,6192,5.0,6,89,133,136,76,235,24.12,Medium,Low,3,5.99,Hypertension Stage 1,Yes,5.78
+335,46,Male,163,96,Private,Analyst,54,High,Excellent,No,3341,6.0,7,74,132,139,77,168,36.13,High,High,3,5.87,Hypertension Stage 1,No,5.85
+336,23,Male,176,90,Private,Analyst,59,Low,Good,Yes,7818,5.4,4,60,94,109,77,212,29.05,Medium,Medium,1,4.05,Normal,Yes,4.25
+337,18,Male,166,69,Private,Marketing Specialist,54,Low,Excellent,Yes,5417,4.4,1,58,118,108,75,158,25.04,Medium,Medium,1,5.54,Normal,No,5.46
+338,25,Female,182,96,Private,Engineer,46,Low,Good,Yes,7394,7.0,6,60,73,108,71,203,28.98,Low,Low,3,4.76,Normal,No,5.03
+339,58,Male,156,88,Private,Consultant,54,High,Fair,Yes,4223,5.7,2,87,132,131,79,151,36.16,High,Medium,2,5.81,Hypertension Stage 1,Yes,5.68
+340,50,Male,162,100,Private,Manager,47,Medium,Good,Yes,6909,8.5,8,74,89,122,71,167,38.1,Medium,High,2,4.98,Elevated,Yes,5.21
+341,25,Male,158,94,Government,Healthcare Worker,38,Low,Good,Yes,7133,8.9,2,57,71,124,75,246,37.65,Low,Medium,5,4.52,Elevated,No,4.34
+342,34,Male,154,69,Private,Manager,51,High,Excellent,Yes,6813,6.3,6,70,100,124,83,224,29.09,Medium,Medium,1,4.42,Hypertension Stage 1,Yes,4.22
+343,55,Male,183,63,Private,Engineer,45,Low,Good,Yes,6616,8.8,8,66,114,118,65,206,18.81,High,High,6,5.61,Normal,No,5.37
+344,38,Male,179,57,Private,Marketing Specialist,54,High,Good,Yes,6564,5.8,6,85,102,132,84,208,17.79,High,Medium,0,5.54,Hypertension Stage 1,No,5.43
+345,30,Male,180,93,Government,Civil Servant,42,High,Good,Yes,7505,4.3,9,91,138,122,78,168,28.7,High,Medium,3,6.02,Elevated,No,6.14
+346,41,Male,171,62,Private,Analyst,58,Low,Excellent,Yes,7940,5.2,7,66,100,121,79,201,21.2,Low,Medium,2,5.19,Elevated,No,5.2
+347,26,Male,156,97,Government,Teacher,35,Medium,Excellent,Yes,7934,7.1,3,72,109,119,63,247,39.86,High,High,4,5.07,Normal,No,5.22
+348,49,Female,184,71,Private,IT Professional,46,High,Fair,Yes,5525,6.2,7,84,115,132,89,208,20.97,Medium,Medium,0,5.03,Hypertension Stage 1,Yes,4.84
+349,37,Female,181,98,Government,Inspector,45,Medium,Fair,Yes,13837,7.7,9,68,102,101,72,183,29.91,Medium,Medium,5,5.45,Normal,No,5.73
+350,19,Male,158,73,Government,Civil Servant,45,Medium,Good,Yes,10591,7.1,6,74,96,111,61,234,29.24,Medium,Low,5,4.29,Normal,No,4.13
+351,25,Female,160,51,Private,IT Professional,58,Medium,Fair,Yes,6653,5.3,5,63,114,115,78,152,19.92,Low,Medium,3,5.89,Normal,No,5.82
+352,39,Female,182,98,Private,Sales Executive,56,High,Excellent,No,5571,4.5,9,76,113,128,76,188,29.59,Low,Medium,0,5.9,Elevated,Yes,5.84
+353,39,Female,154,86,Private,Marketing Specialist,56,Medium,Good,Yes,2628,5.6,9,88,89,113,81,219,36.26,Medium,Medium,2,4.38,Hypertension Stage 1,No,4.33
+354,58,Male,186,81,Government,Inspector,45,Low,Excellent,Yes,13728,8.4,10,78,110,101,76,175,23.41,Low,Medium,5,5.33,Normal,No,5.12
+355,38,Male,190,63,Private,Engineer,50,High,Good,Yes,4100,5.7,7,77,102,124,81,153,17.45,Medium,Medium,1,5.22,Hypertension Stage 1,Yes,5.42
+356,28,Female,158,51,Government,Administrator,37,Medium,Good,Yes,5691,8.9,1,64,75,110,79,188,20.43,Low,Low,5,5.04,Normal,Yes,5.28
+357,64,Male,165,57,Private,Manager,53,Medium,Fair,Yes,6066,6.2,10,66,119,125,70,192,20.94,High,High,1,5.75,Elevated,No,5.89
+358,31,Female,178,76,Government,Civil Servant,40,Medium,Excellent,Yes,6850,6.9,8,84,85,130,68,250,23.99,Medium,Medium,5,5.12,Hypertension Stage 1,No,5.04
+359,56,Male,153,94,Private,Accountant,57,Medium,Good,No,4533,5.6,2,80,85,127,74,199,40.16,High,High,2,4.01,Elevated,No,4.29
+360,37,Male,160,78,Private,Analyst,53,High,Good,No,2656,6.1,8,93,121,130,88,162,30.47,Medium,Medium,3,5.74,Hypertension Stage 1,No,5.86
+361,47,Male,153,91,Private,Marketing Specialist,49,High,Fair,Yes,2025,5.0,6,88,100,123,80,181,38.87,High,High,2,4.62,Hypertension Stage 1,No,4.9
+362,38,Female,180,97,Government,Police Officer,48,Medium,Fair,Yes,10367,8.4,2,76,93,105,72,198,29.94,Low,High,3,5.13,Normal,No,5.36
+363,58,Male,155,79,Government,Police Officer,44,Low,Good,Yes,12027,7.8,2,66,80,130,78,165,32.88,High,High,3,4.02,Hypertension Stage 1,Yes,4.04
+364,32,Male,162,100,Government,Inspector,41,Low,Excellent,Yes,8385,7.8,4,68,81,113,85,168,38.1,Medium,Medium,4,4.03,Hypertension Stage 1,Yes,4.32
+365,59,Female,155,50,Private,Consultant,57,High,Good,Yes,7626,4.5,7,93,133,128,77,162,20.81,High,Medium,3,6.15,Elevated,No,5.88
+366,56,Male,150,66,Private,Analyst,57,Medium,Good,Yes,7498,4.9,10,68,86,105,76,213,29.33,Low,Medium,0,5.12,Normal,No,5.35
+367,20,Male,181,67,Private,Analyst,53,Medium,Fair,Yes,7021,6.1,9,73,97,128,65,190,20.45,High,Medium,2,4.88,Elevated,No,4.87
+368,30,Male,153,64,Government,Inspector,46,Low,Excellent,Yes,12653,7.3,1,69,92,122,77,212,27.34,Medium,Low,5,4.55,Elevated,No,4.32
+369,36,Male,160,97,Private,Engineer,51,Medium,Excellent,No,6780,6.5,9,87,106,105,73,159,37.89,Low,Medium,0,5.22,Normal,No,5.22
+370,41,Male,170,59,Government,Inspector,45,High,Fair,Yes,5930,5.1,10,91,95,130,76,233,20.42,High,High,2,4.75,Hypertension Stage 1,No,4.72
+371,26,Male,153,91,Government,Civil Servant,43,Medium,Excellent,Yes,14867,7.1,5,68,85,130,84,201,38.87,Low,High,5,4.11,Hypertension Stage 1,No,4.32
+372,59,Male,157,69,Private,Analyst,54,High,Fair,No,7611,5.5,2,81,127,126,90,207,27.99,Medium,Medium,2,6.41,Hypertension Stage 1,No,6.4
+373,45,Female,155,52,Private,Marketing Specialist,49,High,Good,Yes,6057,5.3,5,84,122,122,90,188,21.64,High,Medium,0,5.13,Hypertension Stage 1,Yes,4.91
+374,22,Male,182,56,Private,Analyst,53,Low,Fair,Yes,4911,4.6,9,55,77,123,81,209,16.91,Low,Low,0,4.22,Hypertension Stage 1,No,4.03
+375,47,Female,189,66,Government,Police Officer,36,Low,Good,Yes,14896,6.8,7,72,71,100,72,164,18.48,Medium,Medium,2,4.02,Normal,No,4.11
+376,64,Female,169,89,Private,Consultant,57,High,Good,Yes,4479,4.2,1,76,102,120,81,153,31.16,Medium,Medium,1,5.19,Hypertension Stage 1,Yes,5.28
+377,37,Female,159,80,Private,Manager,49,Low,Good,Yes,12295,8.9,1,69,107,107,66,187,31.64,Low,Low,5,5.51,Normal,No,5.71
+378,49,Female,152,81,Government,Inspector,35,Low,Excellent,Yes,13655,6.1,6,72,74,108,80,203,35.06,Medium,Medium,6,5.07,Hypertension Stage 1,Yes,4.84
+379,28,Female,162,80,Government,Healthcare Worker,44,Medium,Good,Yes,10556,8.8,3,72,116,122,72,203,30.48,High,High,5,5.75,Elevated,No,5.85
+380,57,Male,168,94,Private,Marketing Specialist,51,Low,Excellent,No,3280,5.5,7,70,89,107,66,221,33.3,High,Medium,0,4.06,Normal,No,3.77
+381,20,Male,171,77,Government,Healthcare Worker,38,Low,Excellent,Yes,12968,6.8,6,79,72,124,77,184,26.33,Medium,Medium,4,5.08,Elevated,Yes,5.29
+382,46,Female,157,56,Private,Manager,46,High,Good,Yes,6155,4.3,4,81,105,129,89,247,22.72,Low,Medium,0,5.46,Hypertension Stage 1,No,5.6
+383,46,Female,150,65,Private,Marketing Specialist,50,Medium,Good,Yes,6396,6.8,6,83,112,107,64,246,28.89,Low,Medium,5,5.68,Normal,No,5.63
+384,51,Female,151,78,Government,Civil Servant,43,Medium,Excellent,Yes,6140,6.3,7,87,80,113,61,200,34.21,Medium,High,4,4.91,Normal,No,5.01
+385,63,Female,176,75,Private,Engineer,55,High,Good,No,4819,4.0,9,89,104,132,89,232,24.21,High,Medium,2,5.18,Hypertension Stage 1,No,5.21
+386,43,Male,169,55,Government,Engineer,46,Low,Good,Yes,7064,7.6,5,61,75,116,77,189,19.26,Low,Low,6,4.63,Normal,No,4.78
+387,33,Female,177,82,Government,Civil Servant,39,High,Good,Yes,7136,5.3,1,94,136,123,89,188,26.17,Medium,Low,0,6.16,Hypertension Stage 1,Yes,5.86
+388,63,Male,172,69,Government,Police Officer,43,Medium,Excellent,Yes,9057,6.3,10,69,119,111,74,162,23.32,Medium,Low,6,5.13,Normal,No,5.09
+389,31,Female,154,73,Private,Analyst,57,Medium,Fair,No,4160,5.5,8,85,101,123,73,170,30.78,High,Low,3,5.13,Elevated,No,4.91
+390,31,Female,180,52,Private,Consultant,48,High,Good,Yes,6928,6.1,2,81,131,129,76,216,16.05,High,Low,0,5.82,Elevated,No,5.74
+391,55,Female,153,69,Private,Accountant,60,Low,Fair,Yes,2017,4.3,2,56,96,115,78,189,29.48,High,Medium,2,4.68,Normal,No,4.92
+392,50,Female,178,92,Private,Consultant,58,Low,Good,Yes,5172,4.6,6,72,72,130,81,206,29.04,Medium,Medium,3,4.88,Hypertension Stage 1,No,4.97
+393,53,Male,185,55,Government,Civil Servant,43,High,Excellent,Yes,3551,5.9,2,91,129,125,75,185,16.07,High,High,0,6.33,Elevated,No,6.18
+394,56,Female,175,87,Government,Civil Servant,37,Low,Excellent,Yes,11798,6.1,6,67,86,102,63,162,28.41,Low,High,6,4.65,Normal,No,4.52
+395,61,Male,153,89,Private,Sales Executive,46,Low,Good,Yes,9882,7.2,3,68,90,108,72,165,38.02,Medium,Medium,4,4.06,Normal,No,3.9
+396,35,Male,170,79,Private,Manager,58,Medium,Good,No,7189,4.6,5,80,107,121,63,181,27.34,Low,Medium,0,5.69,Elevated,No,5.78
+397,27,Female,184,60,Private,Analyst,59,High,Good,Yes,2342,4.0,10,79,136,125,75,157,17.72,Medium,Medium,3,6.45,Elevated,No,6.44
+398,55,Female,152,60,Private,Manager,57,Medium,Excellent,Yes,7721,4.3,9,71,97,106,79,214,25.97,Medium,Medium,1,5.15,Normal,No,5.04
+399,33,Female,171,63,Private,Consultant,49,Low,Good,Yes,5033,7.8,1,76,81,113,77,239,21.55,Medium,Medium,2,4.84,Normal,Yes,5.0
+400,60,Female,157,72,Private,Analyst,56,High,Good,Yes,5168,4.4,2,84,118,126,89,151,29.21,Medium,High,0,5.2,Hypertension Stage 1,No,4.91
+401,37,Male,164,81,Private,IT Professional,51,Medium,Good,Yes,2058,4.5,2,71,106,116,75,171,30.12,Medium,Medium,3,5.5,Normal,No,5.6
+402,22,Male,166,86,Private,Engineer,45,Low,Excellent,Yes,13731,7.8,8,55,97,120,81,233,31.21,Medium,High,6,4.06,Hypertension Stage 1,Yes,4.32
+403,41,Male,164,53,Government,Clerk,40,Medium,Excellent,Yes,5084,7.2,2,81,71,123,67,238,19.71,Low,Low,4,4.51,Elevated,No,4.25
+404,24,Male,180,77,Private,Consultant,52,High,Excellent,No,2883,5.2,1,80,128,127,77,249,23.77,Low,Low,2,6.18,Elevated,No,6.14
+405,42,Female,154,100,Government,Inspector,44,Low,Good,Yes,12075,6.2,9,56,88,127,72,201,42.17,Medium,Medium,2,4.11,Elevated,Yes,4.26
+406,42,Female,177,89,Private,Consultant,45,High,Excellent,Yes,5719,5.3,2,73,95,139,77,225,28.41,Medium,Medium,1,4.95,Hypertension Stage 1,No,4.77
+407,46,Male,165,58,Private,IT Professional,58,Low,Good,Yes,6203,6.4,5,73,104,124,64,168,21.3,Low,High,2,5.42,Elevated,No,5.48
+408,33,Male,177,72,Government,Healthcare Worker,38,Medium,Excellent,Yes,6120,7.0,8,82,114,110,78,222,22.98,Low,Low,5,5.87,Normal,No,5.94
+409,20,Female,164,50,Private,Accountant,51,Medium,Good,Yes,3958,5.2,7,69,95,105,60,196,18.59,Medium,Low,2,4.01,Normal,No,3.92
+410,41,Male,151,62,Government,Police Officer,39,Low,Good,Yes,7855,7.0,4,60,82,100,65,183,27.19,Medium,Medium,6,5.09,Normal,No,4.8
+411,31,Female,179,65,Government,Engineer,43,Medium,Good,Yes,12106,8.6,2,67,78,125,66,174,20.29,Low,Low,2,4.64,Elevated,No,4.76
+412,57,Male,184,68,Private,Consultant,53,Medium,Fair,Yes,3035,6.1,4,86,75,125,75,234,20.09,Medium,High,3,4.74,Elevated,No,4.54
+413,29,Female,173,83,Private,Marketing Specialist,57,Medium,Fair,Yes,7227,6.3,4,70,82,114,67,200,27.73,Medium,Low,0,4.26,Normal,Yes,4.22
+414,23,Female,178,83,Government,Civil Servant,44,Medium,Excellent,Yes,10511,7.3,7,76,93,125,75,190,26.2,Medium,Low,5,4.33,Elevated,No,4.04
+415,36,Male,167,64,Government,Teacher,43,Low,Good,Yes,8281,7.0,5,64,117,126,84,237,22.95,Medium,Low,4,5.76,Hypertension Stage 1,No,5.57
+416,52,Female,150,99,Government,Engineer,41,Medium,Good,Yes,11647,8.5,8,83,102,124,64,200,44.0,Medium,Medium,2,5.2,Elevated,No,5.33
+417,47,Female,171,100,Government,Healthcare Worker,46,Medium,Excellent,Yes,11843,6.6,9,63,93,104,78,166,34.2,Medium,Medium,5,4.37,Normal,No,4.51
+418,45,Female,184,69,Government,Civil Servant,35,Medium,Good,Yes,7279,6.5,10,83,108,129,79,223,20.38,Low,Medium,4,5.78,Elevated,No,6.07
+419,24,Female,186,78,Private,Engineer,48,Low,Excellent,Yes,14058,6.5,8,55,81,106,62,199,22.55,Medium,Low,6,4.34,Normal,No,4.18
+420,44,Female,160,57,Government,Clerk,36,Medium,Good,Yes,11373,8.9,3,69,89,113,82,235,22.27,High,Medium,3,4.57,Hypertension Stage 1,Yes,4.63
+421,35,Male,150,59,Private,Analyst,52,High,Fair,Yes,6307,4.8,8,84,131,121,77,186,26.22,Medium,Medium,3,6.22,Elevated,No,6.47
+422,29,Female,165,61,Private,Analyst,50,Medium,Excellent,Yes,14316,6.3,4,68,87,128,80,218,22.41,Medium,Medium,2,4.35,Hypertension Stage 1,No,4.6
+423,53,Male,173,54,Private,Consultant,50,Medium,Good,Yes,9141,6.6,8,63,74,120,82,236,18.04,High,High,2,4.9,Hypertension Stage 1,Yes,4.83
+424,26,Female,179,81,Private,Manager,52,Medium,Excellent,Yes,7845,6.4,8,71,80,105,60,227,25.28,Medium,Medium,1,4.12,Normal,No,4.0
+425,27,Female,172,61,Government,Civil Servant,43,High,Good,Yes,3770,5.1,9,90,137,123,87,238,20.62,Low,Medium,0,5.95,Hypertension Stage 1,No,5.68
+426,41,Male,162,55,Government,Civil Servant,40,High,Excellent,Yes,3574,5.7,4,73,137,125,80,155,20.96,Medium,Medium,0,6.03,Hypertension Stage 1,Yes,5.79
+427,52,Female,177,57,Government,Teacher,37,Low,Good,Yes,5245,7.2,1,67,83,114,67,158,18.19,Medium,Low,4,4.79,Normal,No,4.66
+428,56,Female,156,95,Private,Sales Executive,48,Medium,Good,Yes,14828,7.0,3,73,81,120,84,238,39.04,Medium,Medium,5,4.38,Hypertension Stage 1,Yes,4.59
+429,58,Male,182,87,Private,IT Professional,48,Medium,Excellent,Yes,10060,6.7,4,82,75,101,64,197,26.26,Medium,Medium,5,4.6,Normal,No,4.42
+430,46,Female,158,67,Government,Civil Servant,41,Medium,Good,Yes,9726,8.3,6,73,85,106,77,156,26.84,Low,Medium,3,5.09,Normal,No,5.19
+431,42,Female,161,78,Private,Manager,47,High,Excellent,Yes,3576,4.1,4,74,100,125,81,180,30.09,Medium,Low,1,4.61,Hypertension Stage 1,No,4.57
+432,37,Female,186,78,Private,Accountant,60,Medium,Fair,Yes,2655,6.4,7,75,80,115,74,204,22.55,Medium,Medium,2,4.61,Normal,No,4.75
+433,23,Female,188,84,Government,Police Officer,42,Low,Good,Yes,10011,7.4,9,74,100,102,70,167,23.77,High,Low,5,4.86,Normal,No,4.68
+434,41,Female,175,76,Private,Consultant,54,Medium,Fair,Yes,7251,6.5,7,64,77,112,78,170,24.82,Low,High,0,4.23,Normal,No,4.19
+435,62,Female,153,91,Government,Clerk,38,Medium,Good,Yes,12827,6.1,1,85,112,120,64,183,38.87,Low,Medium,4,5.54,Elevated,No,5.81
+436,28,Male,157,99,Government,Clerk,44,Low,Good,Yes,6316,7.6,7,60,97,108,82,188,40.16,High,Medium,3,4.6,Hypertension Stage 1,No,4.62
+437,64,Male,156,90,Private,Consultant,53,High,Fair,Yes,3716,6.3,5,70,105,135,75,162,36.98,Medium,Medium,3,5.06,Hypertension Stage 1,Yes,5.18
+438,63,Male,162,81,Government,Teacher,48,Medium,Excellent,Yes,8482,6.6,3,88,118,106,68,202,30.86,Low,Medium,2,5.4,Normal,Yes,5.65
+439,25,Female,154,71,Government,Healthcare Worker,45,Medium,Fair,Yes,6651,6.0,1,84,107,125,61,162,29.94,Medium,Medium,4,5.19,Elevated,No,5.37
+440,49,Female,171,88,Private,Consultant,55,High,Fair,No,4582,6.0,7,82,134,121,86,192,30.09,High,Medium,2,6.35,Hypertension Stage 1,Yes,6.05
+441,25,Female,165,73,Private,Marketing Specialist,51,Medium,Good,Yes,2025,6.5,1,83,93,127,61,244,26.81,Medium,Medium,2,4.39,Elevated,No,4.36
+442,48,Male,174,68,Private,Sales Executive,46,High,Excellent,No,3047,5.2,5,91,130,134,80,207,22.46,Medium,Low,0,6.46,Hypertension Stage 1,No,6.45
+443,24,Female,151,60,Private,Consultant,53,High,Fair,Yes,3805,5.8,2,91,103,137,90,161,26.31,Low,Medium,3,5.72,Hypertension Stage 1,Yes,5.62
+444,63,Female,185,77,Private,Accountant,54,Medium,Excellent,Yes,2718,4.3,10,69,117,130,63,223,22.5,High,Medium,2,5.33,Hypertension Stage 1,No,5.54
+445,42,Female,170,99,Government,Police Officer,44,Medium,Excellent,Yes,14679,6.7,1,80,99,110,64,187,34.26,Medium,Medium,5,5.0,Normal,No,5.0
+446,62,Male,188,70,Government,Teacher,48,Low,Good,Yes,14403,7.4,8,64,115,130,72,157,19.81,High,Medium,3,5.88,Hypertension Stage 1,No,5.78
+447,62,Male,161,81,Private,Engineer,50,High,Fair,Yes,2176,5.4,7,91,125,131,87,200,31.25,Medium,High,2,5.06,Hypertension Stage 1,Yes,5.2
+448,38,Male,169,79,Private,Sales Executive,60,Medium,Fair,Yes,4384,6.2,4,88,117,106,83,233,27.66,Medium,Medium,1,5.01,Hypertension Stage 1,No,5.15
+449,45,Male,153,56,Government,Inspector,35,Low,Good,Yes,6922,8.9,10,68,79,120,83,201,23.92,Medium,Medium,4,4.29,Hypertension Stage 1,Yes,4.06
+450,65,Female,155,99,Private,Analyst,59,Medium,Good,Yes,5009,4.0,2,66,101,120,81,215,41.21,High,Medium,0,5.2,Hypertension Stage 1,No,5.25
+451,42,Female,177,69,Private,Manager,50,Medium,Fair,Yes,11640,8.4,7,80,104,125,85,217,22.02,Medium,Medium,2,5.44,Hypertension Stage 1,No,5.45
+452,60,Male,161,88,Private,IT Professional,55,Medium,Excellent,No,3007,4.1,3,65,105,108,84,154,33.95,Medium,High,1,5.08,Hypertension Stage 1,No,4.85
+453,33,Female,152,83,Private,Engineer,59,High,Excellent,No,3145,5.4,9,81,133,137,81,238,35.92,Medium,Low,2,5.78,Hypertension Stage 1,No,5.97
+454,56,Male,187,72,Government,Clerk,39,Low,Good,Yes,9270,7.1,7,69,75,130,68,236,20.59,Medium,Low,3,4.51,Hypertension Stage 1,No,4.63
+455,62,Male,173,86,Private,Sales Executive,49,Medium,Good,Yes,10183,9.0,7,63,108,107,62,184,28.73,Medium,Low,5,5.11,Normal,No,4.88
+456,35,Male,164,67,Government,Clerk,38,High,Good,Yes,5101,6.4,3,86,114,138,90,162,24.91,Medium,Medium,0,5.48,Hypertension Stage 1,No,5.6
+457,28,Female,174,61,Government,Clerk,37,Medium,Good,Yes,9244,6.0,3,84,78,104,72,222,20.15,Medium,High,6,4.88,Normal,No,4.61
+458,56,Female,179,61,Private,Consultant,54,High,Fair,Yes,4259,6.4,5,90,100,129,88,248,19.04,Low,High,1,4.38,Hypertension Stage 1,Yes,4.13
+459,65,Female,185,81,Private,IT Professional,58,High,Good,Yes,7546,5.3,8,85,127,137,78,201,23.67,High,Low,1,5.71,Hypertension Stage 1,Yes,5.52
+460,65,Male,188,78,Private,Accountant,56,Low,Fair,Yes,3092,5.3,7,70,94,105,71,164,22.07,High,High,0,4.41,Normal,No,4.52
+461,34,Male,150,97,Private,Analyst,54,Medium,Fair,Yes,7267,5.3,8,82,101,101,71,150,43.11,Medium,Low,0,5.55,Normal,No,5.45
+462,24,Female,181,62,Government,Police Officer,42,Medium,Excellent,Yes,5113,6.5,4,78,95,111,69,196,18.92,Medium,Low,4,4.51,Normal,No,4.32
+463,28,Male,172,97,Private,Consultant,51,High,Excellent,Yes,2906,4.5,3,82,121,130,76,170,32.79,High,High,0,5.6,Hypertension Stage 1,Yes,5.87
+464,61,Male,170,98,Private,Analyst,57,Medium,Fair,Yes,3076,4.3,1,67,79,111,76,151,33.91,Medium,Medium,0,4.92,Normal,No,4.76
+465,36,Female,181,55,Private,Accountant,50,High,Excellent,No,4043,4.7,5,92,110,133,81,210,16.79,Medium,Medium,0,5.64,Hypertension Stage 1,No,5.83
+466,58,Male,164,57,Government,Civil Servant,38,Low,Excellent,Yes,7395,7.3,4,57,73,112,73,217,21.19,Medium,Medium,6,4.37,Normal,No,4.45
+467,59,Male,169,57,Government,Administrator,46,High,Excellent,Yes,5424,4.6,3,71,95,121,85,177,19.96,Medium,Medium,0,4.34,Hypertension Stage 1,Yes,4.21
+468,39,Female,157,56,Private,Sales Executive,56,Medium,Excellent,No,6824,5.3,4,83,87,106,78,199,22.72,Medium,Medium,2,4.1,Normal,No,3.86
+469,30,Male,178,56,Government,Engineer,42,Low,Fair,Yes,8309,7.6,1,59,82,113,77,241,17.67,Medium,High,3,4.3,Normal,No,4.53
+470,46,Male,177,54,Private,IT Professional,53,Low,Fair,Yes,7707,6.4,1,73,73,125,82,174,17.24,Medium,Medium,2,4.89,Hypertension Stage 1,No,4.83
+471,42,Female,175,88,Government,Police Officer,44,Low,Excellent,Yes,8568,7.8,9,69,102,122,83,217,28.73,Low,Low,2,5.23,Hypertension Stage 1,Yes,5.44
+472,52,Male,168,52,Private,Engineer,53,High,Good,Yes,2422,5.6,4,87,102,120,86,230,18.42,Low,High,1,5.54,Hypertension Stage 1,Yes,5.46
+473,57,Female,170,53,Private,IT Professional,52,High,Good,Yes,7984,6.4,5,70,129,138,78,242,18.34,Medium,High,1,6.3,Hypertension Stage 1,No,6.23
+474,32,Female,167,63,Private,Analyst,52,Low,Fair,Yes,7978,5.8,3,70,75,115,65,208,22.59,Low,Low,2,4.22,Normal,Yes,4.44
+475,28,Male,175,93,Private,Manager,58,Low,Fair,Yes,4009,5.1,2,78,103,104,83,246,30.37,Medium,Low,3,5.73,Hypertension Stage 1,No,5.79
+476,20,Male,165,99,Government,Police Officer,44,High,Excellent,Yes,2110,6.0,2,87,116,122,81,167,36.36,Medium,Low,0,5.43,Hypertension Stage 1,Yes,5.47
+477,21,Female,190,84,Government,Civil Servant,39,Low,Good,Yes,6680,7.5,3,55,84,100,67,204,23.27,Low,High,5,4.46,Normal,No,4.37
+478,63,Male,181,60,Private,Accountant,54,Low,Good,No,4927,4.2,2,66,75,128,61,227,18.31,Medium,Low,2,4.18,Elevated,No,4.14
+479,57,Female,172,56,Government,Inspector,39,Medium,Excellent,Yes,6251,8.4,3,73,79,112,74,242,18.93,High,Low,3,4.96,Normal,No,5.25
+480,27,Male,170,58,Government,Clerk,42,Low,Excellent,Yes,11944,7.4,10,80,110,110,64,233,20.07,Medium,Medium,5,5.83,Normal,No,5.76
+481,32,Female,155,87,Private,Accountant,52,High,Excellent,Yes,4963,4.0,6,87,125,124,78,157,36.21,High,High,0,5.82,Elevated,No,5.74
+482,53,Female,165,63,Private,IT Professional,48,High,Excellent,Yes,7699,5.8,1,92,122,131,76,239,23.14,Medium,Medium,3,5.1,Hypertension Stage 1,Yes,5.15
+483,33,Male,150,86,Private,Analyst,50,Low,Fair,Yes,12696,8.2,5,70,96,123,70,206,38.22,Medium,Low,6,4.94,Elevated,No,5.06
+484,50,Male,150,75,Private,Marketing Specialist,53,Medium,Excellent,Yes,6686,5.3,7,68,87,102,76,198,33.33,Medium,Medium,1,5.17,Normal,No,4.95
+485,53,Male,179,80,Government,Clerk,37,High,Good,Yes,2447,6.0,4,78,101,123,77,196,24.97,Low,Medium,3,5.54,Elevated,Yes,5.75
+486,56,Male,169,62,Private,IT Professional,47,Medium,Excellent,Yes,14340,7.7,8,64,73,110,62,189,21.71,Medium,Medium,6,4.01,Normal,No,3.92
+487,26,Male,171,76,Private,Manager,49,Medium,Excellent,Yes,5388,7.8,8,81,72,109,65,169,25.99,Medium,High,5,4.82,Normal,No,4.57
+488,27,Male,182,83,Private,Consultant,49,Medium,Good,No,10554,6.9,7,64,115,124,81,199,25.06,Medium,High,6,5.22,Hypertension Stage 1,Yes,5.52
+489,18,Male,169,85,Private,Manager,59,Medium,Good,Yes,4569,4.4,3,65,87,118,71,195,29.76,Medium,Low,2,4.11,Normal,No,3.92
+490,59,Male,157,86,Private,Consultant,57,High,Fair,Yes,5350,6.1,8,81,127,139,85,197,34.89,Medium,High,1,5.77,Hypertension Stage 1,No,5.72
+491,21,Male,185,50,Government,Teacher,37,Low,Excellent,Yes,14341,7.2,4,67,99,121,62,194,14.61,High,Low,2,4.56,Elevated,No,4.65
+492,43,Female,162,75,Government,Engineer,44,Low,Fair,Yes,12967,6.6,2,63,99,101,77,169,28.58,Low,Medium,5,5.14,Normal,No,4.93
+493,21,Female,177,80,Government,Healthcare Worker,47,High,Excellent,Yes,7600,5.1,3,72,104,122,83,201,25.54,Medium,Medium,2,5.07,Hypertension Stage 1,No,5.29
+494,29,Male,155,77,Government,Administrator,40,Low,Excellent,Yes,11866,7.4,3,77,97,111,82,223,32.05,High,Medium,6,4.47,Hypertension Stage 1,Yes,4.18
+495,57,Male,170,92,Private,Consultant,59,Low,Good,Yes,3208,5.2,2,80,113,113,68,216,31.83,High,High,2,5.65,Normal,No,5.94
+496,20,Male,162,76,Private,Sales Executive,51,High,Good,Yes,4851,4.5,10,70,118,131,75,188,28.96,Medium,Medium,1,5.81,Hypertension Stage 1,Yes,5.81
+497,40,Female,183,98,Government,Police Officer,40,Medium,Fair,Yes,7898,7.7,9,76,94,109,81,238,29.26,Medium,High,3,4.82,Hypertension Stage 1,Yes,4.9
+498,23,Male,155,91,Government,Clerk,46,Low,Good,Yes,13924,6.3,9,73,72,121,69,203,37.88,Medium,Low,5,4.25,Elevated,No,4.42
+499,40,Female,176,91,Private,Analyst,56,Low,Excellent,Yes,3834,5.3,5,64,120,129,73,236,29.38,Medium,Low,2,5.22,Elevated,No,5.46
+500,65,Female,171,60,Private,Analyst,57,Medium,Excellent,Yes,3578,5.5,1,88,106,113,64,231,20.52,Medium,Medium,3,5.35,Normal,No,5.49
+501,26,Male,190,86,Private,Engineer,50,High,Excellent,Yes,4641,4.5,1,83,95,140,79,153,23.82,High,Medium,0,4.74,Hypertension Stage 1,No,4.77
+502,58,Female,161,65,Private,Accountant,52,Medium,Good,Yes,7949,6.0,5,84,73,108,62,168,25.08,Medium,Low,3,4.75,Normal,No,4.83
+503,36,Female,161,55,Government,Engineer,38,High,Good,Yes,5201,4.3,7,72,126,140,77,176,21.22,Medium,High,0,6.25,Hypertension Stage 1,Yes,6.18
+504,18,Male,186,90,Private,IT Professional,55,Low,Excellent,Yes,4840,5.2,3,71,117,108,63,174,26.01,Medium,Medium,0,5.55,Normal,No,5.57
+505,19,Female,158,64,Government,Police Officer,42,Low,Excellent,Yes,8264,8.9,9,75,88,114,83,213,25.64,High,Low,4,4.52,Hypertension Stage 1,No,4.79
+506,63,Female,175,56,Private,Engineer,51,Low,Fair,No,7915,5.2,7,74,117,108,70,229,18.29,Low,Medium,3,5.1,Normal,No,5.03
+507,20,Female,187,76,Government,Engineer,36,Low,Good,Yes,7947,8.4,3,66,85,102,66,234,21.73,Low,Low,5,4.45,Normal,No,4.24
+508,31,Female,186,100,Government,Healthcare Worker,41,Medium,Good,Yes,9646,7.8,4,66,105,108,82,227,28.91,Medium,Medium,6,5.85,Hypertension Stage 1,Yes,6.03
+509,45,Female,170,62,Government,Inspector,39,Medium,Fair,Yes,11901,6.4,3,82,90,118,72,180,21.45,Medium,Medium,5,4.69,Normal,No,4.56
+510,36,Male,175,52,Private,IT Professional,45,Medium,Excellent,No,6137,7.4,5,71,90,124,71,201,16.98,Medium,Low,5,4.1,Elevated,No,4.26
+511,59,Male,173,89,Government,Healthcare Worker,35,Low,Fair,Yes,7273,6.3,7,62,80,102,66,242,29.74,High,High,4,5.08,Normal,No,5.0
+512,34,Male,157,53,Private,Manager,57,Medium,Good,Yes,4211,5.7,10,77,77,104,70,168,21.5,High,Low,1,4.9,Normal,No,5.13
+513,54,Female,181,67,Government,Inspector,39,Low,Good,Yes,9853,8.1,9,62,112,120,83,176,20.45,Medium,Medium,4,5.63,Hypertension Stage 1,Yes,5.38
+514,42,Male,181,56,Government,Engineer,39,Medium,Excellent,Yes,12438,8.0,2,67,84,129,71,199,17.09,Medium,Medium,6,5.17,Elevated,No,5.39
+515,28,Female,186,91,Government,Inspector,46,High,Excellent,Yes,2902,4.6,3,78,96,135,89,195,26.3,Low,Medium,3,4.32,Hypertension Stage 1,Yes,4.58
+516,50,Female,153,78,Government,Teacher,41,Low,Fair,Yes,11923,6.6,7,60,108,108,76,227,33.32,Medium,Medium,3,5.44,Normal,No,5.4
+517,21,Male,186,67,Government,Teacher,44,Low,Excellent,Yes,11628,7.2,4,78,114,108,75,176,19.37,Medium,Medium,2,5.15,Normal,Yes,4.97
+518,29,Female,169,94,Government,Engineer,37,Medium,Good,Yes,8069,7.0,3,63,112,115,73,192,32.91,High,Low,5,5.02,Normal,Yes,5.3
+519,40,Female,187,50,Private,Accountant,46,Medium,Good,Yes,5284,7.7,4,79,102,105,84,168,14.3,Medium,Medium,4,5.7,Hypertension Stage 1,No,5.46
+520,60,Female,166,73,Private,Consultant,55,Medium,Excellent,Yes,6242,5.9,2,71,113,116,83,231,26.49,High,Medium,3,5.02,Hypertension Stage 1,Yes,5.31
+521,65,Female,173,63,Private,Accountant,57,High,Excellent,Yes,7232,4.3,9,84,128,125,83,236,21.05,Medium,High,2,5.98,Hypertension Stage 1,No,5.88
+522,62,Female,189,57,Private,Marketing Specialist,56,Medium,Good,Yes,4362,4.3,8,84,79,114,81,169,15.96,Medium,Low,0,4.63,Hypertension Stage 1,Yes,4.5
+523,47,Male,163,68,Private,Manager,54,Low,Excellent,Yes,2041,5.1,1,63,78,111,69,250,25.59,Medium,Low,0,5.03,Normal,No,5.13
+524,30,Female,187,55,Government,Civil Servant,40,Medium,Good,Yes,9075,8.4,7,75,76,128,68,188,15.73,Low,Medium,5,4.72,Elevated,No,4.52
+525,30,Female,158,76,Private,Engineer,54,Medium,Fair,Yes,6642,6.3,9,68,94,125,73,162,30.44,Medium,High,3,4.17,Elevated,No,4.14
+526,44,Female,179,51,Private,IT Professional,58,High,Good,Yes,2724,5.9,4,88,127,131,79,229,15.92,Low,Medium,2,6.13,Hypertension Stage 1,Yes,6.17
+527,51,Female,153,55,Government,Teacher,36,Low,Good,Yes,9760,7.7,1,58,117,118,81,215,23.5,Medium,Low,4,5.67,Hypertension Stage 1,Yes,5.4
+528,32,Male,169,90,Government,Civil Servant,44,High,Excellent,Yes,7634,4.5,1,74,133,123,78,181,31.51,High,Medium,0,5.86,Elevated,No,5.84
+529,43,Female,161,65,Private,Engineer,59,High,Good,Yes,7391,5.5,3,90,96,125,79,245,25.08,Medium,Medium,3,4.79,Elevated,No,4.59
+530,55,Female,173,92,Government,Clerk,36,Medium,Good,Yes,12601,7.3,3,63,88,114,63,222,30.74,Low,Medium,5,4.47,Normal,No,4.52
+531,40,Male,179,96,Private,IT Professional,56,High,Fair,Yes,6101,6.1,6,92,128,132,77,172,29.96,Medium,Medium,1,6.22,Hypertension Stage 1,Yes,6.13
+532,60,Female,175,54,Private,Marketing Specialist,60,Medium,Fair,Yes,6963,5.6,3,85,90,118,78,194,17.63,Low,Low,2,4.7,Normal,No,4.9
+533,49,Female,170,98,Government,Healthcare Worker,37,Low,Good,Yes,11292,8.3,2,56,109,108,63,154,33.91,High,Medium,5,5.76,Normal,No,5.5
+534,38,Male,178,74,Government,Healthcare Worker,42,Low,Excellent,Yes,12168,8.0,4,78,80,113,76,174,23.36,High,Low,3,4.1,Normal,No,3.81
+535,18,Female,176,86,Private,Manager,60,Medium,Good,Yes,3557,6.1,9,74,92,119,77,167,27.76,Medium,Medium,3,4.96,Normal,No,4.92
+536,24,Male,181,64,Government,Engineer,48,Low,Good,Yes,9749,8.8,7,77,92,102,65,186,19.54,Medium,High,4,4.09,Normal,No,4.14
+537,21,Male,187,80,Private,Engineer,46,High,Excellent,Yes,4769,5.1,6,94,98,124,81,220,22.88,Medium,High,1,4.98,Hypertension Stage 1,No,4.88
+538,54,Male,172,54,Private,Manager,60,High,Excellent,No,3060,4.7,2,71,126,136,82,233,18.25,High,High,0,5.98,Hypertension Stage 1,Yes,5.97
+539,30,Female,151,85,Private,Analyst,49,High,Good,Yes,5520,5.8,2,84,102,139,86,195,37.28,Low,Medium,1,5.17,Hypertension Stage 1,No,5.13
+540,52,Male,150,96,Government,Civil Servant,37,Low,Excellent,Yes,12185,6.5,6,66,108,120,67,187,42.67,Medium,Medium,2,5.12,Elevated,No,5.06
+541,31,Female,172,64,Private,Engineer,54,High,Excellent,No,7354,4.6,6,92,129,136,78,156,21.63,High,Low,2,5.98,Hypertension Stage 1,No,5.93
+542,51,Male,169,97,Private,Manager,49,Medium,Excellent,Yes,5587,8.9,8,66,71,115,61,184,33.96,High,Low,5,4.33,Normal,No,4.26
+543,42,Female,178,52,Government,Clerk,41,Low,Good,Yes,13724,6.2,1,72,118,111,60,227,16.41,Medium,Low,4,5.68,Normal,No,5.58
+544,19,Female,189,77,Private,IT Professional,57,High,Fair,Yes,7908,6.3,9,84,122,138,83,170,21.56,High,Low,2,5.86,Hypertension Stage 1,No,5.84
+545,35,Male,165,99,Private,Consultant,46,Medium,Good,Yes,9493,7.1,10,63,77,109,78,234,36.36,Low,Medium,4,4.39,Normal,No,4.25
+546,48,Male,176,53,Private,Manager,55,Medium,Good,Yes,2524,5.1,5,71,101,104,67,230,17.11,Medium,Low,2,5.16,Normal,No,5.38
+547,46,Female,152,85,Private,IT Professional,53,High,Excellent,Yes,4108,4.0,9,92,97,139,82,194,36.79,Low,Low,2,4.13,Hypertension Stage 1,No,4.13
+548,61,Female,154,91,Private,Engineer,55,Low,Good,Yes,6972,6.0,7,75,93,115,69,229,38.37,Medium,Low,2,4.04,Normal,No,3.96
+549,38,Female,163,74,Private,IT Professional,49,High,Good,Yes,5121,5.9,2,77,131,136,88,218,27.85,Medium,Low,0,6.29,Hypertension Stage 1,Yes,6.5
+550,35,Male,186,68,Private,Consultant,56,Medium,Good,Yes,3891,5.1,4,77,116,130,73,196,19.66,Low,Low,0,5.07,Hypertension Stage 1,No,5.11
+551,32,Male,184,65,Private,Analyst,49,High,Excellent,Yes,6960,4.7,6,80,102,122,88,203,19.2,Low,Medium,2,5.45,Hypertension Stage 1,Yes,5.24
+552,28,Male,176,66,Private,Marketing Specialist,49,High,Excellent,No,2279,6.1,3,72,103,136,87,204,21.31,Medium,Medium,0,5.32,Hypertension Stage 1,No,5.26
+553,55,Male,152,54,Private,Consultant,58,High,Fair,Yes,7167,5.1,5,94,125,124,80,242,23.37,High,Low,3,5.69,Hypertension Stage 1,Yes,5.94
+554,59,Female,174,70,Private,Engineer,48,High,Fair,Yes,3902,4.7,1,88,128,136,88,186,23.12,Low,Low,2,5.96,Hypertension Stage 1,No,5.85
+555,31,Female,183,67,Private,Consultant,54,Low,Excellent,Yes,3356,4.3,8,69,84,128,65,186,20.01,Medium,Low,2,5.13,Elevated,Yes,4.99
+556,53,Male,151,88,Private,Accountant,45,Low,Good,Yes,11054,6.6,7,78,98,116,64,208,38.59,High,High,6,4.35,Normal,No,4.12
+557,26,Female,157,72,Private,Accountant,55,High,Fair,Yes,3283,5.3,8,90,127,122,85,154,29.21,Medium,Medium,2,6.05,Hypertension Stage 1,No,6.31
+558,20,Male,165,58,Private,Accountant,53,High,Good,Yes,5851,4.4,8,79,103,126,77,216,21.3,Low,Low,1,5.77,Elevated,No,5.92
+559,44,Female,189,74,Private,Accountant,60,High,Excellent,No,6345,5.6,5,77,113,135,90,230,20.72,Medium,Low,1,5.35,Hypertension Stage 1,No,5.26
+560,36,Female,178,70,Government,Clerk,42,Low,Excellent,Yes,10224,8.0,7,77,78,124,75,212,22.09,Low,Low,4,4.72,Elevated,No,4.83
+561,44,Male,185,99,Government,Engineer,47,Medium,Good,Yes,12240,7.3,1,71,101,123,67,193,28.93,Medium,Low,4,5.57,Elevated,No,5.3
+562,58,Male,189,89,Government,Civil Servant,35,High,Excellent,Yes,5106,4.2,6,94,130,122,76,216,24.92,High,High,2,5.87,Elevated,No,5.89
+563,36,Male,173,71,Private,Accountant,46,High,Excellent,Yes,2164,5.9,9,82,126,121,80,186,23.72,Medium,Low,0,5.94,Hypertension Stage 1,No,5.78
+564,59,Female,158,97,Private,Manager,58,Low,Fair,Yes,2165,4.0,2,78,107,125,72,174,38.86,High,Medium,1,5.75,Elevated,No,5.97
+565,24,Female,186,80,Government,Clerk,41,Low,Excellent,Yes,14191,6.8,9,71,85,112,60,213,23.12,Medium,Medium,4,4.87,Normal,No,5.14
+566,19,Female,164,78,Government,Teacher,40,Medium,Good,Yes,7355,8.4,2,80,80,106,75,225,29.0,Medium,Medium,2,4.3,Normal,No,4.08
+567,32,Male,181,66,Private,Consultant,46,High,Good,Yes,4633,5.7,1,78,139,126,90,219,20.15,Low,Low,3,6.1,Hypertension Stage 1,No,6.38
+568,64,Male,156,77,Private,Analyst,45,Low,Excellent,No,7655,7.6,3,61,98,127,63,154,31.64,Medium,Medium,2,5.06,Elevated,No,5.06
+569,18,Female,157,77,Private,Engineer,56,Medium,Excellent,Yes,6618,5.6,5,79,113,106,85,228,31.24,Medium,Medium,1,5.86,Hypertension Stage 1,No,5.78
+570,26,Male,183,95,Private,IT Professional,50,Medium,Excellent,Yes,7463,7.4,5,85,82,106,82,162,28.37,Low,Medium,2,4.65,Hypertension Stage 1,No,4.55
+571,32,Female,190,50,Private,Engineer,58,Medium,Fair,Yes,6787,5.8,10,87,95,129,68,221,13.85,Low,Low,2,4.65,Elevated,No,4.75
+572,24,Male,183,87,Private,Analyst,53,Medium,Fair,Yes,7045,5.7,4,68,70,125,67,177,25.98,Low,Low,3,4.11,Elevated,No,4.29
+573,21,Male,182,78,Private,Marketing Specialist,48,Medium,Excellent,Yes,8944,7.7,7,85,100,111,69,216,23.55,Medium,Low,5,4.38,Normal,No,4.13
+574,27,Female,185,78,Private,Engineer,58,High,Good,No,7341,4.9,6,84,137,131,88,177,22.79,High,Low,0,6.19,Hypertension Stage 1,No,6.42
+575,30,Female,173,83,Government,Administrator,40,Low,Good,Yes,9157,7.5,10,63,72,120,68,232,27.73,Medium,Low,2,4.57,Elevated,No,4.3
+576,19,Female,188,90,Private,Sales Executive,48,Medium,Excellent,Yes,5625,7.1,3,85,117,105,64,160,25.46,Low,Medium,6,5.38,Normal,No,5.59
+577,30,Male,171,93,Private,Consultant,50,High,Fair,Yes,6807,5.8,9,70,137,132,88,235,31.8,High,Medium,2,6.24,Hypertension Stage 1,Yes,5.98
+578,35,Male,182,76,Government,Civil Servant,43,Low,Good,Yes,10745,6.4,10,77,75,118,74,161,22.94,Medium,Low,5,4.14,Normal,No,3.89
+579,28,Male,163,90,Government,Teacher,38,High,Excellent,Yes,4521,6.1,3,79,98,132,84,172,33.87,Medium,High,1,4.33,Hypertension Stage 1,Yes,4.37
+580,36,Female,178,66,Government,Engineer,40,Medium,Good,Yes,13569,7.3,1,81,94,104,77,222,20.83,Medium,Medium,3,4.25,Normal,No,4.37
+581,62,Female,155,82,Private,Engineer,53,Medium,Excellent,Yes,2257,6.3,8,67,99,118,70,197,34.13,High,Medium,1,4.68,Normal,No,4.77
+582,28,Female,180,71,Government,Teacher,40,Low,Good,Yes,10018,6.5,3,79,71,114,85,228,21.91,Low,Low,6,4.55,Hypertension Stage 1,Yes,4.6
+583,41,Female,180,93,Private,IT Professional,52,High,Fair,Yes,6153,4.3,5,88,120,138,75,170,28.7,Medium,High,3,5.46,Hypertension Stage 1,No,5.71
+584,26,Male,171,100,Private,Manager,49,Medium,Excellent,Yes,10670,7.4,8,63,112,104,66,172,34.2,Medium,Medium,3,5.27,Normal,No,5.02
+585,41,Male,180,60,Government,Inspector,41,Medium,Good,Yes,8481,8.7,8,85,85,124,63,199,18.52,Low,Medium,5,4.15,Elevated,No,4.31
+586,64,Female,188,75,Private,Consultant,45,Medium,Excellent,Yes,8632,8.7,4,74,93,110,76,150,21.22,High,Medium,3,4.73,Normal,No,4.88
+587,45,Male,171,74,Private,Analyst,54,Low,Good,Yes,5168,5.7,1,63,96,105,65,200,25.31,Medium,Low,3,4.82,Normal,No,5.02
+588,18,Male,170,58,Private,Analyst,45,High,Good,Yes,5982,5.6,7,94,98,129,88,183,20.07,Medium,High,3,4.89,Hypertension Stage 1,No,4.66
+589,52,Female,157,100,Government,Clerk,41,Medium,Good,Yes,6310,6.5,10,71,82,116,79,243,40.57,Medium,Low,4,5.05,Normal,No,5.01
+590,21,Female,166,77,Government,Administrator,35,Medium,Good,Yes,13892,6.8,6,76,71,114,70,188,27.94,Medium,Low,4,4.76,Normal,No,4.82
+591,23,Male,158,96,Government,Inspector,39,Medium,Good,Yes,10658,8.9,4,86,103,118,74,155,38.46,Low,High,6,5.07,Normal,No,4.99
+592,42,Male,171,90,Private,Analyst,50,Medium,Good,Yes,9208,8.2,7,66,120,106,78,183,30.78,Medium,High,2,5.9,Normal,No,5.97
+593,31,Female,167,97,Private,Sales Executive,46,Medium,Fair,Yes,14906,7.2,5,71,70,113,66,152,34.78,Medium,Medium,3,4.94,Normal,Yes,5.03
+594,32,Male,170,64,Government,Administrator,44,Medium,Good,Yes,12547,7.8,6,80,94,115,77,151,22.15,Medium,Low,6,4.41,Normal,No,4.3
+595,52,Male,174,66,Private,Manager,56,High,Good,Yes,2680,4.5,5,79,115,134,89,153,21.8,Medium,Medium,2,5.14,Hypertension Stage 1,No,5.19
+596,36,Female,165,74,Private,Sales Executive,48,Medium,Fair,Yes,6588,7.2,2,81,88,105,65,248,27.18,Medium,Medium,3,4.93,Normal,No,5.07
+597,38,Female,190,56,Private,Consultant,57,Medium,Excellent,No,3844,6.1,8,72,98,105,65,201,15.51,Medium,Medium,3,4.35,Normal,No,4.37
+598,59,Female,176,76,Government,Civil Servant,37,Medium,Fair,Yes,14989,7.9,10,81,116,113,60,191,24.54,Medium,Medium,2,5.55,Normal,Yes,5.35
+599,56,Female,185,82,Private,Sales Executive,52,Medium,Excellent,Yes,3435,5.2,6,67,88,102,60,176,23.96,Medium,Medium,1,4.69,Normal,No,4.67
+600,59,Male,188,71,Private,Sales Executive,47,Medium,Good,No,5112,8.2,9,78,94,102,85,203,20.09,Medium,High,5,5.15,Hypertension Stage 1,No,5.38
+601,46,Female,153,68,Private,IT Professional,59,Medium,Excellent,Yes,5510,6.0,3,71,118,126,78,246,29.05,Medium,Medium,0,5.71,Elevated,No,5.84
+602,34,Male,171,91,Private,Marketing Specialist,60,High,Good,Yes,4004,5.9,5,92,123,130,89,239,31.12,Low,Low,2,5.23,Hypertension Stage 1,No,5.1
+603,54,Female,168,69,Private,Sales Executive,54,Medium,Excellent,Yes,5893,5.8,3,86,114,104,64,227,24.45,Medium,Low,2,5.26,Normal,No,5.19
+604,34,Female,182,97,Private,Analyst,50,Medium,Good,Yes,10639,7.9,9,73,103,111,72,212,29.28,Medium,Medium,6,5.58,Normal,Yes,5.8
+605,32,Female,163,64,Government,Teacher,40,Medium,Excellent,Yes,13172,7.4,9,70,117,106,71,235,24.09,High,Medium,2,5.03,Normal,No,5.11
+606,65,Male,153,78,Private,Accountant,50,Medium,Fair,Yes,9015,6.7,3,64,108,108,77,185,33.32,High,Low,5,5.08,Normal,Yes,4.89
+607,32,Male,187,98,Private,Marketing Specialist,46,Low,Good,Yes,10224,8.4,4,70,77,114,62,210,28.02,Low,Medium,2,4.24,Normal,No,4.27
+608,25,Female,162,87,Private,Marketing Specialist,53,High,Good,Yes,5335,5.5,3,80,127,135,84,232,33.15,Medium,Medium,3,5.94,Hypertension Stage 1,Yes,6.16
+609,29,Female,150,70,Private,Marketing Specialist,50,Medium,Good,Yes,6074,8.3,2,77,91,120,81,218,31.11,Low,Medium,4,4.99,Hypertension Stage 1,No,4.81
+610,48,Male,169,89,Government,Police Officer,38,Low,Fair,Yes,11491,8.4,10,76,80,110,76,210,31.16,High,Medium,3,4.78,Normal,No,4.95
+611,37,Female,159,69,Government,Engineer,40,High,Good,Yes,5684,4.8,7,70,120,121,88,195,27.29,Medium,Low,3,5.58,Hypertension Stage 1,Yes,5.36
+612,60,Female,168,73,Government,Clerk,40,Medium,Good,Yes,14143,7.7,4,82,102,114,68,163,25.86,High,High,3,5.07,Normal,No,4.87
+613,20,Female,181,65,Government,Clerk,35,Low,Good,Yes,10614,6.8,8,64,77,115,64,245,19.84,Medium,Medium,4,4.09,Normal,No,4.38
+614,54,Male,185,55,Private,Consultant,53,Medium,Fair,Yes,6560,5.3,1,67,119,124,62,250,16.07,High,Medium,2,5.63,Elevated,No,5.77
+615,38,Female,164,79,Government,Healthcare Worker,46,Medium,Fair,Yes,9243,6.8,3,66,111,113,73,200,29.37,Medium,Low,2,5.73,Normal,No,5.91
+616,54,Female,152,82,Private,Consultant,60,High,Good,Yes,4315,5.4,2,88,100,137,78,218,35.49,High,Medium,0,4.19,Hypertension Stage 1,Yes,4.2
+617,22,Female,167,79,Private,Sales Executive,47,High,Excellent,Yes,3488,5.6,8,86,139,133,75,201,28.33,Medium,Low,2,6.16,Hypertension Stage 1,Yes,5.86
+618,32,Female,184,79,Private,Accountant,56,High,Excellent,Yes,7856,6.2,4,94,104,126,84,173,23.33,High,Low,1,5.09,Hypertension Stage 1,Yes,5.11
+619,38,Male,163,62,Government,Clerk,38,High,Excellent,Yes,3779,5.9,3,84,102,132,75,206,23.34,Low,Low,0,5.78,Hypertension Stage 1,Yes,5.99
+620,42,Male,155,61,Private,Manager,51,Low,Excellent,No,2985,6.4,6,68,82,106,62,214,25.39,Low,Medium,2,4.43,Normal,No,4.28
+621,24,Female,173,69,Private,Analyst,54,High,Excellent,Yes,3878,6.5,7,85,96,128,85,155,23.05,Medium,Low,0,4.17,Hypertension Stage 1,No,4.02
+622,21,Male,168,73,Private,Sales Executive,50,Medium,Good,Yes,13496,8.9,6,66,120,105,60,213,25.86,Medium,Medium,3,5.18,Normal,Yes,5.12
+623,19,Female,152,97,Private,Analyst,57,Low,Good,No,6902,5.8,3,58,70,111,67,161,41.98,High,Medium,1,4.5,Normal,No,4.24
+624,56,Male,169,80,Private,Engineer,56,Low,Good,Yes,7026,5.7,8,70,117,126,78,175,28.01,High,Low,0,5.11,Elevated,No,5.12
+625,36,Male,165,64,Government,Administrator,42,Low,Fair,Yes,14679,7.6,5,79,78,110,73,197,23.51,High,Low,6,4.79,Normal,No,4.84
+626,21,Male,161,50,Government,Civil Servant,38,High,Excellent,Yes,3326,5.0,10,85,125,131,81,230,19.29,Low,High,0,5.78,Hypertension Stage 1,Yes,6.06
+627,46,Male,167,91,Private,Consultant,50,Medium,Excellent,Yes,9182,7.0,9,77,112,103,81,193,32.63,High,Medium,5,5.69,Hypertension Stage 1,Yes,5.55
+628,47,Male,157,85,Private,Sales Executive,54,High,Good,Yes,5707,5.1,9,75,120,136,81,168,34.48,Low,High,0,5.76,Hypertension Stage 1,Yes,5.59
+629,51,Male,184,73,Private,Sales Executive,48,Medium,Good,Yes,7713,7.9,4,87,115,104,77,228,21.56,Low,High,6,5.38,Normal,No,5.2
+630,44,Female,179,70,Government,Administrator,39,Low,Fair,Yes,14105,8.0,10,74,74,101,84,202,21.85,Low,High,3,4.17,Hypertension Stage 1,No,4.16
+631,43,Male,176,75,Private,Accountant,47,High,Excellent,Yes,3853,6.4,3,82,102,138,79,176,24.21,Medium,Low,2,5.4,Hypertension Stage 1,Yes,5.5
+632,58,Female,164,92,Private,Manager,59,Medium,Fair,Yes,3258,4.2,5,64,94,126,68,164,34.21,Low,High,2,4.75,Elevated,No,4.71
+633,51,Male,155,96,Private,Consultant,60,Medium,Good,Yes,7747,6.4,1,83,76,127,84,185,39.96,High,Medium,3,5.01,Hypertension Stage 1,Yes,5.15
+634,40,Male,150,56,Private,Marketing Specialist,60,Medium,Good,Yes,3813,5.5,2,87,115,115,77,227,24.89,Medium,High,2,5.75,Normal,No,5.68
+635,59,Male,186,56,Government,Healthcare Worker,45,Low,Good,Yes,14892,7.3,1,66,111,125,74,208,16.19,High,High,5,5.52,Elevated,No,5.53
+636,60,Male,163,86,Government,Engineer,41,Low,Excellent,Yes,5464,8.2,6,76,92,111,67,185,32.37,Medium,High,4,4.54,Normal,No,4.27
+637,31,Female,175,98,Government,Police Officer,48,High,Good,Yes,2728,4.8,6,79,101,122,87,190,32.0,High,Medium,1,5.56,Hypertension Stage 1,Yes,5.64
+638,39,Female,173,98,Government,Police Officer,36,Low,Good,Yes,8109,7.7,9,64,118,117,77,172,32.74,Low,Low,6,5.36,Normal,No,5.48
+639,43,Female,159,95,Government,Engineer,41,Low,Excellent,Yes,6697,8.5,10,73,75,110,67,206,37.58,Low,High,4,4.99,Normal,No,4.84
+640,62,Male,165,64,Private,Accountant,54,Low,Fair,No,3996,6.4,8,68,105,117,78,174,23.51,Medium,Medium,3,5.37,Normal,No,5.58
+641,63,Female,166,77,Government,Healthcare Worker,40,Low,Excellent,Yes,6262,8.9,6,77,85,125,77,224,27.94,High,Medium,3,4.15,Elevated,No,4.44
+642,56,Male,172,95,Private,Accountant,46,Medium,Fair,Yes,12540,7.9,10,76,74,130,65,152,32.11,Low,Medium,5,4.67,Hypertension Stage 1,No,4.71
+643,22,Female,186,66,Private,IT Professional,60,High,Good,Yes,5529,5.8,7,76,137,134,84,218,19.08,Low,Medium,1,6.26,Hypertension Stage 1,No,6.14
+644,61,Female,150,89,Government,Engineer,47,Medium,Excellent,Yes,6163,7.8,7,86,80,123,66,181,39.56,High,High,6,5.18,Elevated,No,5.34
+645,64,Male,171,55,Government,Clerk,45,Medium,Excellent,Yes,11347,8.4,8,67,91,105,63,189,18.81,High,Medium,5,4.43,Normal,No,4.55
+646,32,Female,190,55,Government,Teacher,35,Medium,Excellent,Yes,14931,6.2,1,84,93,103,65,150,15.24,Low,Low,6,5.16,Normal,No,5.18
+647,54,Female,154,61,Government,Inspector,38,Low,Excellent,Yes,10656,6.3,10,66,106,105,74,240,25.72,Medium,High,3,5.76,Normal,No,5.92
+648,52,Male,169,68,Government,Police Officer,37,Medium,Good,Yes,6633,7.5,3,82,91,130,74,234,23.81,Medium,Low,6,4.66,Hypertension Stage 1,Yes,4.59
+649,41,Male,165,81,Government,Clerk,35,Low,Good,Yes,12871,8.4,2,71,75,121,80,191,29.75,Medium,Medium,6,5.09,Hypertension Stage 1,Yes,5.13
+650,36,Female,158,78,Private,Engineer,58,High,Excellent,Yes,5311,5.1,8,70,126,123,85,221,31.24,Medium,High,0,6.09,Hypertension Stage 1,Yes,6.02
+651,20,Male,155,69,Private,Sales Executive,46,High,Good,Yes,6376,4.1,7,76,117,137,76,237,28.72,Medium,Low,2,5.79,Hypertension Stage 1,No,5.93
+652,24,Female,161,64,Private,Manager,60,High,Excellent,Yes,3693,5.4,1,82,108,123,84,150,24.69,High,Low,0,5.81,Hypertension Stage 1,Yes,5.91
+653,43,Male,159,59,Private,Engineer,58,High,Fair,Yes,7573,5.4,4,90,112,133,75,203,23.34,Medium,Low,2,5.74,Hypertension Stage 1,Yes,5.67
+654,62,Female,152,94,Private,Sales Executive,52,High,Fair,Yes,2577,5.6,3,95,126,122,80,218,40.69,Medium,Medium,0,5.96,Hypertension Stage 1,No,6.23
+655,36,Female,156,98,Government,Healthcare Worker,43,High,Excellent,Yes,6079,4.5,8,85,101,123,82,154,40.27,High,High,0,5.75,Hypertension Stage 1,Yes,5.56
+656,46,Male,178,88,Private,Accountant,55,High,Good,Yes,2358,5.4,6,78,106,131,89,175,27.77,Medium,High,1,5.81,Hypertension Stage 1,No,5.54
+657,39,Female,151,78,Government,Healthcare Worker,39,Medium,Excellent,Yes,14123,6.5,6,64,77,121,62,202,34.21,High,High,6,4.62,Elevated,Yes,4.33
+658,24,Male,150,74,Government,Civil Servant,47,High,Good,Yes,6644,4.3,1,88,129,122,75,233,32.89,Medium,Medium,1,6.36,Elevated,No,6.35
+659,65,Male,181,89,Government,Inspector,37,Medium,Good,Yes,12441,7.6,4,67,88,120,83,172,27.17,Medium,Low,4,5.16,Hypertension Stage 1,Yes,5.09
+660,37,Male,152,79,Private,Accountant,49,High,Good,Yes,7132,4.9,7,83,124,134,89,199,34.19,Medium,Low,3,5.42,Hypertension Stage 1,No,5.32
+661,54,Male,189,73,Private,Analyst,54,Medium,Fair,Yes,3749,5.0,2,80,111,114,69,249,20.44,Low,Medium,3,5.78,Normal,No,5.73
+662,45,Male,178,51,Private,Analyst,50,Medium,Fair,Yes,9478,9.0,3,83,95,118,85,175,16.1,Low,Medium,6,4.18,Hypertension Stage 1,No,4.07
+663,57,Male,156,100,Government,Civil Servant,48,Low,Fair,Yes,5864,7.0,6,66,82,123,64,177,41.09,Medium,Medium,2,4.37,Elevated,No,4.11
+664,39,Male,168,69,Government,Police Officer,37,High,Good,Yes,3337,5.0,3,87,130,140,90,239,24.45,High,High,3,6.49,Hypertension Stage 2,Yes,6.6
+665,46,Male,152,58,Private,Marketing Specialist,50,Medium,Fair,No,5326,7.8,8,81,106,105,74,152,25.1,Medium,Medium,4,5.87,Normal,Yes,6.14
+666,26,Female,175,59,Government,Healthcare Worker,40,High,Fair,Yes,4394,5.8,6,89,126,120,88,171,19.27,Medium,High,0,5.99,Hypertension Stage 1,Yes,5.84
+667,38,Male,153,91,Government,Administrator,41,Low,Excellent,Yes,10529,6.1,2,65,105,101,64,229,38.87,Medium,Low,5,5.01,Normal,No,5.05
+668,62,Female,174,71,Government,Clerk,40,Medium,Excellent,Yes,7168,8.8,9,69,101,109,68,160,23.45,Low,Medium,4,5.82,Normal,No,6.07
+669,25,Male,158,98,Government,Teacher,36,Low,Good,Yes,7523,7.7,2,57,70,123,60,244,39.26,Medium,Low,3,4.97,Elevated,No,5.19
+670,47,Female,156,89,Government,Police Officer,46,Low,Excellent,Yes,6329,6.6,1,68,120,121,67,176,36.57,Medium,Medium,2,5.04,Elevated,No,4.79
+671,49,Male,180,68,Private,IT Professional,45,Medium,Fair,Yes,6303,6.5,5,67,104,118,66,239,20.99,Low,Medium,3,5.11,Normal,No,5.27
+672,55,Female,188,76,Private,Engineer,53,Medium,Fair,Yes,4824,5.8,5,72,118,105,62,157,21.5,High,Medium,0,5.06,Normal,No,4.97
+673,63,Female,150,97,Private,Consultant,56,Medium,Good,Yes,7718,5.7,10,71,116,126,70,207,43.11,Medium,Medium,0,5.32,Elevated,No,5.51
+674,32,Male,152,94,Government,Inspector,40,High,Excellent,Yes,5303,5.2,8,74,104,132,88,153,40.69,Medium,High,3,5.79,Hypertension Stage 1,Yes,5.96
+675,45,Male,159,87,Private,Accountant,57,Low,Good,Yes,5868,4.4,4,55,101,112,65,188,34.41,Medium,Low,2,5.75,Normal,No,5.96
+676,28,Female,153,72,Private,Manager,60,High,Good,Yes,6979,4.7,9,85,108,133,90,151,30.76,Medium,Medium,1,5.86,Hypertension Stage 1,No,5.94
+677,51,Female,171,96,Government,Police Officer,42,Low,Fair,Yes,6034,6.1,7,62,83,130,70,238,32.83,Medium,High,4,4.28,Hypertension Stage 1,No,4.5
+678,53,Female,186,100,Government,Healthcare Worker,40,High,Good,Yes,7182,5.4,10,89,110,127,90,222,28.91,Medium,Low,1,5.42,Hypertension Stage 1,Yes,5.13
+679,23,Female,179,88,Private,Engineer,57,Low,Good,Yes,3582,6.0,3,66,119,101,75,181,27.46,Medium,Medium,2,5.2,Normal,No,4.9
+680,49,Female,188,84,Government,Healthcare Worker,44,High,Excellent,Yes,6956,4.3,4,86,127,129,82,198,23.77,Low,Low,0,6.04,Hypertension Stage 1,Yes,6.23
+681,59,Female,155,73,Private,Sales Executive,57,Medium,Fair,Yes,6548,4.4,6,66,87,114,68,175,30.39,Low,Low,3,4.85,Normal,No,4.82
+682,53,Female,173,59,Government,Clerk,45,Medium,Good,Yes,12114,7.9,3,73,109,126,84,154,19.71,High,Low,5,5.58,Hypertension Stage 1,No,5.47
+683,63,Male,181,54,Private,Sales Executive,50,Low,Fair,Yes,8850,6.3,6,65,75,113,70,246,16.48,Low,Medium,4,4.08,Normal,No,4.02
+684,23,Male,178,60,Government,Administrator,35,Low,Excellent,Yes,14137,6.1,8,56,72,107,84,179,18.94,Low,Low,3,5.14,Hypertension Stage 1,Yes,5.41
+685,43,Male,182,98,Government,Civil Servant,46,Medium,Good,Yes,11798,7.7,4,81,72,106,67,224,29.59,Low,Medium,2,4.59,Normal,No,4.5
+686,43,Male,159,84,Government,Administrator,40,Low,Fair,Yes,13370,7.2,10,63,91,106,70,183,33.23,Medium,Medium,3,4.47,Normal,No,4.56
+687,43,Male,161,57,Government,Teacher,48,Medium,Good,Yes,8368,6.6,5,85,113,106,78,188,21.99,Medium,Medium,6,5.32,Normal,No,5.05
+688,50,Male,169,50,Government,Police Officer,38,High,Fair,Yes,6092,6.4,6,84,120,139,80,212,17.51,Medium,Medium,3,5.43,Hypertension Stage 1,Yes,5.49
+689,24,Male,151,89,Government,Civil Servant,35,High,Excellent,Yes,4485,5.1,2,71,118,126,81,204,39.03,Medium,Medium,1,5.67,Hypertension Stage 1,Yes,5.59
+690,25,Female,159,66,Private,Accountant,45,Low,Fair,Yes,12807,6.5,2,78,85,114,78,238,26.11,Medium,Medium,2,4.67,Normal,Yes,4.53
+691,61,Female,151,52,Private,Marketing Specialist,45,Medium,Excellent,Yes,14449,8.7,5,85,88,123,75,175,22.81,Medium,High,2,4.96,Elevated,Yes,4.67
+692,59,Male,186,77,Private,Marketing Specialist,46,High,Good,Yes,4347,4.9,8,85,129,125,86,234,22.26,Medium,Medium,2,6.42,Hypertension Stage 1,No,6.56
+693,41,Female,172,99,Government,Inspector,41,Medium,Excellent,Yes,10903,8.9,10,71,78,110,71,232,33.46,High,Low,2,4.56,Normal,No,4.71
+694,58,Male,188,71,Private,Sales Executive,49,High,Excellent,Yes,3686,6.1,2,83,102,136,76,216,20.09,High,Medium,3,5.09,Hypertension Stage 1,No,4.79
+695,39,Female,157,70,Private,Consultant,57,Medium,Fair,No,6285,5.6,4,81,92,123,73,238,28.4,Medium,Medium,3,4.9,Elevated,No,4.66
+696,18,Male,181,59,Private,Engineer,57,Medium,Good,Yes,4481,6.1,4,63,71,100,69,165,18.01,Medium,Low,0,4.25,Normal,No,4.45
+697,60,Female,150,94,Private,Consultant,51,Medium,Fair,Yes,4488,5.1,10,81,72,121,75,154,41.78,Medium,Medium,3,4.6,Elevated,No,4.51
+698,45,Female,181,51,Government,Inspector,36,Medium,Fair,Yes,12780,6.8,2,70,116,126,82,230,15.57,Medium,Low,2,5.83,Hypertension Stage 1,Yes,5.8
+699,37,Female,163,89,Private,IT Professional,45,High,Good,No,6147,5.1,8,78,139,138,87,218,33.5,Medium,Medium,1,6.22,Hypertension Stage 1,Yes,5.95
+700,28,Male,168,88,Government,Teacher,48,Medium,Excellent,Yes,6258,6.6,4,63,94,124,83,233,31.18,Low,Low,5,5.09,Hypertension Stage 1,Yes,5.25
+701,49,Male,178,94,Private,Manager,49,Low,Good,Yes,7162,8.2,10,55,98,115,71,239,29.67,Medium,Medium,6,4.52,Normal,Yes,4.65
+702,45,Female,154,54,Government,Engineer,43,Medium,Excellent,Yes,8985,8.7,2,63,80,102,78,173,22.77,High,Medium,3,4.8,Normal,Yes,4.77
+703,60,Male,187,76,Government,Civil Servant,37,Low,Good,Yes,9920,6.4,1,66,73,116,85,151,21.73,Medium,Low,5,4.14,Hypertension Stage 1,Yes,4.24
+704,33,Female,163,62,Private,Marketing Specialist,48,Medium,Good,Yes,7824,7.2,2,67,112,104,76,168,23.34,Medium,High,6,5.78,Normal,No,5.52
+705,58,Female,164,66,Private,Analyst,55,Low,Good,No,5232,4.1,7,69,108,126,67,245,24.54,High,Medium,2,5.82,Elevated,No,5.81
+706,33,Female,181,99,Government,Civil Servant,43,Medium,Good,Yes,6390,8.1,1,74,87,112,68,209,30.22,Medium,High,3,4.78,Normal,No,5.07
+707,48,Female,174,98,Private,Sales Executive,47,Medium,Good,No,13022,8.9,9,82,110,102,68,230,32.37,Medium,Medium,6,5.24,Normal,No,5.1
+708,54,Male,172,69,Government,Engineer,41,Medium,Good,Yes,9563,6.8,4,87,109,128,85,167,23.32,Low,Medium,5,5.72,Hypertension Stage 1,Yes,5.83
+709,31,Female,187,83,Government,Administrator,38,Medium,Excellent,Yes,14799,8.4,3,83,101,111,67,200,23.74,Medium,Medium,4,5.44,Normal,No,5.3
+710,34,Male,174,85,Private,IT Professional,53,Low,Good,Yes,6055,5.1,9,73,96,106,68,156,28.08,Medium,Low,2,5.18,Normal,No,5.26
+711,25,Female,153,52,Private,Engineer,53,Low,Excellent,Yes,3043,6.0,4,56,112,118,61,151,22.21,Medium,Low,3,5.1,Normal,No,5.39
+712,35,Female,165,59,Government,Engineer,37,Medium,Good,Yes,11279,6.6,1,68,75,118,83,228,21.67,Low,Low,6,5.17,Hypertension Stage 1,Yes,5.03
+713,47,Male,161,64,Government,Civil Servant,39,Low,Good,Yes,12130,7.7,7,69,83,107,63,160,24.69,Low,Medium,6,4.49,Normal,No,4.46
+714,19,Female,163,93,Private,Consultant,60,Medium,Excellent,Yes,6157,5.5,10,69,93,104,82,159,35.0,Medium,High,3,4.72,Hypertension Stage 1,Yes,4.84
+715,33,Female,164,74,Private,Marketing Specialist,52,High,Good,Yes,7287,5.7,1,82,131,131,86,198,27.51,Medium,Medium,3,5.72,Hypertension Stage 1,Yes,5.68
+716,34,Female,160,60,Government,Healthcare Worker,41,High,Good,Yes,4986,4.1,2,92,105,122,76,182,23.44,Low,Low,1,5.07,Elevated,No,5.33
+717,29,Male,176,69,Government,Teacher,36,Low,Excellent,Yes,5854,7.7,5,72,100,130,73,171,22.28,Low,Medium,3,4.28,Hypertension Stage 1,Yes,4.46
+718,29,Male,179,85,Private,Sales Executive,50,Low,Excellent,Yes,9024,8.4,3,79,87,116,60,214,26.53,Low,Low,4,4.61,Normal,No,4.34
+719,41,Female,179,65,Private,Manager,50,High,Fair,No,7243,5.5,2,82,103,120,84,208,20.29,Medium,Medium,0,5.48,Hypertension Stage 1,Yes,5.47
+720,59,Female,188,86,Private,Analyst,58,High,Good,Yes,3367,5.3,3,95,97,126,77,226,24.33,Low,High,3,5.19,Elevated,Yes,5.4
+721,49,Male,151,63,Private,Sales Executive,49,Medium,Good,Yes,9947,7.2,1,70,98,108,75,201,27.63,Medium,Medium,3,4.56,Normal,No,4.54
+722,58,Male,168,73,Government,Inspector,45,High,Excellent,Yes,5550,4.2,6,86,130,135,76,211,25.86,Medium,Medium,2,5.75,Hypertension Stage 1,Yes,5.65
+723,65,Female,153,51,Private,Consultant,57,Low,Good,Yes,4736,6.0,6,74,90,109,71,156,21.79,High,High,3,4.96,Normal,No,5.01
+724,53,Male,159,74,Government,Inspector,45,Medium,Good,Yes,9376,6.4,2,82,94,108,72,178,29.27,High,Low,3,4.05,Normal,No,3.93
+725,27,Female,185,86,Government,Healthcare Worker,36,Low,Good,Yes,7677,8.6,8,80,74,107,74,171,25.13,Low,Medium,4,5.11,Normal,No,5.11
+726,41,Female,166,86,Private,Consultant,55,High,Fair,Yes,6314,4.4,10,94,110,127,75,205,31.21,Medium,Medium,2,5.44,Elevated,No,5.34
+727,37,Female,156,59,Private,Accountant,52,High,Fair,Yes,5803,6.3,9,86,118,133,87,203,24.24,Low,Medium,0,5.51,Hypertension Stage 1,No,5.39
+728,21,Female,175,77,Government,Inspector,40,High,Excellent,Yes,5034,4.3,8,85,120,138,81,201,25.14,Low,Medium,1,5.39,Hypertension Stage 1,Yes,5.23
+729,55,Female,155,56,Government,Civil Servant,41,Low,Good,Yes,13071,8.7,1,55,100,105,61,167,23.31,Medium,High,3,4.35,Normal,No,4.56
+730,23,Male,160,69,Government,Civil Servant,36,High,Excellent,Yes,2323,5.5,3,82,126,123,83,225,26.95,Low,Medium,1,5.93,Hypertension Stage 1,Yes,6.13
+731,34,Male,182,56,Private,Accountant,46,High,Fair,No,5222,6.1,8,95,123,131,84,187,16.91,Low,High,1,5.59,Hypertension Stage 1,No,5.78
+732,31,Male,179,59,Private,IT Professional,48,Low,Good,No,7419,6.3,3,59,116,102,69,248,18.41,Low,Low,5,5.3,Normal,No,5.19
+733,60,Female,163,80,Private,Consultant,51,Low,Excellent,Yes,4826,4.2,5,67,81,126,75,209,30.11,High,Medium,0,4.79,Elevated,No,4.73
+734,45,Female,186,94,Government,Police Officer,41,High,Good,Yes,2763,5.2,3,71,103,127,90,185,27.17,Medium,Medium,2,5.82,Hypertension Stage 1,No,5.95
+735,57,Female,171,50,Government,Healthcare Worker,40,Low,Good,Yes,13273,6.8,9,73,109,129,79,175,17.1,High,Medium,5,5.39,Elevated,No,5.66
+736,52,Female,152,68,Government,Clerk,47,Medium,Good,Yes,6028,7.4,8,82,106,107,70,225,29.43,High,High,5,5.2,Normal,No,5.06
+737,55,Female,175,66,Government,Healthcare Worker,48,Low,Good,Yes,12360,6.7,7,56,74,125,85,185,21.55,High,Low,2,4.64,Hypertension Stage 1,No,4.88
+738,58,Female,188,92,Government,Healthcare Worker,43,Medium,Excellent,Yes,9711,8.3,7,80,116,110,65,219,26.03,Medium,Medium,3,5.59,Normal,No,5.3
+739,24,Male,166,60,Private,Engineer,58,Medium,Fair,Yes,3671,5.8,2,87,88,109,77,238,21.77,High,Medium,2,4.66,Normal,No,4.4
+740,35,Male,157,98,Private,Manager,59,Medium,Fair,Yes,6184,4.3,2,74,120,102,71,172,39.76,High,High,2,5.35,Normal,No,5.16
+741,23,Male,160,59,Government,Healthcare Worker,47,Medium,Good,Yes,10757,6.1,7,66,102,124,85,201,23.05,Medium,Medium,5,5.19,Hypertension Stage 1,Yes,5.0
+742,65,Male,181,85,Private,Analyst,56,Medium,Fair,No,3631,6.2,8,69,70,118,71,152,25.95,Medium,Medium,0,5.19,Normal,No,5.45
+743,23,Male,156,88,Private,Manager,60,Medium,Excellent,No,6049,5.4,2,82,72,125,80,190,36.16,Medium,Low,2,4.3,Hypertension Stage 1,No,4.32
+744,26,Female,174,59,Government,Clerk,43,High,Good,Yes,4980,4.2,5,83,96,120,84,191,19.49,Low,Medium,2,4.22,Hypertension Stage 1,Yes,3.98
+745,25,Male,166,99,Government,Teacher,38,Low,Fair,Yes,14539,8.4,1,63,89,126,84,220,35.93,Low,High,3,4.91,Hypertension Stage 1,No,5.16
+746,52,Female,185,92,Government,Clerk,35,Medium,Good,Yes,10110,8.8,2,84,91,108,83,156,26.88,High,Low,5,4.16,Hypertension Stage 1,Yes,3.92
+747,41,Female,184,56,Government,Healthcare Worker,37,Low,Good,Yes,8033,7.9,2,75,71,115,66,243,16.54,High,Medium,6,4.85,Normal,No,4.65
+748,18,Female,186,100,Private,Accountant,52,Medium,Good,No,2486,5.1,4,79,88,111,64,201,28.91,Medium,Low,3,5.17,Normal,No,5.12
+749,34,Female,150,57,Private,Accountant,49,High,Excellent,No,6723,4.5,4,74,140,121,82,181,25.33,Medium,Low,0,6.3,Hypertension Stage 1,No,6.44
+750,59,Male,157,94,Government,Teacher,42,Low,Excellent,Yes,7365,6.4,6,65,96,112,81,216,38.14,Medium,Medium,2,4.82,Hypertension Stage 1,Yes,4.79
+751,60,Male,181,81,Private,Analyst,45,Low,Good,Yes,12099,7.4,1,78,99,116,69,176,24.72,Low,Medium,2,4.5,Normal,No,4.73
+752,51,Male,187,79,Government,Healthcare Worker,46,Medium,Fair,Yes,9515,8.5,5,68,100,107,74,167,22.59,Medium,Medium,5,4.02,Normal,No,3.86
+753,27,Male,167,96,Government,Administrator,39,Medium,Fair,Yes,13462,8.4,1,65,106,130,63,180,34.42,Medium,High,5,5.81,Hypertension Stage 1,No,5.66
+754,54,Male,190,81,Private,IT Professional,45,Low,Good,Yes,10363,8.3,7,73,91,100,75,174,22.44,High,Medium,6,4.22,Normal,No,4.36
+755,43,Female,156,74,Private,Accountant,55,High,Good,Yes,2375,6.1,8,94,110,137,85,213,30.41,Low,Low,2,5.2,Hypertension Stage 1,Yes,5.47
+756,20,Male,179,76,Private,Manager,59,Low,Fair,No,7885,4.3,4,66,76,101,68,151,23.72,High,Medium,1,5.1,Normal,Yes,5.05
+757,33,Male,155,66,Private,Accountant,53,Low,Good,Yes,6432,4.4,8,61,120,113,70,162,27.47,High,Low,0,5.08,Normal,No,5.13
+758,46,Male,151,97,Government,Civil Servant,38,Medium,Excellent,Yes,7819,8.5,1,86,81,106,66,175,42.54,Medium,Medium,3,4.16,Normal,No,4.14
+759,64,Male,173,90,Private,Engineer,58,High,Fair,Yes,3260,5.7,8,82,95,125,86,154,30.07,High,Low,1,4.64,Hypertension Stage 1,Yes,4.75
+760,24,Female,164,94,Private,Engineer,55,High,Fair,Yes,5711,4.4,8,83,106,139,89,185,34.95,High,High,1,5.28,Hypertension Stage 1,Yes,5.34
+761,52,Female,155,87,Government,Police Officer,38,High,Fair,Yes,7736,5.3,9,85,120,140,79,156,36.21,Medium,Low,0,5.47,Hypertension Stage 1,Yes,5.49
+762,56,Male,165,84,Private,Consultant,47,Medium,Excellent,Yes,9254,6.8,3,68,72,113,75,176,30.85,Medium,Low,6,4.17,Normal,No,4.34
+763,58,Male,170,79,Government,Administrator,40,High,Excellent,Yes,2245,4.1,1,94,137,120,75,160,27.34,High,Medium,0,5.96,Elevated,No,6.11
+764,24,Female,184,91,Government,Civil Servant,40,Medium,Good,Yes,10125,7.1,9,83,88,124,69,183,26.88,Low,Medium,2,4.19,Elevated,No,4.22
+765,51,Male,159,61,Private,Engineer,46,Medium,Good,Yes,10146,7.1,9,76,99,100,61,226,24.13,High,Medium,2,4.06,Normal,No,4.16
+766,35,Male,175,74,Private,Accountant,53,Medium,Good,Yes,6191,4.6,6,84,73,111,69,171,24.16,Low,Medium,2,4.94,Normal,No,4.87
+767,44,Female,189,72,Private,IT Professional,50,High,Fair,Yes,3030,4.2,1,73,120,128,78,221,20.16,Low,Medium,2,5.82,Elevated,No,5.96
+768,48,Female,165,83,Government,Healthcare Worker,36,Medium,Good,Yes,11548,6.8,2,67,114,112,79,236,30.49,Medium,Medium,3,5.27,Normal,No,5.07
+769,28,Male,165,76,Private,Sales Executive,58,Medium,Good,Yes,3752,4.3,2,77,72,126,72,187,27.92,Low,High,2,5.13,Elevated,No,5.21
+770,29,Female,164,96,Private,Consultant,50,Medium,Fair,Yes,9814,6.6,2,78,94,109,73,185,35.69,High,Medium,2,5.04,Normal,No,5.05
+771,24,Female,165,85,Private,Sales Executive,53,High,Excellent,Yes,4716,5.8,8,89,139,121,85,154,31.22,High,Medium,1,5.93,Hypertension Stage 1,No,6.01
+772,40,Male,183,66,Private,Manager,52,Medium,Excellent,Yes,3158,6.0,2,85,108,114,76,209,19.71,Medium,Medium,0,5.65,Normal,No,5.82
+773,30,Female,163,58,Private,Consultant,46,High,Fair,Yes,5331,6.1,2,94,134,136,90,247,21.83,Low,High,0,6.47,Hypertension Stage 1,No,6.76
+774,51,Male,150,61,Government,Civil Servant,35,High,Good,Yes,6801,4.3,2,87,103,139,75,181,27.11,Medium,Medium,3,5.62,Hypertension Stage 1,No,5.52
+775,56,Male,176,50,Private,Accountant,56,Medium,Excellent,Yes,3097,6.2,5,82,74,125,63,217,16.14,Low,Medium,0,4.77,Elevated,No,4.82
+776,19,Male,176,62,Government,Police Officer,44,High,Good,Yes,6931,5.3,4,84,112,130,85,203,20.02,Low,Medium,0,5.07,Hypertension Stage 1,Yes,4.92
+777,52,Female,152,73,Private,Consultant,57,Medium,Fair,Yes,5511,5.1,9,85,76,103,83,166,31.6,High,High,0,4.51,Hypertension Stage 1,No,4.72
+778,41,Female,175,88,Government,Civil Servant,45,Low,Good,Yes,12465,6.2,2,60,119,106,68,193,28.73,Medium,Low,3,5.32,Normal,No,5.51
+779,49,Female,185,91,Private,Accountant,53,High,Fair,No,4378,5.9,2,77,114,137,75,217,26.59,Medium,Low,0,5.89,Hypertension Stage 1,No,6.06
+780,51,Male,176,52,Government,Engineer,36,Medium,Excellent,Yes,5874,6.3,8,85,114,100,79,156,16.79,Medium,Low,4,5.46,Normal,No,5.76
+781,19,Female,166,87,Private,Analyst,58,High,Good,No,7115,5.4,5,87,136,139,89,161,31.57,Medium,Medium,3,6.41,Hypertension Stage 1,Yes,6.29
+782,39,Male,168,51,Private,Engineer,51,Medium,Excellent,Yes,3434,6.2,3,87,84,109,84,168,18.07,Medium,High,0,4.93,Hypertension Stage 1,Yes,4.89
+783,53,Female,159,75,Private,Marketing Specialist,45,High,Fair,Yes,7258,5.1,5,87,109,136,82,191,29.67,Medium,Medium,1,5.6,Hypertension Stage 1,No,5.66
+784,19,Female,150,72,Private,Manager,58,High,Good,Yes,4796,4.1,7,88,117,137,79,205,32.0,Medium,Medium,1,5.59,Hypertension Stage 1,No,5.35
+785,31,Male,185,80,Private,Manager,49,High,Good,Yes,3558,6.0,10,80,102,128,81,249,23.37,Low,Medium,2,5.24,Hypertension Stage 1,No,5.26
+786,20,Male,160,80,Private,IT Professional,58,Low,Good,No,6918,5.0,2,56,77,126,84,199,31.25,Medium,High,3,4.6,Hypertension Stage 1,No,4.35
+787,21,Male,174,83,Government,Administrator,45,Low,Good,Yes,14937,6.2,1,69,96,124,65,230,27.41,High,Medium,4,4.63,Elevated,Yes,4.85
+788,41,Male,190,67,Government,Inspector,44,Medium,Excellent,Yes,9612,7.2,8,67,116,112,84,202,18.56,Medium,Medium,2,5.6,Hypertension Stage 1,No,5.66
+789,64,Female,174,53,Private,Manager,53,High,Fair,Yes,2186,5.0,2,76,107,126,89,179,17.51,High,Medium,2,5.08,Hypertension Stage 1,No,4.86
+790,43,Male,179,84,Private,Marketing Specialist,50,Low,Good,Yes,6665,6.2,1,67,77,107,84,204,26.22,Medium,Low,3,4.29,Hypertension Stage 1,Yes,4.3
+791,25,Male,163,78,Government,Administrator,44,Low,Fair,Yes,5805,8.2,10,65,73,104,72,187,29.36,Low,Low,3,4.61,Normal,No,4.89
+792,31,Female,156,75,Private,Manager,59,High,Excellent,Yes,6093,5.7,3,72,95,125,77,212,30.82,High,Low,1,5.07,Elevated,No,5.12
+793,28,Female,181,100,Private,Marketing Specialist,58,Medium,Fair,Yes,3897,6.2,2,79,81,117,81,190,30.52,Medium,Medium,1,4.49,Hypertension Stage 1,No,4.39
+794,52,Female,175,93,Private,Manager,46,Medium,Excellent,Yes,11597,8.6,4,75,103,124,85,168,30.37,High,Medium,5,5.77,Hypertension Stage 1,Yes,5.48
+795,32,Female,170,93,Government,Clerk,45,Medium,Excellent,Yes,10997,6.0,9,77,76,121,68,201,32.18,Medium,High,4,4.68,Elevated,No,4.82
+796,26,Female,186,75,Private,IT Professional,53,Medium,Fair,Yes,3926,5.1,9,63,80,104,61,192,21.68,Medium,Low,2,4.96,Normal,No,5.23
+797,63,Female,182,68,Private,Engineer,55,High,Excellent,No,6994,5.3,2,79,117,134,89,246,20.53,Medium,Medium,0,5.82,Hypertension Stage 1,Yes,5.94
+798,42,Female,162,84,Private,Sales Executive,59,Low,Good,No,4251,5.0,10,57,116,120,81,209,32.01,Medium,Low,0,5.45,Hypertension Stage 1,No,5.47
+799,63,Male,158,70,Private,Accountant,46,Medium,Good,No,13718,7.0,1,75,111,105,81,230,28.04,Medium,High,6,5.71,Hypertension Stage 1,No,5.63
+800,42,Female,189,71,Private,IT Professional,48,Low,Excellent,Yes,7751,6.8,3,79,117,110,71,184,19.88,Medium,Medium,6,5.23,Normal,No,5.49
+801,36,Male,190,65,Private,Sales Executive,53,High,Good,Yes,5206,6.1,4,87,131,123,85,201,18.01,Medium,Medium,1,5.83,Hypertension Stage 1,No,5.58
+802,48,Male,171,74,Government,Police Officer,44,Medium,Good,Yes,8631,8.6,6,79,108,125,81,197,25.31,High,Low,3,5.09,Hypertension Stage 1,Yes,5.31
+803,19,Female,183,66,Private,Consultant,55,Low,Excellent,No,5995,5.9,5,62,70,106,69,230,19.71,Medium,Medium,2,4.75,Normal,No,4.98
+804,56,Female,160,53,Government,Engineer,39,Medium,Good,Yes,5617,6.3,4,75,89,102,70,187,20.7,Medium,Low,4,4.54,Normal,No,4.44
+805,31,Female,180,96,Private,Manager,58,Medium,Excellent,Yes,5664,6.1,1,82,87,130,64,239,29.63,Low,Medium,0,5.04,Hypertension Stage 1,Yes,5.22
+806,42,Male,187,83,Private,IT Professional,49,High,Fair,Yes,5915,4.0,3,77,127,136,86,201,23.74,Medium,Medium,2,5.83,Hypertension Stage 1,Yes,5.61
+807,38,Female,178,84,Private,Engineer,49,High,Excellent,Yes,6036,5.8,5,87,135,130,88,196,26.51,Medium,Medium,2,6.34,Hypertension Stage 1,No,6.23
+808,25,Male,177,71,Government,Civil Servant,35,High,Good,Yes,3277,6.0,4,88,136,127,77,180,22.66,Medium,Medium,2,5.8,Elevated,No,6.03
+809,22,Male,150,70,Government,Civil Servant,45,Medium,Excellent,Yes,11974,7.7,2,72,89,109,76,217,31.11,Medium,High,3,4.74,Normal,No,4.67
+810,62,Male,177,78,Private,Marketing Specialist,54,High,Excellent,Yes,7268,5.0,3,81,127,125,86,186,24.9,Medium,High,0,5.87,Hypertension Stage 1,No,6.15
+811,65,Male,162,54,Government,Police Officer,45,High,Excellent,Yes,2058,5.6,1,82,95,122,82,203,20.58,High,Medium,0,4.31,Hypertension Stage 1,Yes,4.11
+812,48,Female,183,95,Government,Inspector,37,Low,Excellent,Yes,10735,7.4,5,78,93,117,80,184,28.37,Medium,High,4,4.58,Hypertension Stage 1,Yes,4.51
+813,50,Female,174,92,Private,Manager,50,Medium,Good,Yes,12201,8.9,3,65,99,121,66,175,30.39,Medium,Medium,5,4.53,Elevated,No,4.66
+814,19,Female,161,61,Government,Healthcare Worker,37,Medium,Good,Yes,6651,8.2,10,65,110,109,67,220,23.53,Low,Medium,4,5.5,Normal,No,5.34
+815,54,Male,170,85,Private,Engineer,60,Medium,Fair,Yes,7937,5.6,4,68,95,109,67,152,29.41,Medium,High,3,4.69,Normal,No,4.55
+816,29,Female,188,87,Private,Sales Executive,59,Medium,Fair,Yes,2572,4.4,4,84,108,114,84,217,24.62,Low,Medium,2,5.82,Hypertension Stage 1,No,5.95
+817,51,Male,158,59,Government,Teacher,40,Low,Excellent,Yes,11506,8.2,9,61,81,101,61,183,23.63,High,Medium,2,4.91,Normal,No,4.9
+818,54,Female,172,93,Government,Engineer,40,Medium,Good,Yes,8025,6.7,7,64,118,125,84,155,31.44,Medium,High,6,5.18,Hypertension Stage 1,No,5.05
+819,54,Female,157,79,Government,Police Officer,48,High,Excellent,Yes,7963,5.4,1,94,104,140,80,249,32.05,High,Medium,0,5.83,Hypertension Stage 1,Yes,6.1
+820,35,Male,153,89,Private,IT Professional,60,Medium,Fair,No,2677,4.5,2,82,77,104,72,156,38.02,Low,Low,3,4.76,Normal,No,4.9
+821,44,Female,158,53,Government,Teacher,41,Low,Excellent,Yes,11597,6.3,1,58,109,123,61,207,21.23,Medium,Medium,3,5.12,Elevated,No,5.03
+822,57,Male,152,68,Private,Analyst,51,Medium,Excellent,Yes,6392,4.0,8,83,112,125,69,249,29.43,High,Low,1,5.47,Elevated,No,5.26
+823,43,Male,171,50,Private,Consultant,49,High,Excellent,No,6885,4.7,1,88,107,131,86,242,17.1,Medium,Medium,1,5.34,Hypertension Stage 1,No,5.51
+824,54,Female,158,99,Private,Marketing Specialist,48,High,Excellent,Yes,3874,6.4,3,78,107,133,86,220,39.66,Medium,High,0,5.29,Hypertension Stage 1,No,5.21
+825,65,Male,151,59,Private,IT Professional,56,Medium,Good,Yes,7031,4.4,9,78,87,101,65,226,25.88,High,Low,1,4.74,Normal,No,4.71
+826,26,Male,168,83,Private,Manager,53,Medium,Good,Yes,3299,6.1,4,85,115,127,69,154,29.41,Medium,High,0,5.22,Elevated,No,4.99
+827,58,Female,173,77,Private,Engineer,56,High,Good,Yes,5627,5.5,6,79,122,125,82,182,25.73,High,Medium,2,5.43,Hypertension Stage 1,No,5.19
+828,25,Male,152,63,Government,Clerk,36,Medium,Excellent,Yes,12361,7.2,8,68,97,116,61,219,27.27,Medium,Medium,2,4.02,Normal,No,3.78
+829,64,Male,171,95,Government,Teacher,35,Low,Fair,Yes,11694,7.4,1,69,115,107,70,160,32.49,Medium,High,3,5.87,Normal,No,6.06
+830,30,Female,161,57,Private,IT Professional,58,Low,Fair,No,3488,4.9,8,68,115,113,79,182,21.99,Medium,Low,2,5.45,Normal,No,5.27
+831,56,Female,160,78,Private,Analyst,58,High,Fair,Yes,3219,4.2,9,77,103,135,75,154,30.47,Medium,Low,0,5.05,Hypertension Stage 1,Yes,4.91
+832,22,Male,153,78,Private,Marketing Specialist,53,Low,Good,Yes,2305,4.0,10,62,104,124,77,158,33.32,Medium,High,2,5.74,Elevated,No,5.78
+833,60,Male,170,100,Government,Administrator,43,Medium,Good,Yes,5620,8.4,10,78,95,125,79,217,34.6,Medium,Low,4,5.19,Elevated,No,5.27
+834,44,Female,188,85,Private,Manager,57,Medium,Excellent,Yes,2815,4.4,5,64,101,115,78,184,24.05,Medium,Medium,3,5.22,Normal,No,5.42
+835,55,Female,187,86,Private,Marketing Specialist,47,High,Excellent,Yes,7828,6.1,3,83,137,124,75,177,24.59,High,Medium,2,6.07,Elevated,Yes,6.08
+836,28,Male,190,92,Private,Manager,47,High,Good,Yes,3926,4.9,3,73,100,134,75,243,25.48,Medium,Low,3,5.0,Hypertension Stage 1,No,5.0
+837,22,Female,166,69,Private,Sales Executive,59,High,Good,Yes,4916,5.3,10,84,127,131,89,151,25.04,Low,Medium,1,6.13,Hypertension Stage 1,No,5.87
+838,29,Male,174,86,Government,Clerk,45,Low,Good,Yes,6376,8.8,8,76,107,108,85,171,28.41,High,Low,6,5.54,Hypertension Stage 1,Yes,5.49
+839,60,Female,190,53,Government,Engineer,36,Low,Good,Yes,9237,8.7,10,68,77,111,73,155,14.68,Medium,Medium,2,4.59,Normal,No,4.62
+840,53,Male,171,96,Government,Teacher,42,Medium,Excellent,Yes,14519,8.4,3,72,110,101,79,203,32.83,Medium,Medium,5,5.63,Normal,No,5.5
+841,57,Female,151,67,Private,Engineer,59,Low,Excellent,Yes,2095,4.4,2,67,79,105,71,224,29.38,Medium,Medium,2,4.91,Normal,No,5.11
+842,32,Female,184,75,Private,Accountant,58,High,Fair,Yes,3126,6.5,8,74,128,134,77,204,22.15,Low,Low,3,5.72,Hypertension Stage 1,No,5.92
+843,64,Male,172,92,Private,Sales Executive,51,High,Excellent,Yes,7855,5.0,4,85,121,120,85,173,31.1,Medium,Medium,1,5.88,Hypertension Stage 1,No,5.61
+844,19,Male,173,67,Private,Marketing Specialist,48,Low,Good,No,6595,7.3,4,77,88,108,60,250,22.39,Low,Medium,2,4.68,Normal,No,4.62
+845,51,Male,166,88,Private,IT Professional,45,Medium,Good,Yes,11565,7.4,3,66,87,102,74,184,31.93,Low,Medium,6,4.5,Normal,No,4.71
+846,42,Female,184,77,Private,Accountant,57,High,Good,Yes,7705,5.5,5,86,119,138,84,238,22.74,Medium,Low,3,5.8,Hypertension Stage 1,Yes,5.55
+847,57,Male,188,93,Government,Inspector,38,High,Good,Yes,7709,6.3,6,73,99,135,77,204,26.31,High,Medium,0,4.82,Hypertension Stage 1,No,4.56
+848,31,Female,170,65,Private,Sales Executive,53,Low,Fair,Yes,4684,4.9,7,70,70,101,60,226,22.49,Medium,Low,0,4.79,Normal,Yes,4.83
+849,42,Female,167,100,Private,Analyst,58,Medium,Good,Yes,2409,4.8,5,68,70,126,85,189,35.86,Medium,Medium,3,4.38,Hypertension Stage 1,Yes,4.6
+850,37,Female,164,62,Private,IT Professional,52,Medium,Good,Yes,5027,4.6,7,88,78,127,80,173,23.05,Low,Low,3,4.92,Hypertension Stage 1,Yes,4.82
+851,21,Male,177,60,Private,Manager,54,Low,Excellent,Yes,3483,6.4,7,70,114,121,75,189,19.15,Medium,Low,3,5.36,Elevated,No,5.52
+852,24,Male,173,82,Private,Engineer,57,Medium,Excellent,Yes,2491,4.0,2,78,107,116,72,211,27.4,Low,Medium,0,5.64,Normal,No,5.93
+853,46,Male,167,78,Government,Clerk,48,Medium,Excellent,Yes,7688,7.9,2,67,116,103,65,156,27.97,Medium,Medium,5,5.18,Normal,No,5.03
+854,62,Female,184,53,Private,Consultant,50,High,Excellent,Yes,5018,6.5,5,74,102,137,82,214,15.65,High,High,1,5.29,Hypertension Stage 1,No,5.14
+855,34,Female,173,68,Private,Consultant,51,High,Fair,Yes,2628,4.3,3,92,123,129,90,237,22.72,High,Low,1,5.85,Hypertension Stage 1,Yes,5.99
+856,60,Female,160,81,Government,Healthcare Worker,43,High,Excellent,Yes,6414,4.9,2,85,117,120,76,158,31.64,Medium,Low,1,5.55,Elevated,No,5.48
+857,20,Female,188,100,Private,Consultant,49,High,Good,Yes,4185,5.6,6,77,114,120,76,239,28.29,Medium,Medium,1,5.71,Elevated,No,5.85
+858,22,Female,172,61,Government,Administrator,40,High,Excellent,Yes,4143,4.7,9,76,129,131,77,210,20.62,Medium,Medium,0,6.18,Hypertension Stage 1,Yes,6.01
+859,64,Female,165,91,Private,Sales Executive,53,Medium,Good,Yes,6414,5.8,10,79,102,124,64,247,33.43,High,Medium,3,5.62,Elevated,No,5.36
+860,35,Female,158,66,Government,Civil Servant,48,High,Good,Yes,7971,6.5,5,75,112,124,81,221,26.44,Low,Low,3,5.58,Hypertension Stage 1,Yes,5.64
+861,25,Female,151,75,Private,Sales Executive,51,High,Excellent,Yes,3412,5.3,10,87,108,125,79,165,32.89,Low,Low,0,5.04,Elevated,No,4.81
+862,47,Female,174,57,Government,Civil Servant,45,Medium,Excellent,Yes,14779,8.0,8,85,94,103,60,220,18.83,Medium,Medium,6,4.1,Normal,No,3.98
+863,33,Female,170,91,Government,Teacher,47,Medium,Excellent,Yes,5776,8.4,7,88,118,124,77,232,31.49,Medium,High,4,5.12,Elevated,No,5.01
+864,24,Male,150,62,Private,IT Professional,57,Medium,Fair,Yes,3494,4.0,6,86,107,112,74,159,27.56,Low,Medium,2,5.3,Normal,No,5.54
+865,22,Male,175,73,Government,Teacher,46,Medium,Excellent,Yes,8683,9.0,8,80,90,103,72,228,23.84,Low,Medium,2,4.98,Normal,No,5.23
+866,41,Male,177,76,Private,Engineer,57,Medium,Good,Yes,6376,5.8,3,75,108,114,85,151,24.26,Medium,Medium,3,5.48,Hypertension Stage 1,No,5.5
+867,61,Female,189,54,Government,Engineer,41,High,Fair,Yes,3479,4.9,10,84,119,120,82,166,15.12,Medium,High,0,5.02,Hypertension Stage 1,Yes,4.77
+868,58,Male,174,50,Government,Teacher,35,Medium,Good,Yes,14365,7.1,2,88,99,111,70,215,16.51,Medium,Medium,3,4.38,Normal,No,4.65
+869,26,Female,168,74,Private,Manager,49,Low,Good,No,9592,6.3,7,59,97,108,65,170,26.22,Medium,Medium,6,4.17,Normal,No,4.44
+870,34,Female,167,58,Government,Engineer,40,Medium,Good,Yes,12964,8.5,6,76,119,116,64,150,20.8,Medium,Low,2,5.76,Normal,No,5.54
+871,19,Male,154,90,Government,Engineer,35,Medium,Excellent,Yes,12526,6.5,5,78,81,116,65,221,37.95,High,Medium,3,4.73,Normal,No,4.96
+872,59,Male,160,94,Government,Inspector,37,Low,Excellent,Yes,11876,6.2,6,55,100,102,61,250,36.72,Medium,High,6,4.42,Normal,No,4.46
+873,18,Male,179,56,Private,Manager,58,Medium,Good,Yes,2662,5.9,6,70,120,114,61,222,17.48,Low,Medium,0,5.12,Normal,Yes,4.85
+874,48,Female,155,82,Private,Engineer,55,Medium,Excellent,No,7727,4.7,10,79,99,113,78,221,34.13,Medium,Low,1,4.69,Normal,No,4.91
+875,44,Male,189,100,Private,Sales Executive,51,High,Excellent,Yes,4546,6.0,4,94,99,121,83,192,27.99,Medium,Medium,0,4.05,Hypertension Stage 1,Yes,3.96
+876,36,Male,173,78,Government,Healthcare Worker,37,Low,Excellent,Yes,11892,7.6,5,72,97,101,83,204,26.06,Low,Medium,5,4.54,Hypertension Stage 1,Yes,4.59
+877,52,Male,185,69,Private,Consultant,57,High,Good,Yes,7166,6.4,7,74,129,121,85,192,20.16,High,High,2,5.74,Hypertension Stage 1,Yes,5.93
+878,23,Female,175,60,Government,Police Officer,35,Medium,Excellent,Yes,14733,6.1,6,66,72,115,80,239,19.59,High,Low,4,4.37,Hypertension Stage 1,No,4.09
+879,24,Female,182,74,Government,Civil Servant,47,Low,Excellent,Yes,9832,8.1,7,56,113,122,65,171,22.34,Medium,High,5,5.57,Elevated,No,5.51
+880,35,Male,161,50,Private,Sales Executive,55,Low,Fair,Yes,6635,4.9,1,60,96,124,85,239,19.29,Low,Low,0,5.1,Hypertension Stage 1,No,4.85
+881,59,Female,178,90,Private,Consultant,54,Low,Good,Yes,2359,6.4,2,79,98,122,66,166,28.41,High,High,3,4.56,Elevated,Yes,4.59
+882,32,Male,153,50,Private,Engineer,51,High,Good,Yes,4490,5.9,4,92,132,123,75,185,21.36,Medium,Low,0,5.98,Elevated,No,6.24
+883,22,Male,184,69,Private,Manager,55,High,Excellent,No,7041,5.5,9,81,117,127,86,237,20.38,Low,Low,1,5.51,Hypertension Stage 1,No,5.3
+884,54,Male,151,75,Private,IT Professional,57,Low,Excellent,Yes,7874,5.1,1,79,114,128,67,211,32.89,Low,High,2,5.45,Elevated,No,5.57
+885,37,Female,164,51,Government,Inspector,47,Medium,Excellent,Yes,7575,7.0,4,68,110,111,60,159,18.96,Medium,Low,2,5.44,Normal,No,5.73
+886,47,Female,161,87,Government,Police Officer,44,Medium,Good,Yes,7448,6.7,5,73,76,102,60,244,33.56,Medium,High,3,4.94,Normal,Yes,4.98
+887,33,Male,190,98,Private,Analyst,52,Medium,Fair,No,2114,4.4,2,75,95,114,67,167,27.15,Medium,Medium,0,4.74,Normal,No,4.44
+888,54,Female,170,86,Private,Manager,58,Low,Good,Yes,4553,4.4,4,62,96,121,85,172,29.76,Low,Medium,0,4.96,Hypertension Stage 1,Yes,5.19
+889,47,Male,188,58,Government,Inspector,47,Low,Excellent,Yes,10640,8.5,9,55,81,106,73,239,16.41,Medium,Medium,3,5.15,Normal,No,4.91
+890,51,Male,183,86,Private,IT Professional,48,High,Fair,Yes,5553,4.3,9,83,108,137,86,192,25.68,Medium,Medium,0,5.5,Hypertension Stage 1,Yes,5.25
+891,63,Male,174,85,Private,IT Professional,55,High,Good,No,3936,5.2,2,87,119,139,79,215,28.08,Low,Medium,1,5.82,Hypertension Stage 1,No,5.81
+892,60,Male,182,58,Government,Inspector,35,Low,Excellent,Yes,7910,7.7,5,72,78,120,67,167,17.51,Medium,Medium,6,4.79,Elevated,No,4.58
+893,31,Male,183,97,Government,Clerk,40,High,Good,Yes,6729,5.5,1,91,103,140,75,166,28.96,Low,High,1,5.03,Hypertension Stage 1,Yes,4.85
+894,26,Male,178,81,Government,Police Officer,36,Medium,Excellent,Yes,8992,7.1,1,87,118,104,76,161,25.56,Medium,Medium,3,5.38,Normal,No,5.61
+895,21,Female,188,64,Private,Marketing Specialist,56,Medium,Good,No,5259,6.3,10,80,84,104,84,159,18.11,High,Low,0,4.82,Hypertension Stage 1,No,4.91
+896,22,Female,169,74,Private,IT Professional,50,High,Excellent,Yes,6768,5.9,2,95,96,128,82,244,25.91,Medium,Medium,1,4.65,Hypertension Stage 1,No,4.52
+897,25,Female,181,50,Private,Consultant,56,Medium,Good,Yes,5421,6.1,8,87,72,112,67,239,15.26,Medium,Medium,3,4.47,Normal,No,4.26
+898,34,Female,152,78,Private,Analyst,54,High,Good,Yes,6953,5.9,10,83,117,120,84,232,33.76,Low,High,1,5.54,Hypertension Stage 1,No,5.34
+899,23,Female,159,66,Government,Clerk,48,Medium,Good,Yes,10628,8.8,6,71,113,104,63,236,26.11,Medium,Low,6,5.46,Normal,No,5.47
+900,56,Male,189,76,Government,Healthcare Worker,48,Medium,Excellent,Yes,6386,8.0,7,71,84,106,77,193,21.28,High,High,6,4.97,Normal,No,5.2
+901,29,Female,153,73,Private,Accountant,51,Medium,Good,Yes,2284,6.0,2,65,115,126,71,235,31.18,Medium,High,1,5.48,Elevated,No,5.42
+902,62,Female,181,71,Private,Analyst,53,Medium,Good,Yes,7912,5.9,4,74,85,113,71,222,21.67,Medium,High,2,4.57,Normal,No,4.78
+903,22,Female,163,67,Government,Police Officer,40,Low,Excellent,Yes,5362,7.6,10,65,109,129,69,215,25.22,Medium,Medium,2,5.08,Elevated,No,4.99
+904,54,Female,175,69,Private,Sales Executive,52,Low,Excellent,No,2110,5.1,3,62,93,124,82,225,22.53,Medium,High,2,5.18,Hypertension Stage 1,No,5.04
+905,59,Male,165,100,Private,Analyst,54,High,Excellent,Yes,4594,6.2,1,84,131,133,82,234,36.73,High,Medium,1,6.32,Hypertension Stage 1,No,6.16
+906,25,Female,183,72,Private,Sales Executive,47,High,Good,No,5017,5.8,2,87,112,130,80,176,21.5,Low,Medium,3,5.33,Hypertension Stage 1,No,5.61
+907,34,Female,181,53,Government,Healthcare Worker,37,Medium,Excellent,Yes,5414,8.1,6,86,79,107,74,209,16.18,Low,Low,5,4.54,Normal,No,4.59
+908,25,Female,153,91,Private,Consultant,59,High,Excellent,Yes,6399,4.2,6,90,128,121,76,153,38.87,Medium,High,2,6.44,Elevated,No,6.43
+909,30,Male,177,51,Private,Accountant,48,High,Good,No,3782,5.9,8,75,97,126,78,175,16.28,Medium,Medium,0,4.45,Elevated,Yes,4.36
+910,59,Male,186,96,Private,Marketing Specialist,56,High,Fair,Yes,3047,5.8,4,77,104,125,79,231,27.75,Medium,Medium,2,5.62,Elevated,No,5.81
+911,36,Female,180,94,Private,Accountant,52,High,Excellent,Yes,3058,4.6,2,86,117,121,90,200,29.01,High,Low,3,5.08,Hypertension Stage 1,No,4.81
+912,25,Male,162,74,Government,Civil Servant,37,Medium,Good,Yes,11495,6.3,4,80,113,117,80,173,28.2,Medium,Medium,6,5.64,Hypertension Stage 1,No,5.92
+913,34,Female,175,80,Government,Inspector,37,Medium,Excellent,Yes,7378,6.6,3,67,80,129,82,215,26.12,Medium,Low,3,4.02,Hypertension Stage 1,Yes,3.78
+914,60,Male,190,61,Government,Engineer,41,Medium,Good,Yes,7998,8.5,6,69,93,120,61,199,16.9,High,Medium,6,4.29,Elevated,Yes,4.53
+915,59,Male,184,53,Government,Inspector,48,Low,Good,Yes,8871,6.0,4,72,89,124,63,233,15.65,High,Low,4,4.67,Elevated,No,4.46
+916,60,Male,182,100,Government,Clerk,48,Low,Fair,Yes,12758,8.0,2,65,116,108,85,210,30.19,Medium,High,5,5.04,Hypertension Stage 1,Yes,4.93
+917,41,Male,177,96,Government,Teacher,45,Medium,Excellent,Yes,10606,7.0,1,81,112,102,78,242,30.64,Medium,Medium,4,5.34,Normal,No,5.63
+918,21,Female,150,58,Government,Police Officer,37,Medium,Excellent,Yes,5244,6.2,2,67,116,121,62,169,25.78,Medium,Medium,5,5.28,Elevated,No,5.54
+919,43,Female,184,86,Private,Analyst,60,Low,Fair,Yes,3766,4.2,8,70,84,102,85,227,25.4,Medium,Medium,3,5.18,Hypertension Stage 1,Yes,4.99
+920,54,Female,184,76,Government,Healthcare Worker,45,High,Good,Yes,6683,6.3,4,73,133,122,87,192,22.45,Medium,High,2,5.95,Hypertension Stage 1,Yes,5.67
+921,32,Male,159,52,Government,Teacher,35,Low,Good,Yes,10719,7.5,5,64,106,120,74,186,20.57,Low,Low,5,5.43,Elevated,No,5.56
+922,37,Female,181,75,Government,Inspector,39,Medium,Good,Yes,6458,7.3,7,74,97,122,61,182,22.89,Medium,Medium,3,5.03,Elevated,No,4.75
+923,20,Female,167,86,Private,Sales Executive,59,High,Excellent,Yes,2647,4.3,3,88,139,132,82,191,30.84,Medium,High,2,5.86,Hypertension Stage 1,Yes,5.98
+924,28,Female,176,93,Government,Administrator,36,Low,Excellent,Yes,10144,7.8,10,72,106,124,70,228,30.02,Medium,Medium,6,5.35,Elevated,No,5.6
+925,34,Female,164,69,Private,Manager,54,High,Excellent,Yes,7013,4.3,10,77,140,128,83,224,25.65,Medium,Medium,1,6.06,Hypertension Stage 1,No,5.9
+926,60,Male,159,64,Government,Engineer,37,Medium,Fair,Yes,14919,8.2,10,84,104,120,84,216,25.32,Low,Low,3,5.52,Hypertension Stage 1,No,5.78
+927,54,Female,158,53,Private,Manager,46,High,Excellent,Yes,5923,4.8,4,79,135,133,86,193,21.23,High,Low,2,6.08,Hypertension Stage 1,Yes,6.13
+928,45,Female,174,54,Government,Healthcare Worker,48,Medium,Good,Yes,5448,6.4,2,67,119,103,66,243,17.84,Medium,Medium,4,5.78,Normal,No,5.68
+929,39,Female,190,93,Private,IT Professional,58,Medium,Excellent,No,2646,6.3,2,71,115,111,77,188,25.76,Medium,Low,1,5.17,Normal,No,5.29
+930,21,Male,168,61,Government,Clerk,45,Low,Excellent,Yes,7223,6.1,4,64,99,109,65,183,21.61,Low,Low,3,4.49,Normal,No,4.58
+931,50,Female,184,51,Government,Engineer,37,Medium,Excellent,Yes,14323,8.6,10,64,79,128,85,233,15.06,Medium,Medium,5,4.11,Hypertension Stage 1,Yes,4.21
+932,20,Female,163,70,Government,Healthcare Worker,47,Medium,Good,Yes,11006,8.8,3,80,109,130,68,204,26.35,Medium,Medium,3,5.35,Hypertension Stage 1,No,5.16
+933,30,Male,158,83,Private,Accountant,45,Low,Fair,Yes,7202,7.0,2,61,83,128,60,179,33.25,Medium,Medium,6,4.03,Elevated,No,3.85
+934,47,Female,150,78,Private,Sales Executive,56,High,Good,Yes,4582,4.6,3,78,136,131,81,157,34.67,High,High,0,5.76,Hypertension Stage 1,Yes,6.0
+935,33,Male,163,67,Private,Sales Executive,54,Low,Fair,Yes,5755,4.2,2,69,115,105,65,234,25.22,Medium,Low,0,5.72,Normal,No,5.6
+936,34,Female,156,80,Private,Marketing Specialist,53,Medium,Good,Yes,5390,4.3,5,64,94,111,80,219,32.87,Medium,High,1,4.27,Hypertension Stage 1,No,4.49
+937,22,Male,159,70,Private,Consultant,54,Medium,Excellent,No,7837,4.6,4,78,85,120,66,207,27.69,Medium,Low,1,4.69,Elevated,No,4.95
+938,47,Male,165,94,Government,Clerk,46,High,Good,Yes,7031,4.1,8,71,126,129,76,230,34.53,Medium,Medium,0,6.45,Elevated,No,6.51
+939,40,Male,188,70,Private,Manager,50,Medium,Excellent,Yes,7875,6.4,7,86,86,107,67,221,19.81,Medium,Low,5,4.55,Normal,No,4.35
+940,38,Female,187,91,Government,Healthcare Worker,46,High,Fair,Yes,2012,5.7,4,79,113,129,89,152,26.02,Medium,Medium,1,5.27,Hypertension Stage 1,Yes,5.47
+941,47,Male,160,50,Private,Analyst,56,High,Excellent,No,2584,5.5,4,95,138,134,90,182,19.53,Medium,Medium,2,6.2,Hypertension Stage 1,No,6.44
+942,38,Female,164,67,Government,Inspector,47,Medium,Good,Yes,7793,6.5,10,67,71,113,62,201,24.91,Medium,Low,4,4.42,Normal,No,4.17
+943,28,Male,187,68,Government,Engineer,47,High,Excellent,Yes,5362,4.5,10,80,115,138,87,179,19.45,Medium,Low,1,5.39,Hypertension Stage 1,No,5.37
+944,64,Female,161,52,Private,Manager,53,Medium,Good,No,7107,5.3,2,69,83,123,63,178,20.06,Low,Medium,2,4.79,Elevated,No,4.95
+945,28,Male,155,61,Private,Manager,50,High,Excellent,Yes,2624,4.9,9,91,102,131,79,205,25.39,High,Low,2,5.49,Hypertension Stage 1,Yes,5.51
+946,38,Female,185,84,Government,Administrator,47,High,Good,Yes,3094,6.1,1,95,119,125,90,206,24.54,Medium,Medium,0,5.57,Hypertension Stage 1,No,5.56
+947,58,Female,168,75,Private,Manager,49,Medium,Excellent,Yes,8566,6.9,2,82,79,122,73,168,26.57,Low,Medium,3,4.21,Elevated,No,4.03
+948,31,Male,168,96,Private,Manager,59,Low,Excellent,Yes,3256,6.1,10,74,108,119,68,223,34.01,Low,Medium,3,5.62,Normal,Yes,5.38
+949,45,Female,176,51,Private,Sales Executive,46,High,Excellent,Yes,2044,4.9,3,87,116,126,87,174,16.46,Medium,Medium,1,5.79,Hypertension Stage 1,No,5.49
+950,33,Male,172,85,Private,Analyst,50,High,Excellent,Yes,7406,5.9,1,84,120,137,88,170,28.73,High,Medium,0,5.74,Hypertension Stage 1,No,5.89
+951,50,Female,163,63,Private,Analyst,47,High,Excellent,Yes,6142,4.8,9,95,120,125,87,208,23.71,Medium,Medium,0,5.09,Hypertension Stage 1,Yes,5.05
+952,50,Male,162,64,Private,Sales Executive,52,Low,Fair,Yes,4861,6.2,10,78,74,116,75,191,24.39,High,Low,3,4.85,Normal,No,5.01
+953,59,Male,177,98,Private,Consultant,50,High,Good,Yes,2051,5.6,5,77,99,139,79,209,31.28,Low,High,0,4.73,Hypertension Stage 1,No,5.0
+954,55,Male,184,94,Government,Inspector,45,Low,Excellent,Yes,5272,9.0,7,67,93,122,72,218,27.76,High,Medium,3,4.46,Elevated,No,4.26
+955,31,Female,189,82,Private,Sales Executive,52,Medium,Excellent,Yes,6934,4.7,1,87,98,123,69,167,22.96,Low,Medium,3,4.7,Elevated,No,4.76
+956,37,Male,178,86,Private,Marketing Specialist,45,Low,Excellent,Yes,14064,8.3,5,76,113,115,68,221,27.14,Medium,Medium,5,5.32,Normal,No,5.39
+957,50,Female,157,76,Private,Engineer,55,High,Good,Yes,3689,5.0,7,79,132,137,75,183,30.83,Medium,Medium,0,5.93,Hypertension Stage 1,Yes,5.64
+958,28,Male,152,60,Government,Inspector,41,Low,Good,Yes,9749,7.7,1,72,81,108,77,182,25.97,Low,Medium,2,4.43,Normal,No,4.19
+959,60,Male,171,80,Government,Healthcare Worker,46,Medium,Excellent,Yes,12761,6.8,9,74,96,127,67,151,27.36,High,High,2,4.18,Elevated,No,4.46
+960,61,Female,174,98,Private,Manager,56,Medium,Fair,Yes,7284,4.5,7,72,76,117,68,248,32.37,High,Medium,2,4.68,Normal,No,4.88
+961,21,Female,151,91,Government,Inspector,45,Low,Good,Yes,5572,6.1,7,66,114,103,61,179,39.91,High,Medium,3,5.24,Normal,No,5.12
+962,43,Female,167,92,Government,Clerk,41,Medium,Excellent,Yes,11131,6.5,7,67,120,124,64,164,32.99,Medium,High,2,5.29,Elevated,No,5.2
+963,29,Male,161,57,Private,Consultant,54,Medium,Good,Yes,5601,6.0,8,72,100,128,72,188,21.99,Low,Medium,2,4.65,Elevated,Yes,4.76
+964,32,Male,170,50,Private,Manager,54,High,Fair,Yes,4728,5.8,2,75,139,139,76,150,17.3,Medium,High,1,6.29,Hypertension Stage 1,No,6.23
+965,48,Male,190,59,Private,Marketing Specialist,58,Medium,Excellent,No,4217,5.3,10,74,105,110,82,236,16.34,Low,Medium,1,5.29,Hypertension Stage 1,Yes,5.18
+966,38,Male,175,57,Private,Consultant,47,Medium,Excellent,Yes,12350,6.2,1,79,110,101,71,189,18.61,Medium,Low,4,5.54,Normal,No,5.39
+967,27,Female,178,83,Private,Engineer,59,Low,Excellent,Yes,2975,4.9,10,69,82,108,69,227,26.2,Medium,Medium,2,4.24,Normal,No,4.14
+968,23,Male,162,65,Private,Sales Executive,46,Medium,Good,Yes,13404,7.4,3,88,105,102,71,172,24.77,Low,Medium,6,5.43,Normal,Yes,5.42
+969,29,Male,178,94,Government,Engineer,38,High,Excellent,Yes,4682,5.8,9,71,101,136,78,195,29.67,Low,Medium,3,5.38,Hypertension Stage 1,No,5.37
+970,46,Female,160,87,Private,Manager,52,High,Good,Yes,3719,6.0,10,89,131,128,87,230,33.98,High,Low,1,6.34,Hypertension Stage 1,Yes,6.2
+971,20,Male,153,84,Private,Consultant,45,Medium,Excellent,Yes,13704,8.7,3,66,115,102,77,226,35.88,High,Low,4,5.37,Normal,No,5.38
+972,51,Female,189,98,Private,Marketing Specialist,59,Medium,Good,Yes,3398,5.4,8,73,110,122,78,194,27.43,Medium,Low,2,5.68,Elevated,Yes,5.46
+973,65,Female,184,88,Private,Manager,54,High,Excellent,Yes,6332,5.4,2,84,95,130,84,183,25.99,High,High,3,5.11,Hypertension Stage 1,No,5.3
+974,51,Female,183,56,Government,Healthcare Worker,38,Medium,Fair,Yes,13653,7.5,9,66,119,102,78,181,16.72,High,Low,5,5.55,Normal,No,5.84
+975,18,Male,189,92,Private,Sales Executive,59,High,Good,Yes,5833,5.4,6,74,130,133,88,224,25.76,Medium,Medium,2,5.87,Hypertension Stage 1,No,6.06
+976,19,Female,150,99,Private,Consultant,57,Low,Fair,Yes,2163,5.9,2,73,85,125,78,160,44.0,Medium,High,0,4.01,Elevated,No,4.29
+977,38,Female,157,65,Private,IT Professional,55,Medium,Fair,Yes,6382,6.0,1,72,90,101,64,188,26.37,Medium,High,0,4.25,Normal,No,4.23
+978,31,Female,175,58,Private,Manager,56,Medium,Fair,Yes,6175,5.8,10,70,83,111,67,229,18.94,Low,Low,3,4.07,Normal,No,3.77
+979,23,Female,190,68,Private,Accountant,55,Low,Fair,Yes,5160,6.1,10,70,106,105,71,194,18.84,Low,Low,1,5.71,Normal,No,5.48
+980,50,Male,180,81,Government,Civil Servant,43,High,Good,Yes,6870,5.1,7,70,116,127,84,172,25.0,Low,Low,3,5.47,Hypertension Stage 1,Yes,5.4
+981,20,Male,189,94,Private,Consultant,51,High,Excellent,Yes,4742,5.3,7,78,97,131,78,154,26.32,Low,Medium,2,4.23,Hypertension Stage 1,Yes,4.27
+982,31,Female,158,82,Private,Engineer,53,High,Fair,Yes,5713,4.3,10,80,108,120,88,223,32.85,Medium,Medium,1,5.72,Hypertension Stage 1,No,5.67
+983,62,Male,186,61,Government,Administrator,43,High,Excellent,Yes,5721,5.9,6,73,140,127,85,218,17.63,High,Low,2,6.3,Hypertension Stage 1,Yes,6.27
+984,59,Female,185,85,Private,Manager,53,High,Fair,Yes,7905,5.9,4,79,108,138,77,214,24.84,Medium,High,0,5.44,Hypertension Stage 1,Yes,5.47
+985,43,Female,180,78,Government,Administrator,46,Low,Excellent,Yes,5138,7.8,2,66,82,116,80,203,24.07,Low,Low,6,5.16,Hypertension Stage 1,Yes,4.97
+986,20,Female,154,91,Private,Accountant,46,High,Fair,Yes,7932,5.6,8,74,95,128,83,158,38.37,Medium,Medium,3,4.02,Hypertension Stage 1,Yes,4.14
+987,35,Female,165,85,Private,IT Professional,54,High,Fair,No,2809,6.4,3,94,112,137,89,153,31.22,Medium,High,1,5.53,Hypertension Stage 1,No,5.67
+988,31,Male,161,73,Government,Inspector,47,High,Excellent,Yes,3180,4.5,5,92,136,126,80,203,28.16,Medium,Low,0,5.78,Hypertension Stage 1,Yes,5.8
+989,24,Female,163,53,Private,Sales Executive,59,Medium,Excellent,Yes,7689,5.6,3,87,72,101,79,192,19.95,Medium,Low,0,4.94,Normal,No,4.78
+990,52,Male,150,71,Private,Consultant,48,Low,Good,Yes,13108,6.7,10,55,71,125,74,177,31.56,High,Low,4,4.74,Elevated,No,4.49
+991,52,Female,186,52,Private,Marketing Specialist,57,High,Good,No,6060,4.4,1,95,111,130,83,245,15.03,Medium,Medium,0,5.37,Hypertension Stage 1,Yes,5.14
+992,18,Female,166,69,Government,Civil Servant,37,High,Excellent,Yes,3847,5.9,3,75,118,124,77,232,25.04,Low,High,2,5.36,Elevated,Yes,5.15
+993,64,Male,187,67,Government,Inspector,42,Medium,Excellent,Yes,7953,7.1,4,84,81,113,80,230,19.16,High,Medium,2,4.42,Hypertension Stage 1,Yes,4.18
+994,37,Male,158,67,Private,Consultant,56,Medium,Fair,Yes,2917,5.0,2,66,106,121,63,190,26.84,High,Low,1,5.86,Elevated,No,5.88
+995,62,Female,188,84,Private,Engineer,58,Medium,Excellent,No,6208,5.7,4,77,94,101,60,214,23.77,Medium,Medium,1,4.63,Normal,No,4.52
+996,23,Male,186,52,Private,Sales Executive,54,Low,Good,Yes,2357,4.1,7,74,116,120,64,175,15.03,Low,Low,1,5.71,Elevated,No,6.0
+997,50,Male,157,64,Private,Analyst,58,Medium,Fair,Yes,3535,4.4,3,65,80,106,83,243,25.96,Low,Low,0,4.59,Hypertension Stage 1,Yes,4.85
+998,31,Male,153,51,Government,Clerk,39,Low,Excellent,Yes,11607,7.4,2,74,70,100,76,216,21.79,High,Low,6,4.69,Normal,No,4.86
+999,19,Male,174,86,Private,Sales Executive,49,High,Good,Yes,7615,5.2,10,91,129,138,89,244,28.41,Low,Medium,3,6.27,Hypertension Stage 1,No,6.0
+1000,23,Female,180,66,Government,Civil Servant,44,Low,Good,Yes,14658,7.5,4,68,77,128,63,242,20.37,Low,Low,3,5.0,Elevated,No,5.27
