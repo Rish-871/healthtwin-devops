@@ -119,6 +119,14 @@ jobs:
       - name: Smoke-test API container
         run: |
           docker run -d --name api-test -p 5000:5000 healthtwin-api:ci
-          sleep 5
-          curl -f http://localhost:5000/healthz || (docker logs api-test && exit 1)
+          echo "Waiting for API to be ready (up to 60s)..."
+          for i in $(seq 1 20); do
+            if curl -sf http://localhost:5000/healthz; then
+              echo "API is healthy!"
+              break
+            fi
+            echo "Attempt $i/20 — not ready yet, retrying in 3s..."
+            sleep 3
+          done
+          curl -f http://localhost:5000/healthz || (echo "API failed to start:" && docker logs api-test && exit 1)
           docker stop api-test
