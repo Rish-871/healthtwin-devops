@@ -3,7 +3,7 @@
 
 services:
   # ──────────────────────────────────────────
-  # Service 1: Flask API (Docker)
+  # Service 1: Flask API (Docker web service)
   # URL: https://healthtwin-api.onrender.com
   # ──────────────────────────────────────────
   - type: web
@@ -11,7 +11,7 @@ services:
     runtime: docker
     dockerfilePath: ./Dockerfile.api
     dockerContext: .
-    plan: free
+    plan: starter
     healthCheckPath: /healthz
     envVars:
       - key: PYTHONUNBUFFERED
@@ -21,6 +21,7 @@ services:
 
   # ──────────────────────────────────────────
   # Service 2: React Frontend (Static Site)
+  # Static sites are always FREE on Render
   # URL: https://healthtwin-frontend.onrender.com
   # ──────────────────────────────────────────
   - type: web
@@ -28,7 +29,6 @@ services:
     runtime: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
-    plan: free
     headers:
       - path: /*
         name: Cache-Control
