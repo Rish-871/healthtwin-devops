@@ -121,12 +121,37 @@ jobs:
           cache-to: type=gha,mode=max
 
   # ─────────────────────────────────────────────
-  # JOB 3: Post-deployment summary
+  # JOB 3: Deploy to Render
+  # ─────────────────────────────────────────────
+  deploy-render:
+    name: 🚀 Deploy to Render
+    runs-on: ubuntu-latest
+    needs: [publish-api, publish-frontend]
+    permissions:
+      contents: read
+
+    steps:
+      - name: Trigger Render API redeploy
+        if: ${{ secrets.RENDER_API_DEPLOY_HOOK != '' }}
+        run: |
+          curl -s -o /dev/null -w "HTTP %{http_code}" \
+            "${{ secrets.RENDER_API_DEPLOY_HOOK }}"
+          echo " — API deploy triggered ✅"
+
+      - name: Trigger Render Frontend redeploy
+        if: ${{ secrets.RENDER_FRONTEND_DEPLOY_HOOK != '' }}
+        run: |
+          curl -s -o /dev/null -w "HTTP %{http_code}" \
+            "${{ secrets.RENDER_FRONTEND_DEPLOY_HOOK }}"
+          echo " — Frontend deploy triggered ✅"
+
+  # ─────────────────────────────────────────────
+  # JOB 4: Deployment summary
   # ─────────────────────────────────────────────
   deployment-summary:
     name: 📋 Deployment Summary
     runs-on: ubuntu-latest
-    needs: [publish-api, publish-frontend]
+    needs: [publish-api, publish-frontend, deploy-render]
     permissions:
       contents: read
 
@@ -135,10 +160,10 @@ jobs:
         run: |
           echo "### 🚀 Deployment Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| Service   | Image |" >> $GITHUB_STEP_SUMMARY
-          echo "|-----------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| **API**      | \`ghcr.io/${{ env.IMAGE_OWNER }}/healthtwin-api:latest\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Frontend** | \`ghcr.io/${{ env.IMAGE_OWNER }}/healthtwin-frontend:latest\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Service   | Image | Live URL |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----------|-------|----------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **API**      | \`ghcr.io/${{ env.IMAGE_OWNER }}/healthtwin-api:latest\` | https://healthtwin-api.onrender.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Frontend** | \`ghcr.io/${{ env.IMAGE_OWNER }}/healthtwin-frontend:latest\` | https://healthtwin-frontend.onrender.com |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Triggered by:** \`${{ github.actor }}\` on branch \`${{ github.ref_name }}\`" >> $GITHUB_STEP_SUMMARY
           echo "**Commit:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY

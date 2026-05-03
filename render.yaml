@@ -1,0 +1,42 @@
+# Render Blueprint — defines both services as Infrastructure as Code
+# Docs: https://render.com/docs/blueprint-spec
+
+services:
+  # ──────────────────────────────────────────
+  # Service 1: Flask API (Docker)
+  # URL: https://healthtwin-api.onrender.com
+  # ──────────────────────────────────────────
+  - type: web
+    name: healthtwin-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile.api
+    dockerContext: .
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONDONTWRITEBYTECODE
+        value: "1"
+
+  # ──────────────────────────────────────────
+  # Service 2: React Frontend (Static Site)
+  # URL: https://healthtwin-frontend.onrender.com
+  # ──────────────────────────────────────────
+  - type: web
+    name: healthtwin-frontend
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    plan: free
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://healthtwin-api.onrender.com
